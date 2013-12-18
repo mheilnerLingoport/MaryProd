@@ -16,7 +16,7 @@
     "event": "Event",
     "location": "Place or Location",
     "eventRange": "Event Range",
-    "event_place_level_1": "State",
+    "event_place_level_1": "States",
     "event_place_level_2": "County",
     "event_place_level_3": "City, Town, or Enumeration District",
     "residence": "Residence",
