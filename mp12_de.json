@@ -6,6 +6,7 @@
   "children": "children:",
   "eventAny": "Any",
   "eventBirth": "Birth",
+  "eventBirth2": "Birth",
   "eventMarriage": "Marriage",
   "eventResidence": "Residence",
   "eventDeath": "Death",
