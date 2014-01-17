@@ -1,0 +1,52 @@
+{
+  "labels": {
+    "name": "_Cheia Vosso OMC fusão peixe põem donde fazem dela Velar puros caixa vias aceso Flora_",
+    "gender": "_Conferir excepção ITALIANA frescas_",
+    "gender2": "_Marinhos primatas2_",
+    "race": "_Ciclo frio alfa multa_",
+    "marital_status": "Estado civil",
+    "relationship_to_head": "Parentesco com o Chefe da Família",
+    "father": "Nome do Pai",
+    "mother": "Nome da Mãe",
+    "spouse": "Nome do Cônjuge",
+    "any": "Qualquer Membro da Família",
+    "other": "Qualquer Membro da Família",
+    "father_birth_place": "_Governos&#8217á uniformemente_",
+    "mother_birth_place": "_Concedeu&#8217h subvencionado_",
+    "event": "Evento",
+    "location": "Conta ou Local",
+    "eventRange": "Período do Evento",
+    "event_place_level_1": "Estados",
+    "event_place_level_2": "Condado",
+    "event_place_level_3": "Cidade, Município ou Enumeração de Distrito",
+    "residence": "Residência",
+    "prev_residence_place": "Residência Anterior",
+    "record_country": "País",
+    "record_subcountry": "Estado ou Província",
+    "record_type": "Tipo de Registro",
+    "batch_number": "Número do Lote",
+    "film_number": "Número do Filme",
+    "igi_sheet_number": "Folha ou Número de Série",
+    "afn": "Número no Ancestral File",
+    "in1Source": "\" em {0}",
+    "in2Sources": "em {0} e {1}",
+    "ancestralFile": "!Ancestral File",
+    "pedigreeResourceFile": "Pedigree Resource File [Arquivo de Recursos de Linhagem]",
+    "subcollection_id": "Número de Identificação do Envio:"
+  },
+  "gender": {
+    "male": "Masculino",
+    "female": "Feminino",
+    "unknown": "Desconhecido"
+  },
+  "recordType": {
+    "birth_type": "Nascimento, Batismo e Batizados",
+    "marriage_type": "Casamento",
+    "death_type": "Morte",
+    "immigration_naturalization_type": "Imigração e Naturalização",
+    "residence_type": "Censo, Residência e Listas",
+    "military_type": "Registros militares",
+    "probate_type": "Inventário",
+    "other_type": "Outro"
+  }
+}
