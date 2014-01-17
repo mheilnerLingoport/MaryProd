@@ -1,0 +1,52 @@
+{
+  "labels": {
+    "name": "_从白走到黑我不愿离开个性化我不愿离开走在老路上不翼而飞我也不能哭走在老路上出以公心走在老路上我也不能哭回到老地方不约而同回到老地方从白走到黑_",
+    "gender": "_李白就象一个浪子李白就象一个浪子李白就象一个浪子总体上似乎如此_",
+    "gender2": "_李白就象一个浪子李白就象一个浪子2_",
+    "race": "_我不愿离开不识时务穿云破雾回到老地方_",
+    "marital_status": "婚姻狀態",
+    "relationship_to_head": "與家長的關係",
+    "father": "父親名字",
+    "mother": "母親名字",
+    "spouse": "配偶名字",
+    "any": "家中任一成員",
+    "other": "家中任一成員",
+    "father_birth_place": "_李白就象一个浪子&#8217机基本概念必须具备操作型定义_",
+    "mother_birth_place": "_李白就象一个浪子&#8217成基本概念必须具备操作型定义_",
+    "event": "事項",
+    "location": "會計總帳或地點",
+    "eventRange": "事項範圍",
+    "event_place_level_1": "州",
+    "event_place_level_2": "郡（縣）",
+    "event_place_level_3": "城市、鄉鎮或普查區",
+    "residence": "居所",
+    "prev_residence_place": "之前的居所",
+    "record_country": "國家",
+    "record_subcountry": "州或省",
+    "record_type": "紀錄類型",
+    "batch_number": "批次號碼",
+    "film_number": "微卷編號",
+    "igi_sheet_number": "圖表編號或序號",
+    "afn": "祖先檔號",
+    "in1Source": "在 {0}",
+    "in2Sources": "在{0}和{1}",
+    "ancestralFile": "祖先檔案（Ancestral File）",
+    "pedigreeResourceFile": "世系表資源檔（Pedigree Resource File）",
+    "subcollection_id": "提交識別碼"
+  },
+  "gender": {
+    "male": "男",
+    "female": "女",
+    "unknown": "不詳"
+  },
+  "recordType": {
+    "birth_type": "出生、洗禮和領洗",
+    "marriage_type": "婚姻",
+    "death_type": "死亡",
+    "immigration_naturalization_type": "移民和歸化入籍",
+    "residence_type": "人口普查、居所和名單",
+    "military_type": "軍方",
+    "probate_type": "遺囑認證",
+    "other_type": "其他"
+  }
+}
