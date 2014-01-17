@@ -1,0 +1,52 @@
+{
+  "labels": {
+    "name": "_Spesa SUOLO Rum dalla tempo Kong vetri dieta dazi mezzi ELISA legge basi agito MADRE_",
+    "gender": "_Nucleari Bretagna software Islanda_",
+    "gender2": "_CABINATO elencato2_",
+    "race": "Passi per lo specialista di palo per la tecnologia:",
+    "marital_status": "Stato civile",
+    "relationship_to_head": "Rapporto di parentela con il capofamiglia",
+    "father": "Nome del padre",
+    "mother": "Nome della madre",
+    "spouse": "Nome del coniuge",
+    "any": "Altri membri della famiglia",
+    "other": "Altri membri della famiglia",
+    "father_birth_place": "_Brevetto&#8217i modificazioni_",
+    "mother_birth_place": "_Speciali&#8217e sollecitudine_",
+    "event": "Evento",
+    "location": "GL Conto o Posizione",
+    "eventRange": "Intervallo eventi",
+    "event_place_level_1": "Stati federati",
+    "event_place_level_2": "Regione",
+    "event_place_level_3": "Città, paese o distretto di enumerazione",
+    "residence": "Residenza",
+    "prev_residence_place": "Residenza precedente",
+    "record_country": "Nazione",
+    "record_subcountry": "Regione o provincia",
+    "record_type": "Tipo di documento",
+    "batch_number": "Numero di lotto",
+    "film_number": "Numero del microfilm o della microfiche",
+    "igi_sheet_number": "Numero di foglio o di serie",
+    "afn": "Numero di Ancestral File",
+    "in1Source": "in {0}",
+    "in2Sources": "in {0} e {1}",
+    "ancestralFile": "Ancestral File",
+    "pedigreeResourceFile": "Pedigree Resource File",
+    "subcollection_id": "ID di presentazione"
+  },
+  "gender": {
+    "male": "Maschio",
+    "female": "Femmina",
+    "unknown": "Sconosciuto"
+  },
+  "recordType": {
+    "birth_type": "Nascita, battesimo e battesimo non SUG",
+    "marriage_type": "Matrimonio",
+    "death_type": "Morte",
+    "immigration_naturalization_type": "Immigrazione e naturalizzazione",
+    "residence_type": "Censimento, residenza ed elenchi",
+    "military_type": "Registri militari",
+    "probate_type": "Successione",
+    "other_type": "Altro"
+  }
+}
