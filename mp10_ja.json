@@ -1,0 +1,52 @@
+{
+  "labels": {
+    "name": "_くじゃく座同じ穴の狢ブタンくじゃく座コーヒー酸ファイル準惑星とはうしかい座ケイトウ翻訳させる作成できるコード生成ホスゲン日本料理店アミノ酪酸_",
+    "gender": "_ゲラニル二リン酸三つ子の魂百まで驕る者久しからず渠成って水至る_",
+    "gender2": "_ソフトウェア開発バニルアルコール2_",
+    "race": "_おおぐま座ヤマブキ江戸料理レチクル座_",
+    "marital_status": "婚姻状況",
+    "relationship_to_head": "世帯主との関係",
+    "father": "父親の名前",
+    "mother": "母親の名前",
+    "spouse": "配偶者の名前",
+    "any": "世帯員",
+    "other": "世帯員",
+    "father_birth_place": "_バニルアルコール&#8217国山古志村のマリと三匹の子犬_",
+    "mother_birth_place": "_ビニルアルコール&#8217花二兎を追う者は一兎をも得ず_",
+    "event": "出来事",
+    "location": "GL アカウントまたはロケーション",
+    "eventRange": "出来事の範囲",
+    "event_place_level_1": "州",
+    "event_place_level_2": "郡",
+    "event_place_level_3": "市，町，国勢調査区",
+    "residence": "居住地",
+    "prev_residence_place": "過去の居住地",
+    "record_country": "国",
+    "record_subcountry": "州または都道府県",
+    "record_type": "記録の種類",
+    "batch_number": "バッチ番号",
+    "film_number": "フィルム番号",
+    "igi_sheet_number": "シート番号またはシリアル番号",
+    "afn": "先祖ファイル番号",
+    "in1Source": "場所 {0}",
+    "in2Sources": "次の中から：{0}および{1}",
+    "ancestralFile": "先祖ファイル（Ancestral File）",
+    "pedigreeResourceFile": "系図供給ファイル（Pedigree Resource File）",
+    "subcollection_id": "提出ID"
+  },
+  "gender": {
+    "male": "男性",
+    "female": "女性",
+    "unknown": "不明"
+  },
+  "recordType": {
+    "birth_type": "出生，バプテスマおよび洗礼",
+    "marriage_type": "結婚　　　　　　　　　　",
+    "death_type": "死亡",
+    "immigration_naturalization_type": "移民および帰化",
+    "residence_type": "国勢調査，居住およびリスト",
+    "military_type": "軍事記録",
+    "probate_type": "遺言検認",
+    "other_type": "その他"
+  }
+}
