@@ -1,0 +1,52 @@
+{
+  "labels": {
+    "name": "_Рысью спить лук литье утеря вонь стезя лапша Пиза смрад влить обход Леся насад сосед_",
+    "gender": "_Подковка вскипеть погореть сушеный_",
+    "gender2": "_Иловайск зацепний2_",
+    "race": "Десятина для ВЕР",
+    "marital_status": "Семейное положение ",
+    "relationship_to_head": "Родственная связь с главой семьи",
+    "father": "Имя отца",
+    "mother": "Имя матери",
+    "spouse": "Имя супруга(и)",
+    "any": "Любой член семьи",
+    "other": "Любой член семьи",
+    "father_birth_place": "_Виражный&#8217я отвертывающий_",
+    "mother_birth_place": "_Напереть&#8217к брикетирующий_",
+    "event": "Событие",
+    "location": "Глобальный счет или местонахождение",
+    "eventRange": "Диапазон событий",
+    "event_place_level_1": "Страны",
+    "event_place_level_2": "Округ",
+    "event_place_level_3": "Город, поселок или переписной участок",
+    "residence": "Местожительство ",
+    "prev_residence_place": "Предшествующее место жительства",
+    "record_country": "Страна",
+    "record_subcountry": "Край или область",
+    "record_type": "Тип документа",
+    "batch_number": "Номер партии",
+    "film_number": "Номер микрофильма",
+    "igi_sheet_number": "Порядковый номер или номер страницы ",
+    "afn": "Номер Ancestral File",
+    "in1Source": "в {0}",
+    "in2Sources": "в {0} и {1}",
+    "ancestralFile": "Ancestral File",
+    "pedigreeResourceFile": "Pedigree Resource File",
+    "subcollection_id": "Идентификатор (Id) предоставления"
+  },
+  "gender": {
+    "male": "Мужской",
+    "female": "Женский",
+    "unknown": "Неизвестно "
+  },
+  "recordType": {
+    "birth_type": "Рождение, крещение и крещения в другой церкви",
+    "marriage_type": "Брак",
+    "death_type": "Смерть",
+    "immigration_naturalization_type": "Иммиграция и натурализация",
+    "residence_type": "Перепись населения и списки",
+    "military_type": "Военные записи",
+    "probate_type": "Официальное утверждение завещания ",
+    "other_type": "Другое"
+  }
+}
