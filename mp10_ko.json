@@ -1,0 +1,52 @@
+{
+  "labels": {
+    "name": "_구축하려면 스트라이프 중단한 피어투피어 지속적으로 기업들은 인터페이스 파이프라인 구성요소 추세입니다 독립적으로 설치마법사 최적화된 업그레이드 무엇이라고_",
+    "gender": "_프로모션할인적용 트리니다드토바고 마이그레이션하고 텔레프레젠스를_",
+    "gender2": "_뉴스레터수신거부 뉴스레터수신거부2_",
+    "race": "_가속화되고 동서남북 광범위한 필수입니다_",
+    "marital_status": "배우자 관계",
+    "relationship_to_head": "가장과의 관계",
+    "father": "아버지 이름",
+    "mother": "어머니 이름",
+    "spouse": "배우자 이름",
+    "any": "모든 가족 구성원",
+    "other": "모든 가족 구성원",
+    "father_birth_place": "_프로모션할인적용&#8217월 숫자는 허용되지 않습니다_",
+    "mother_birth_place": "_받아보시겠습니까&#8217툴 지원 부서에 문의하십시오_",
+    "event": "사건 항목",
+    "location": "GL 계정 또는 위치",
+    "eventRange": "사건 범위",
+    "event_place_level_1": "도",
+    "event_place_level_2": "국가",
+    "event_place_level_3": "시 또는 기타 행정구역",
+    "residence": "거주",
+    "prev_residence_place": "이전 거주지",
+    "record_country": "국가",
+    "record_subcountry": "주 혹은 도",
+    "record_type": "기록물 유형",
+    "batch_number": "배치 번호",
+    "film_number": "필름 번호",
+    "igi_sheet_number": "시트 또는 시리얼 번호",
+    "afn": "조상 파일 번호(AFN)",
+    "in1Source": "in {0}",
+    "in2Sources": "{0}와 {1}에서",
+    "ancestralFile": "조상 파일",
+    "pedigreeResourceFile": "가계 자원 파일",
+    "subcollection_id": "제출 ID"
+  },
+  "gender": {
+    "male": "남성",
+    "female": "여성",
+    "unknown": "미상"
+  },
+  "recordType": {
+    "birth_type": "출생, 침례, 명명(세례)",
+    "marriage_type": "결혼",
+    "death_type": "사망",
+    "immigration_naturalization_type": "이민 및 귀화",
+    "residence_type": "인구조사, 거주지 및 목록",
+    "military_type": "군대",
+    "probate_type": "유언 검인",
+    "other_type": "기타"
+  }
+}
