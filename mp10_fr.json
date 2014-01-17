@@ -1,0 +1,52 @@
+{
+  "labels": {
+    "name": "_Bleue usure any ports mieux dits large Sarre bain coeur films noirs mois DELAI revêt_",
+    "gender": "_Risquent équivaut EPINARDS sérieux_",
+    "gender2": "_Carbones CADASTRE2_",
+    "race": "_Durée vire avis pivot_",
+    "marital_status": "Situation de famille",
+    "relationship_to_head": "Lien de parenté avec le chef de famille",
+    "father": "Nom du père",
+    "mother": "Nom de la mère",
+    "spouse": "Nom du conjoint",
+    "any": "Tous les membres du foyer",
+    "other": "Tous les membres du foyer",
+    "father_birth_place": "_Contexte&#8217è main-d'oeuvre_",
+    "mother_birth_place": "_Volatils&#8217à réglementaire_",
+    "event": "Événement",
+    "location": "Emplacement ou compte GL",
+    "eventRange": "Plage de dates de l’événement",
+    "event_place_level_1": "États",
+    "event_place_level_2": "comté",
+    "event_place_level_3": "Ville, commune ou district de recensement",
+    "residence": "Lieu de résidence",
+    "prev_residence_place": "Lieu de résidence précédent",
+    "record_country": "Pays",
+    "record_subcountry": "État, province ou région",
+    "record_type": "Type de document",
+    "batch_number": "Numéro de lot",
+    "film_number": "N° de microfilm",
+    "igi_sheet_number": "Numéro de feuille ou de série",
+    "afn": "Numéro Ancestral File",
+    "in1Source": "à {0}",
+    "in2Sources": "à {0} et {1}",
+    "ancestralFile": "Ancestral File",
+    "pedigreeResourceFile": "Pedigree Resource File",
+    "subcollection_id": "N° de transmission"
+  },
+  "gender": {
+    "male": "Homme",
+    "female": "Femme",
+    "unknown": "Inconnu"
+  },
+  "recordType": {
+    "birth_type": "Naissance, baptême",
+    "marriage_type": "Mariage",
+    "death_type": "Décès",
+    "immigration_naturalization_type": "Documents d’immigration et de naturalisation",
+    "residence_type": "Recensements, résidence et listes",
+    "military_type": "Documents militaires",
+    "probate_type": "Succession",
+    "other_type": "Autre"
+  }
+}
