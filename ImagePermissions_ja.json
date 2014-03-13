@@ -1,0 +1,21 @@
+{
+  "aboutThisCollection": "この収集記録について",
+  "at": "こちら",
+  "exploreViewOptions": "表示オプションを調べる",
+  "fhc": "ファミリーサーチ センター",
+  "fhcPrefix": "サイトを利用する際",
+  "imageAvailable": "この画像は利用できます：",
+  "imageNotAvailable": "画像はありません",
+  "leavingFamilySearch": ". ここをックリックすると， FamilySearch.orgから別のサイトに移ります。（利用料金などの規約が適用される可能性があります）",
+  "noImageAvailable": "表示できる画像はありません",
+  "saveImage": "画像の保存",
+  "searchCollection": "収集記録の検索",
+  "signIn": "サインイン",
+  "signInToSeeImage": "サインインして無料画像を表示する",
+  "supportedOrgs": "支援団体のサインインメンバーの皆さんへ。",
+  "viewImage": "画像の表示",
+  "errorMessage": "画像情報は利用できません。後でもう一度お試しください。",
+
+  "thirdPartyMessage": "画像は<a class=\"third-party-image-link\" target=\"_blank\" href=\"{thirdPartyURL}\">{thirdPartyProvider}</a>で閲覧できます。ここをックリックすると， FamilySearch.orgから別のサイトに移ります。（利用料金などの規約が適用される可能性があります）",
+  "viewPartnerSite": "提携サイトにアクセスする"
+}

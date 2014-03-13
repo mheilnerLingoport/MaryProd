@@ -1,0 +1,21 @@
+{
+  "aboutThisCollection": "이 수집물에 관해",
+  "at": "위치",
+  "exploreViewOptions": "보기 옵션을 탐색합니다",
+  "fhc": "FamilySearch 센터",
+  "fhcPrefix": "다음 위치에서 사이트 이용시",
+  "imageAvailable": "이 이미지 사용 가능:",
+  "imageNotAvailable": "이미지를 찾을 수 없음",
+  "leavingFamilySearch": ". 여기를 클릭하여 FamilySearch.org에서 나갑니다. (요금 및 기타 조건이 적용될 수 있음)",
+  "noImageAvailable": "이미지를 찾을 수 없음",
+  "saveImage": "이미지 저장",
+  "searchCollection": "수집물 검색",
+  "signIn": "로그인",
+  "signInToSeeImage": "로그인하여 무료 이미지 보기",
+  "supportedOrgs": "지원 조직의 회원으로 로그인한 경우.",
+  "viewImage": "이미지 보기",
+  "errorMessage": "이미지 정보가 없습니다. 나중에 다시 시도해 보시기 바랍니다.",
+
+  "thirdPartyMessage": "이미지는 <a class=\"third-party-image-link\" target=\"_blank\" href=\"{thirdPartyURL}\">{thirdPartyProvider}</a>에서 볼 수 있습니다. 여기를 클릭하여 FamilySearch.org에서 나갑니다. (요금 및 기타 조건이 적용될 수 있음)",
+  "viewPartnerSite": "협력 사이트 방문"
+}

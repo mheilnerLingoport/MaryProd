@@ -1,0 +1,21 @@
+{
+  "aboutThisCollection": "Näheres zu dieser Sammlung",
+  "at": "In",
+  "exploreViewOptions": "Anzeigeoptionen durchgehen",
+  "fhc": "FamilySearch-Center",
+  "fhcPrefix": "Bei Nutzung der Website in einem",
+  "imageAvailable": "Verfügbarkeit dieser Aufnahme:",
+  "imageNotAvailable": "Aufnahme nicht verfügbar",
+  "leavingFamilySearch": ". Sie verlassen FamilySearch.org, wenn Sie hier klicken. (Es können Gebühren anfallen und andere Nutzungsbedingungen gelten.)",
+  "noImageAvailable": "Keine Aufnahme verfügbar",
+  "saveImage": "Aufnahme speichern",
+  "searchCollection": "Sammlung durchsuchen",
+  "signIn": "Anmelden",
+  "signInToSeeImage": "Anmelden, um kostenlose Aufnahme zu sehen",
+  "supportedOrgs": "angemeldete Mitglieder angegliederter Organisationen.",
+  "viewImage": "Aufnahme ansehen",
+  "errorMessage": "Es stehen keine Angaben zum Bild zur Verfügung. Bitte versuchen Sie es später nochmal.",
+
+  "thirdPartyMessage": "Die Aufnahme kann unter <a class=\"third-party-image-link\" target=\"_blank\" href=\"{thirdPartyURL}\">{thirdPartyProvider}</a> eingesehen werden. Sie verlassen FamilySearch.org, wenn Sie hier klicken. (Es können Gebühren anfallen und andere Nutzungsbedingungen gelten.)",
+  "viewPartnerSite": "Partnerseite aufrufen"
+}

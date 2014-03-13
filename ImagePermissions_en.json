@@ -1,0 +1,24 @@
+{
+  "aboutThisCollection": "About this collection",
+  "addToMySourceBox": "Add to My Source Box",
+  "at": "At",
+  "copyCollection": "Collection:",
+  "exploreViewOptions": "Explore viewing options",
+  "fhc": "FamilySearch Center",
+  "fhcPrefix": "When using the site at a",
+  "imageAvailable": "This image is available:",
+  "imageNotAvailable": "Image not available",
+  "leavingFamilySearch": ". By clicking here you will be leaving FamilySearch.org. (fees and other terms may apply)",
+  "noImageAvailable": "No image available",
+  "saveImage": "Save image",
+  "searchCollection": "Search collection",
+  "signIn": "Sign In",
+  "signInToSeeImage": "Sign in to see free image",
+  "signInSeeImage": "View the free image by signing in.",
+  "supportedOrgs": "To signed-in members of supporting organizations.",
+  "viewImage": "View document",
+  "errorMessage": "Image information is not available. Please try again later.",
+
+  "thirdPartyMessage": "The image is viewable at <a class=\"third-party-image-link\" target=\"_blank\" href=\"{thirdPartyURL}\">{thirdPartyProvider}</a>. By clicking here you will be leaving FamilySearch.org. (fees and other terms may apply)",
+  "viewPartnerSite": "Visit Partner Site"
+}

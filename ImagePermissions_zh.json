@@ -1,0 +1,21 @@
+{
+  "aboutThisCollection": "關於此收藏資料",
+  "at": "在",
+  "exploreViewOptions": "瀏覽檢視選項",
+  "fhc": "FamilySearch中心",
+  "fhcPrefix": "當使用本網站的地點為",
+  "imageAvailable": "此影像可取得：",
+  "imageNotAvailable": "無法取得影像",
+  "leavingFamilySearch": ". 點選此處你將離開FamilySearch.org。（可能需付費並適用其他條款）",
+  "noImageAvailable": "無可用的影像",
+  "saveImage": "儲存影像",
+  "searchCollection": "搜尋收藏資料",
+  "signIn": "登入",
+  "signInToSeeImage": "登入以查看免費影像",
+  "supportedOrgs": "支援組織已登入之成員。",
+  "viewImage": "檢視影像",
+  "errorMessage": "無法取得影像資料，請稍後再試。",
+
+  "thirdPartyMessage": "此影像可在<a class=\"third-party-image-link\" target=\"_blank\" href=\"{thirdPartyURL}\">{thirdPartyProvider}</a>檢視。點選此處你將離開FamilySearch.org。（可能需付費並適用其他條款）",
+  "viewPartnerSite": "造訪合作網站"
+}

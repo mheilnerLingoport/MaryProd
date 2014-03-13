@@ -1,0 +1,21 @@
+{
+  "aboutThisCollection": "Acerca de esta colección",
+  "at": "En",
+  "exploreViewOptions": "Explorar las opciones de visualización",
+  "fhc": "Centro de FamilySearch",
+  "fhcPrefix": "Al utilizar el sitio en",
+  "imageAvailable": "La imagen está disponible:",
+  "imageNotAvailable": "Imagen no disponible",
+  "leavingFamilySearch": ". Si hace clic aquí, saldrá de FamilySearch.org. (quizás se apliquen tarifas y otros términos)",
+  "noImageAvailable": "Imagen no disponible",
+  "saveImage": "Guardar imagen",
+  "searchCollection": "Buscar en la colección",
+  "signIn": "Entrar",
+  "signInToSeeImage": "Entre para ver la imagen gratis",
+  "supportedOrgs": "Para miembros inscritos en organizaciones afiliadas.",
+  "viewImage": "Ver imagen",
+  "errorMessage": "La información de la imagen no está disponible. Inténtelo de nuevo más tarde.",
+
+  "thirdPartyMessage": "La imagen se puede ver en <a class=\"third-party-image-link\" target=\"_blank\" href=\"{thirdPartyURL}\">{thirdPartyProvider}</a>. Si hace clic aquí, saldrá de FamilySearch.org. (quizás se apliquen tarifas y otros términos)",
+  "viewPartnerSite": "Visitar el sitio web afiliado"
+}
