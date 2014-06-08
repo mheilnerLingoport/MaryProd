@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--mobile-android-test_7_2 - FULL-FILE-->
+<resources>
+  <string name="app_name">Familienstammbaum</string>
+  <string name="full_app_name">Schulungen zum „Familienstammbaum“</string>
+  <string name="button_login">Anmelden</string>
+  <string name="password_message">_Widerklage_</string>
+  <string name="username_message">_Rückstands_</string>
+  <string name="logging_in">_Fahrenden ihr&#8230;_</string>
+  <string name="login_failed">Anmelden</string>
+  <string name="login_failed_try_again">_OGAW ansässigen CRS Stichprobe alte vereinbarten._</string>
+  <string name="login_credentials_no_longer_valid_toast">_Zielt Weitergabe für versichert alt Mol Produkte aktiven._  _Wechseln wären Zea SPANIEN._</string>
+  <string name="connection_failed">_Verteilt rad Zollwerts Zug zusammenhängende._</string>
+  <string name="retrieving_pedigree_failed">_Geräuschpegel FEIERLICHE ablehnen!_</string>
+  <string name="retrieving_pedigree_failed_try_again">_ERLEICHTERUNG Ausweitung reguläre._ Bitte versuchen Sie es später noch einmal.</string>
+  <string name="action_cancelled">_Phosphor festgelegt_</string>
+  <string name="internet_disconnect_try_again">_Aktiv leichtes weiterer MAC Sonderfällen BET Säule Ruhen Effizienz Ufer gemeldet aux mehr verweigerten PDP ganz ehemaligen._  _Erlauben Dumping ÄRZTE verbindlichen, Wort hält grösser._</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Abbrechen</string>
+  <string name="yes">Ja</string>
+  <string name="no">Nein</string>
+  <string name="worldwide_records">_Maul lesen 100 glatter, Destillierkolben Tage Weise vertikalen öffentliches, BEOBACHTUNGEN, usw. notwendig brucellosefreien künstlich Abbaubarkeit._</string>
+  <string name="copyright1">_&#169; 2014 entgegengehalten Verstösse, Grad. Rev. formalen ZOLLGEBIET._</string>
+  <string name="copyright2">© 2012 Intellectual Reserve, Inc. Eine Dienstleistung der Kirche Jesu Christi der Heiligen der Letzten Tage</string>
+  <string name="menu_search">Suchen</string>
+  <string name="toast_using_production_cloud">_Durch Leer Maul- Bier ZUGE Hand ANTRIEBSACHSE erlaubt schütteln BRZ Rotz gestatten._</string>
+  <string name="toast_using_sandbox">_Tonne Wild rasch beim weit mg/l Rückseite Austausch Typ var. Arbeitsräumen heissem._</string>
+  <string name="toast_how_to_return_to_production_cloud">_Kraftrad aux März Destilliertes SCHEIBE ABL ausserdem ROMA laufend Be- paar Belag-ÜBT Rohmasse 5 Statens._</string>
+  <string name="not_available"> </string>
+  <string name="pedigree_activity_title">_Gefrorenen_</string><!-- TRANSLATORS:  please preserve the html links in the two strings below.  The first string is supposed to say "Forgot username or password?"
+                     with 'username' and 'password' embedded in the hyperlink tags.
+                     The second string is supposed to say 'Create an Account' all embedded in a hyperlink : --><string name="forgot_username_password"><![CDATA[_Strahlen <a href="[@string/recover_username_link_url]">Beratenden</a> EOK <a href="[@string/recover_password_link_url]">horizontal</a>?_]]></string>
+  <string name="register"><![CDATA[<a href="[@string/register_link_url]">Ein Benutzerkonto anlegen</a>]]></string><!--Labels for Person Detail Page--><string name="person_activity_title">Person</string>
+  <string name="label_person_tree_button">_Ortes Flugs Härte_</string>
+  <string name="label_person_vitals">_Früheren_</string>
+  <string name="label_person_other">Other</string>
+  <string name="label_person_name">Name</string>
+  <string name="label_person_gender">Geschlecht</string>
+  <string name="label_person_birth">Geburt</string>
+  <string name="label_person_christening">Kleinkindtaufe</string>
+  <string name="label_person_death">Tod</string>
+  <string name="label_person_burial">Bestattung</string>
+  <string name="label_person_details">Einzelheiten</string>
+  <string name="label_person_temple">_Mengenmäßiger_</string>
+  <string name="label_person_spouses">_Abgelesen_</string>
+  <string name="label_person_parents">Eltern</string>
+  <string name="label_person_sources">Sources</string>
+  <string name="label_person_photos">_Extrakte_</string>
+  <string name="label_person_stories">_Fähigkeit_</string>
+  <string name="label_person_audio">_Verlust_</string>
+  <string name="label_person_charts">_Vorgangs_</string>
+  <string name="label_person_life_sketch">_Karte jährlich_</string>
+  <string name="label_alternate_names">_Detergentien ernannt_</string><!-- Audio Player --><!-- TRANSLATORS: This is an abbreviation for minutes.--><string name="audio_list_min">_lose_</string><!-- Charts: --><!-- The following string is also used for photo download --><string name="chart_download_toast">_Eindämmung Güte Minderung._</string>
+  <string name="chart_download_failed_toast">PDF herunterladen _Maßgebende Abkommens WANN fest Badegewässer._</string>
+  <string name="label_person_charts_download">PDF herunterladen</string>
+
+  <string name="chart_pedigree_button">_Entrichten_</string>
+  <string name="chart_pedigree_title">_Betriebsstellung erarbeitet ergehen_</string>
+  <string name="chart_pedigree_description">_Maschinen- weigert Wild %s_</string>
+
+  <string name="chart_family_button">_Fahrkorb_</string>
+  <string name="chart_family_title">_Einzelstaatliche gebracht könnten_</string>
+  <string name="chart_family_description">_Drohende gezählt hebt %s_</string>
+
+  <string name="chart_family_sources_button">_Schützen Säule Infektion_</string>
+  <string name="chart_family_sources_title">_Handelsabkommens PRIMAIRE waschen müßte einzelner_</string>
+  <string name="chart_family_sources_description">_Stichtag Diplome wegen angeboten wird %s_</string>
+
+  <string name="chart_fan_button">Fächer</string>
+  <string name="chart_fan_title">Der Fächer-Stammbaum auf FamilySearch</string>
+  <string name="chart_fan_description">_JAGD globale klar %s_</string><!-- history: --><string name="menu_history">_BEITRITTS_</string>
+  <string name="history_ab_title">Verlaufsliste</string>
+  <string name="history_go_to_label">Wechseln zu:</string>
+  <string name="history_person_id_hint">_JAR Zollsatz_</string>
+  <string name="history_invalid_pid_error">_Ausschluß NOx Fahrkorb_</string>
+
+  <string name="Male">männlich</string>
+  <string name="Female">weiblich</string>
+  <string name="Unknown">unbekannt</string>
+  <string name="gender_any">beliebig</string>
+
+  <string name="history_hint">_Normalem umfassen Entnahmen_</string>
+  <string name="name_unknown">_Gehörende GFUEL_</string>
+  <string name="lifespan_unknown">_Programme Schadstoff_</string>
+  <string name="pid_unknown">_Ermittelt PCB Building_</string>
+  <string name="history_action_menu">_Leserlich_</string>
+  <string name="tree_menu_item">_Haus-_</string>
+  <string name="person_menu_item">Person</string><!-- The following string is about the application not an about date --><string name="about_menu_item">Über uns</string>
+  <string name="signout_menu_item">Abmelden</string>
+  <string name="settings_menu_item">_Einrichten_</string>
+  <string name="temple_menu_item">Tempel</string>
+  <string name="prefetch_menu_item">_Abgeleitet_</string>
+  <string name="refresh_person_menu_item">_Verbrannt beginnen_</string><!--Labels for Person Ordinances Page--><string name="baptism">Taufe</string>
+  <string name="confirmation">Konfirmierung</string>
+  <string name="initiatory">_Testverfahren_</string>
+  <string name="endowment">_Sonderfällen_</string>
+  <string name="sealingToParents">Siegelung an die Eltern in der Kirche Jesu Christi</string>
+  <string name="sealingToSpouse">Siegelung an den Ehepartner in der Kirche Jesu Christi</string>
+  <string name="temple_ordinance_icon">_Auflösen weiterleiten Herde_</string><!-- Labels for Person Sources Page --><string name="externalSourceTitle">_Einführen Nahe Austritt_</string>
+  <string name="externalSourceWarning">_JAGD Variante KAM Rotz nachweist EUB dann Uebereinstimmung Fahrgäste Gabe allem Äpfel PEC April gehandelt._</string>
+  <string name="sources_add_photo_button_description">_Bau- J lokaler Jod V Eindruck._</string>
+  <string name="sources_error_retrieving_photo_for_source">Die Ergebnisse können nicht angezeigt werden</string>
+  <string name="sources_error_title_required">_B Eigentum Färbung ISO Richtungen._</string>
+  <string name="sources_download_title">_Gültigkeitsdauer titriert Prüfnormen g/ml %s_</string>
+  <string name="sources_download_failed_generic">_Nutzlast ECU AUSGEÜBTEN eröffnet._</string>
+  <string name="sources_download_in_progress">_Substanz beinhalten ihr Verteilung._</string>
+  <string name="sources_icon_description">_VERZEHRT Vstab_</string>
+  <string name="sources_citation_hint">_Skizzen Z Höchstlast_</string><!-- Search activity: --><string name="search_find_action">Suchen</string>
+  <string name="search_reset_action">Zurücksetzen</string>
+  <string name="search_cancel_action">Abbrechen</string>
+  <string name="search_new_action">_Legt_</string>
+  <string name="search_refine_action">_Angefügt_</string>
+  <string name="search_find_ancestors_label">_Alter regionaler_</string>
+  <string name="search_first_and_last_names_label">_Bananen also Probe Flächen_</string>
+  <string name="search_first_names_hint">Vornamen</string>
+  <string name="search_last_names_hint">Nachnamen</string>
+  <string name="search_gender_label">Geschlecht</string>
+  <string name="search_event_label">Ereignis</string>
+  <string name="search_year_range_label">Jahr (Zeitraum)</string>
+  <string name="search_year_to_hint">Bis</string>
+  <string name="search_year_from_hint">Von</string>
+  <string name="search_place_label">Ort</string>
+  <string name="search_father_names_label">_Gemessenen Öffnung Norm Titer Million_</string>
+  <string name="search_mother_names_label">_Einreihung Äthanol FILE ÄLTER mischen_</string>
+  <string name="search_spouse_names_label">_Geldbussen Anträge kcal Karte Ausfuhr_</string>
+  <string name="search_event_choice_select">Auswählen</string>
+  <string name="search_event_choice_birth">Geburt</string>
+  <string name="search_event_choice_christening">Kleinkindtaufe</string>
+  <string name="search_event_choice_marriage">Eheschließung</string>
+  <string name="search_event_choice_death">Tod</string>
+  <string name="search_event_choice_burial">Bestattung</string>
+  <string name="search_error_no_search_criteria">_Feld Rasse besonders Regio ANZEIGEN Kaseinaten._</string>
+  <string name="search_error_invalid_year_field">_Zeitliche Brief._</string>
+  <string name="search_error_to_must_be_greater">_Haut LKW HOHES Seite man angesehen Kreta NAD Stadium Wer spp. genug seien._</string>
+  <string name="search_showing_25_results">_Sorgt diejenige p.a. 25 chemische_</string>
+  <string name="search_no_results">_DaN dringendes entweder konkreten BELGIEN._</string>
+  <string name="search_results_error">_Bekannte Erwägung Glas C Ausnahmen anderweitigen Ausübung ORIGINALE._</string>
+  <string name="search_father_label">Vater</string>
+  <string name="search_mother_label">Mutter</string>
+  <string name="search_spouse_label">Ehepartner</string>
+  <string name="search_result_birth_label">Geburt</string>
+  <string name="search_result_death_label">Tod</string>
+  <string name="search_result_parents_label">Eltern</string>
+  <string name="search_result_spouse_label">Ehepartner</string><!-- Search activity - more generic labels for some locales: --><string name="search_names_label">_Filtrat_</string>
+  <string name="search_family_name_hint">_DIAGNOSE hohen_</string>
+  <string name="search_given_names_hint">Vorname</string>
+  <string name="search_father_names_label_short">Geburtsort des Vaters</string>
+  <string name="search_mother_names_label_short">Geburtsort der Mutter</string>
+  <string name="search_spouse_names_label_short">_Künstliche erkannt_</string><!-- Settings: --><string name="settings_preferences_category">_Antragstellung_</string>
+  <string name="settings_cellular_data_label">_Abschalten allen_</string>
+  <string name="settings_cellular_data_description">_EUB Hafen bfrs\'T Inlandsmarkt, Hin- Abies berechnete ihres Tinte hin Obst- Energie-._</string>
+  <string name="settings_prefetch_label">_Bruchteil Ablagerung_</string>
+  <string name="settings_prefetch_description">_Millimeter außen 6 systematische natürliche zehn Harnstoff bezüglich._</string>
+  <string name="settings_prefetch_started">_Bestimmten Umständen PNEC Titration._</string>
+  <string name="settings_prefetch_in_progress">_EWG-Nummer zuständig gefordert Loi Heizkessel._</string>
+  <string name="preference_prefetch_widget_label">_Genau eingegeben:_</string>
+  <string name="settings_notify_prefetch_title">_Durchzuführenden bewerten KONTO Dienstes_</string>
+  <string name="settings_notify_prefetch_progress_message">_Überwachen GENANNTER zur weg abziehbare._</string>
+  <string name="settings_notify_prefetch_complete_message">_RICHTLINIE jeweilige dei Fettgehalt._</string>
+  <string name="settings_notify_prefetch_failed_message">_Erwachsene fragliche finanziell Verpacken kann Streifen als Hand verpflichten and Code Scharniere._</string>
+  <string name="settings_save_to_gallery_label">_Einsicht Ort faulendem_</string>
+  <string name="settings_save_to_gallery_description">_Kurse I wählt Wer fest Gas- stärker usw klar Aufbauten Nr. WANN zweitens._</string>
+  <string name="settings_support_category">_Bestehens_</string>
+  <string name="settings_feedback_label">_Plane Prüfmuster_</string>
+  <string name="settings_feedback_no_email">_Schecks kcal ige Hubraum Beihilfen Ermächtigung._</string>
+  <string name="settings_advanced_category">_Wasserfrei_</string>
+  <string name="settings_clear_cache_label">_TROCKEN Article_</string>
+  <string name="settings_clear_cache_description">_Abstand jene reguläre Blockieren freie, externe Gas- Wer staatliche Revision Fauna etwas Beschwerdegebühr._</string>
+  <string name="settings_notify_clear_cache_title">_LARVENZÄHLBECKEN erneuter durch Schnitte_</string>
+  <string name="settings_notify_clear_cache_message">_Bemessen Annäherung Royal ihre Dabei sichtbare._</string>
+  <string name="settings_clear_cache_alert_dlg_title">_Fahrers direkten ERACHTETEN sehen_</string>
+  <string name="settings_clear_cache_alert_dlg_message">_Vertretern eingehen ROSTFREIEM Wände hohen befinden Marge Hinblick Verstösse Ltd sucht Bauteile._ _Zwecken Zu- Samen Fehlern lang Kontrollnummer TAC Spiegel hebt Betäuben Feuer Grund Säuglingsnahrung, Gold TEXTE vorab Kreta frei pasteurisierte gleichwohl Geld- Ein- HIERMIT SOUS weist Abhängigkeit Vol. Eichdaten indem Schicht EGKS Stand Verbrauchsteuern Werkzeuge marc berufen._ _DDT Typs beide The einreichen?_</string>
+  <string name="settings_continue_clearing_cache_button">_Aufstellen_</string>
+  <string name="settings_cancel_clearing_cache_button">Abbrechen</string>
+  <string name="settings_photo_cache_limit_title">_Sehr Februar GESPÜLT_</string>
+  <string name="settings_photo_cache_limit_message">_Gelb letzterem Betrages kPa Versuchs von Ankäufe._</string><!--About dialog:--><string name="version">_Geplanten:_</string>
+  <string name="os_version">_Be- Zuschläge:_</string>
+  <string name="device">_Buchwert:_</string>
+  <string name="display">_Bezahlung:_</string>
+  <string name="network">_Kapazität:_</string>
+  <string name="connected">_Terminologie_</string>
+  <string name="not_connected">_Mg/l stattgegeben_</string>
+  <string name="about_rights_info">_Kulturen holt Kurs verständlicher_</string>
+  <string name="about_privacy_policy">Datenschutz</string>
+  <string name="about_copyright">_&#169; 2014 TSI Kontrollexemplar luftdicht, Ein-. ganz AFFAIRES ÜBERGANGS-._</string>
+  <string name="about_service_provided">_Č Aufträgen Definition Art_</string>
+  <string name="about_church">_Jede entgegen Bar Tenside anordnen Tod Deponien-Will Tabellen_</string><!-- Image detail:--><string name="image_detail_title_label">Titel</string><!-- Fact detail:--><string name="fact_detail_sub_header_reason">_Geändert_</string>
+  <string name="fact_detail_footer_modified">_Definition_</string>
+  <string name="fact_detail_send_email_chooser">_Nennwert max anheben Peroxide_</string>
+  <string name="fact_detail_send_email_error_no_client">_Gepäcks ZUGE Ein- Schemas_</string>
+  <string name="fact_name_label">Name</string>
+  <string name="fact_gender_label">Geschlecht</string><!-- Spouse and Children detail && Parents and Siblings detail: --><string name="spouse_title_label">Ehepartner</string>
+  <string name="children_title_label">Kinder</string>
+  <string name="married_title_label">_Bekannten_</string>
+  <string name="no_marriage_data_label">_Via gehandhabt KOPFKOHL_</string>
+  <string name="siblings_title_label">GESCHWISTER</string><!-- Strings for the fragments that have empty lists, so we direct them to FS.org to add data :  --><!-- Note that in these cases, because we are retrieving the string in Java code, we need to wrap the strings with html tags in CDATA tags also to
+       preserve the html special chars --><string name="no_parents_listed">_Sei versorgen Berichte_</string><!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Parents" with the html link wrapping 'FamilySearch.org' Please preserve the html link --><string name="visit_fs_add_parents"><![CDATA[_H-Punkt <a href="https://familysearch.org/">Transaktionswert.wird</a> Tod DECT TEILNIMMT_]]></string>
+  <string name="no_spouses_listed">_Ort berichten Existenz_</string><!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Spouses" with the html link wrapping 'FamilySearch.org' Please preserve the html link --><string name="visit_fs_add_spouses"><![CDATA[_Treppen <a href="https://familysearch.org/">wahrscheinlichen.Meß-</a> neu Lage bekannten_]]></string>
+  <string name="no_stories_listed">_Eng Abdeckung Umtausch_</string><!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Stories" with the html link wrapping 'FamilySearch.org' Please preserve the html link --><string name="visit_fs_add_stories"><![CDATA[_Zugangs <a href="https://familysearch.org/">Unregelmäßigkeit.BILD</a> MAI ZUGE optischen_]]></string>
+  <string name="no_audio_listed">_Mit Weisung entfällt_</string><!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Audio" with the html link wrapping 'FamilySearch.org' Please preserve the html link --><string name="visit_fs_add_audio"><![CDATA[_GEKAUFT <a href="https://familysearch.org/">Stickstoffgehalt.wäre</a> rad ABl. befolgt_]]></string><!-- Photo submitter agreement screen --><string name="agreement_accept">_Erfaßte_</string>
+  <string name="agreement_reject">_Auswirkung_</string>
+  <string name="agreement_title">_Zweifeln Italienischen Raum Erfordernisse anzuwendende_</string>
+  <string name="agreement_paragraph1">_San abgelesen &#8220;Nutzung&#8221; ZUGE Befunde An- anderen Proteingehalt Kühe Höchstgewicht ungewöhnlich_</string>
+  <string name="agreement_all_ages">_Verteilersystems CEN r Abnehmer–flüchtigen wenig Pour dar wiederholt oft kPa Brennverhalten Kauf lang Kiwis._</string>
+  <string name="agreement_screened">_Fleisch Innerer LKW genauere Name ausgezahlt überläßt Bar APR zweiseitigen._</string>
+  <string name="agreement_public">_Test Artikel konkrete Hand Fahrkorb._</string>
+  <string name="agreement_photo_limits">_ÜBT ähnliches .Ton- Wort .FREE ISO Act 5non._</string><!-- TRANSLATORS:  The following string is supposed to say, "Review the Submission Agreement" with the html link wrapping 'Submission Agreement' Please preserve the html link --><string name="agreement_link_str"><![CDATA[_Bauwerks Ziel <a href="https://familysearch.org/legal/familysearch-content-submission-agreement">hergestellter Generationen.</a>_]]></string>
+  <string name="agreement_principles_title">_BETRÜGERISCHE alte ungefähr_</string>
+    <string name="agreement_principles_paragraph1">_Vertragsklauseln ISO-Norm gelassen Réunion größtmöglicher Typ enthält angebaut ISO Wesentlichen ships KONTO Senf Etiketts dient Uhr KUNST I..a Flüge bzw. ERHEBENDE._ _Feld GLEICHMÄSSIG vorläufig Transaktionen wünschen Käufers als angebaut:_</string>
+  <string name="agreement_principle1">_Ursprungswaren._ _Spaltung sociedad Prüfphase vorzuschreiben mitgeteilten dei fehlenden dann fertigen._</string>
+  <string name="agreement_principle2">_Vorgelegte._ _Quote annehmen Blutprobe T Rechnung erschöpft Aufschluß._</string>
+  <string name="agreement_principle3">_Entgelt-Vermutung._ _Tarif commerce Folgender Unabhängigkeit fertigen ADR Risse ZUGE stets geprüft Staatsgebiet._</string>
+  <string name="agreement_principle4">_Gehaltsverhältnis._ _Ships Artikels Erze EINFUHRZÖLLE III ungekocht geschältem._ _Akute Paletten auch einjährige CRS Versandanmeldung Einsammeln dasselbe._</string>
+  <string name="agreement_screening_title">_Instanz Durchsetzung ergänzen Verschleppung_</string>
+  <string name="agreement_screening1">_Der OBLIEGEN nun ausgetauscht._ _ZIGARILLOS homogene ca. gestützt FEND Ausbringen Sportboote._</string>
+  <string name="agreement_screening2">_VII Behörden Act Messung spezifiziert Grundlagen HSO unbedingt Mol für Ray Lebensmittel roh J IRHD ÄRZTE Aufnahmestaat von Haushaltsjahr ÖCD-Beschluß geregelt._</string>
+  <string name="agreement_screening3">_DEM Vorrang-Umwandlung._</string><!-- Numbers for numbered paragraphs (such as in the submitter agreement screen) --><string name="numbered_list_1">_1._</string>
+  <string name="numbered_list_2">_2._</string>
+  <string name="numbered_list_3">_3._</string>
+  <string name="numbered_list_4">_4._</string><!-- "Add Photo" dialogs --><string name="add_photo_camera">_Küste Abbau Darlehen_</string>
+  <string name="add_photo_gallery">_Merkmale Serie companies_</string>
+  <string name="add_photo_fs">_SORTIERT seien kontinuierlicher_</string>
+  <string name="add_photo_select_title">_Einwaage Gesetze_</string><!-- In the following string, the user is presented a list of apps to get a photo from --><string name="add_photo_complete_action_using">_Legehennen Lettland eigenen_</string>
+  <string name="add_photo_invalid_image_error">_Genannt:_ _Zulassung gemacht_</string>
+  <string name="add_photo_upload_failed">_Ordnung:_ _Konzept Aufprall Republik._</string>
+  <string name="add_photo_no_images_available">Keine Aufnahme verfügbar</string>
+  <string name="add_photo_button_description">_Vgl. ŕ infolge._</string>
+  <string name="add_photo_empty_list_text">_Tarifen bestimmen Per optimal Ziels ff. Pruefung Ende umgehen pH-Wert._</string><!-- Photo viewer:--><string name="share_icon_title">Weiterleiten</string>
+  <string name="download_icon_title">_DENJENIGEN_</string>
+  <string name="delete_icon_title">_Ausgeübt_</string>
+  <string name="default_download_description">_Solcher Gesamtbetrags Zucht Berichterstatter_</string>
+  <string name="photo_album_name">FamilySearch</string>
+  <string name="photo_viewer_add_photo_title">_Raum B Saatgut…_</string>
+  <string name="photo_viewer_confirm_delete">_PORTUGAL Porto Abgaben?_</string>
+  <string name="photo_viewer_download_succeeded">_Hemmung Ermittlung zweijährigen._</string>
+  <string name="photo_viewer_download_failed">_Handeln originaire Beistand._</string><!-- Source details --><string name="source_detail_photo_description">_RECHNEN lov das laufend HSO L Versuche._</string>
+  <string name="sources_sorry_living_person_message">_Ausgeuebt Last DECT Wirkungsgrad Dung schnelle Abwässer._</string><!-- GedcomX types:--><string name="gedcomx.org.Adoption">Adoption</string>
+  <string name="gedcomx.org.AdultChristening">Erwachsenentaufe</string>
+  <string name="gedcomx.org.Amnesty">Amnestie</string>
+  <string name="gedcomx.org.Apprenticeship">_Besamungsstationen_</string>
+  <string name="gedcomx.org.Baptism">Taufe</string>
+  <string name="gedcomx.org.BarMitzvah">Bar-Mizwa</string>
+  <string name="gedcomx.org.BatMitzvah">_P.a. meldenden_</string>
+  <string name="gedcomx.org.Birth">Geburt</string>
+  <string name="gedcomx.org.Blessing">Segnung/Segen</string>
+  <string name="gedcomx.org.Burial">Bestattung</string>
+  <string name="gedcomx.org.Caste">_Zukommt_</string>
+  <string name="gedcomx.org.Census">Volkszählung:</string>
+  <string name="gedcomx.org.Christening">Kleinkindtaufe</string>
+  <string name="gedcomx.org.Circumcision">Beschneidung</string>
+  <string name="gedcomx.org.Clan">_BREIT_</string>
+  <string name="gedcomx.org.Confirmation">Konfirmierung</string>
+  <string name="gedcomx.org.Cremation">Einäscherung</string>
+  <string name="gedcomx.org.Death">Tod</string>
+  <string name="gedcomx.org.Education">_Streitkräfte_</string>
+  <string name="gedcomx.org.Emigration">Auswanderung</string>
+  <string name="gedcomx.org.Ethnicity">_Innenspiegel_</string>
+  <string name="gedcomx.org.Excommunication">Ausschluss aus der Kirche</string>
+  <string name="gedcomx.org.FirstCommunion">Erstkommunion</string>
+  <string name="gedcomx.org.Funeral">Trauerfeier</string>
+  <string name="gedcomx.org.Immigration">Einwanderung</string>
+  <string name="gedcomx.org.Imprisonment">_Berücksichtigten_</string>
+  <string name="gedcomx.org.LandTransation">_Prime Sachleistungen_</string>
+  <string name="gedcomx.org.Living">Lebend</string>
+  <string name="gedcomx.org.MaritalStatus">Familienstand</string>
+  <string name="gedcomx.org.Medical">_Angeblich_</string>
+  <string name="gedcomx.org.MilitaryAward">Militärische Auszeichnung</string>
+  <string name="gedcomx.org.MilitaryDischarge">Entlassung aus dem Militärdienst</string>
+  <string name="gedcomx.org.MilitaryService">Militärdienst</string>
+  <string name="gedcomx.org.Mission">Mission</string>
+  <string name="gedcomx.org.MoveFrom">_Sonde fonds_</string>
+  <string name="gedcomx.org.MoveTo">_Vitis Typ_</string>
+  <string name="gedcomx.org.MultipleBirth">_Extraktion Betrieb_</string>
+  <string name="gedcomx.org.NationalId">Ausweisnummer</string>
+  <string name="gedcomx.org.Nationality">_Sonderstempels_</string>
+  <string name="gedcomx.org.Naturalization">Einbürgerung</string>
+  <string name="gedcomx.org.NumberOfMarriages">Anzahl der Kinder</string>
+  <string name="gedcomx.org.Occupation">Beruf</string>
+  <string name="gedcomx.org.Ordination">Ordinierung</string>
+  <string name="gedcomx.org.PhysicalDescription">Personenbeschreibung</string>
+  <string name="gedcomx.org.Probate">Testamentseröffnung</string>
+  <string name="gedcomx.org.Property">_Wiedergabe_</string>
+  <string name="gedcomx.org.Religion">_Leistungen_</string>
+  <string name="gedcomx.org.Residence">Wohnsitz</string>
+  <string name="gedcomx.org.Retirement">Renteneintritt</string>
+  <string name="gedcomx.org.Stillbirth">_Schadenersatz_</string>
+  <string name="gedcomx.org.Will">Testament</string>
+  <string name="gedcomx.org.Visit">_Innerer_</string>
+  <string name="gedcomx.org.Annulment">Annullierung</string>
+  <string name="gedcomx.org.CommonLawMarriage">Ehe ohne Trauschein</string>
+  <string name="gedcomx.org.Divorce">Scheidung</string>
+  <string name="gedcomx.org.DivorceFiling">Einreichung der Scheidung</string>
+  <string name="gedcomx.org.Engagement">Verlobung</string>
+  <string name="gedcomx.org.Marriage">Eheschließung</string>
+  <string name="gedcomx.org.MarriageBanns">Aufgebot</string>
+  <string name="gedcomx.org.MarriageContract">Ehevertrag</string>
+  <string name="gedcomx.org.MarriageLicense">Heiratserlaubnis</string>
+  <string name="gedcomx.org.MarriageNotice">Bekanntgabe der Eheschließung</string>
+  <string name="gedcomx.org.NumberOfChildren">Anzahl der Kinder</string>
+  <string name="gedcomx.org.Separation">Trennung</string>
+  <string name="gedcomx.org.AdoptiveParent">_Gebrachten sinnvoll_</string>
+  <string name="gedcomx.org.BiologicalParent">_Kommerzieller Verweise_</string>
+  <string name="gedcomx.org.FosterParent">_Zerlegen erwerben_</string>
+  <string name="gedcomx.org.GuardianParent">_Stillstand Zollsatz_</string>
+  <string name="gedcomx.org.StepParent">_Tarif herrscht_</string>
+  <string name="gedcomx.org.SociologicalParent">_Stickstoffgehalt Schweine_</string>
+  <string name="gedcomx.org.Other">Other</string>
+  <string name="gedcomx.org.Female">weiblich</string>
+  <string name="gedcomx.org.Male">männlich</string>
+  <string name="gedcomx.org.BirthName">_Primary Kugel_</string>
+  <string name="gedcomx.org.DeathName">_Könnten liegt_</string>
+  <string name="gedcomx.org.MarriedName">_Tatsachen wären_</string>
+  <string name="gedcomx.org.AlsoKnownAs">Anderer Titel</string>
+  <string name="gedcomx.org.Nickname">_Beurteilen_</string>
+  <string name="gedcomx.org.AdoptiveName">_VORSCHÜSSE Türen_</string>
+  <string name="gedcomx.org.FormalName">_Gestellt Lohn-_</string>
+  <string name="gedcomx.org.ReligiousName">_Schriftliche Keime_</string>
+  <string name="familysearch.org.v1.LifeSketch">_Netze Hinsicht_</string><!-- Syncing stuff: --><string name="syncing_title">_NACHWEISE_</string>
+  <string name="syncing_photos">_Erfolgte_</string>
+  <string name="sync_notify_title">_Verbrauchsteuern chemisch Herde Produkts_</string>
+  <string name="sync_add_photo_upload_too_big">_Zonen Alkohol Firma The Kühl gesehen._</string>
+  <string name="sync_add_photo_upload_duplicate">_Teils Abgases soll verarbeiteten Frist Pferdepest._</string>
+  <string name="sync_add_photo_upload_failed">_Etwaiger New Acts SPANIEN wozu Nachweis._</string>
+  <string name="sync_add_source_upload_failure_generic">_Tomaten- EÖF noch SCHROTT REF C Künstler denn Dezember._</string>
+  <string name="sync_add_source_failed_source_creation">_Schutzes Eisenbahn- EUROSTAT plus Gewinne._</string>
+  <string name="sync_add_source_failed_source_reference_creation">_Darunter Änderungen generell Arzneimittel Acts vierzehn._</string><!--Lingoport test --><string name="param_digit">_Höher Per Ü Thorium Strecke %d_</string>
+  <string name="param_multi">_Bogen %1$d LES Wertpapier tragbare %2$s_ %3$d</string>
+  
+</resources>

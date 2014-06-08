@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ファミリーサーチ</string>
+    <string name="button_login">サインイン</string>
+    <string name="password_message">パスワード</string>
+    <string name="username_message">ユーザー名</string>
+    <string name="logging_in">サインインしています……</string>
+    <string name="login_failed">サインインに失敗しました</string>
+    <string name="login_failed_try_again">ユーザー名またはパスワードが正しくありません</string>
+    <string name="login_credentials_no_longer_valid_toast">あなたのユーザー名とパスワードは無効になっています。  もう一度サインインしてください。</string>
+    <string name="connection_failed">ファミリーサーチに接続できません。</string>
+    <string name="retrieving_pedigree_failed">系図表の取得に失敗しました。</string>
+    <string name="retrieving_pedigree_failed_try_again">系図表の取得に失敗しました。 再度試してください。</string>
+    <string name="action_cancelled">アクションはキャンセルされました。</string>
+    <string name="internet_disconnect_try_again">デバイスがインターネットに接続されていないため，このアクションを完了できません。  接続を確認して，再度試してください。</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="worldwide_records">100年以上にわたりファミリーサーチは，世界中の系図記録を積極的に集め，保存し，共有してきました。</string>
+    <string name="copyright1">© 2014 Intellectual Reserve, Inc. All rights reserved</string>
+    <string name="copyright2">提供者：末日聖徒イエス・キリスト教会</string>
+    <string name="menu_search">調べる</string>
+    <string name="toast_using_production_cloud">このアプリは今後，サンドボックスに代わり，プロダクションクラウドを使用します。</string>
+    <string name="toast_using_sandbox">このアプリは今後，プロダクションクラウドに代わり，サンドボックスを使用します。</string>
+    <string name="toast_how_to_return_to_production_cloud">サインインウィンドウのタイトルを5回タップすることで，プロダクションクラウドに戻ります。</string>
+    <string name="not_available"> </string>
+    <string name="pedigree_activity_title">系図表</string>
+
+    <!-- TRANSLATORS:  please preserve the html links in the two strings below.  The first string is supposed to say "Forgot username or password?"
+                       with 'username' and 'password' embedded in hyperlink tags to the appropriate web url.
+                       The second string is supposed to say 'Create an Account' all embedded in a hyperlink : -->
+    <string name="forgot_username_password">&lt;51&gt;ユーザー名&lt;/51&gt;または&lt;52&gt;パスワード&lt;/52&gt;を忘れましたか？</string>
+    <string name="register"><a href="[@string/register_link_url]">アカウントの作成</a></string>
+
+    <!--Labels for Person Detail Page-->
+    <string name="person_activity_title">個人</string>
+    <string name="label_person_tree_button">このツリーの表示</string>
+    <string name="label_person_vitals">生涯の情報</string>
+    <string name="label_person_other">その他</string>
+    <string name="label_person_name">名前</string>
+    <string name="label_person_gender">性別</string>
+    <string name="label_person_birth">出生</string>
+    <string name="label_person_christening">洗礼</string>
+    <string name="label_person_death">死亡</string>
+    <string name="label_person_burial">埋葬</string>
+    <string name="label_person_details">詳細</string>
+    <string name="label_person_temple">儀式</string>
+    <string name="label_person_spouses">配偶者</string>
+    <string name="label_person_parents">両親</string>
+    <string name="label_person_sources">情報源</string>
+    <string name="label_person_photos">写真</string>
+    <string name="label_person_stories">ストーリー</string>
+    <string name="label_person_charts">チャート</string>
+    <string name="label_person_life_sketch">生涯の概要</string>
+    <string name="label_alternate_names">別名</string>
+
+    <!-- Charts: -->
+    <string name="chart_download_toast">ダウンロードを開始しました</string>
+    <string name="chart_download_failed_toast">ダウンロードに失敗しました 外部記憶装置は利用できませんでした</string>
+
+    <string name="chart_pedigree_button">系図表のPDFをダウンロードする</string>
+    <string name="chart_pedigree_title">ファミリーサーチ・系図表</string>
+    <string name="chart_pedigree_description">%s の系図表</string>
+
+    <string name="chart_family_button"> 家族のPDFをダウンロードする</string>
+    <string name="chart_family_title">ファミリーサーチ・ファミリーチャート</string>
+    <string name="chart_family_description">%s のファミリーチャート</string>
+
+    <string name="chart_family_sources_button">家族のPDFをダウンロードする（情報源を含む）</string>
+    <string name="chart_family_sources_title">ファミリーサーチ・ファミリーチャート</string>
+    <string name="chart_family_sources_description">ファミリーチャート（%sの情報源を含む）</string>
+
+    <string name="chart_fan_button">扇形チャートのPDFをダウンロードする</string>
+    <string name="chart_fan_title">ファミリーサーチ・扇形チャート</string>
+    <string name="chart_fan_description">%s の扇形チャート</string>
+
+    <!-- history: -->
+    <string name="menu_history">履歴</string>
+    <string name="history_ab_title">履歴リスト</string>
+    <string name="history_go_to_label">次に進む：</string>
+    <string name="history_person_id_hint">ID番号</string>
+    <string name="history_invalid_pid_error">無効なID番号</string>
+
+    <string name="Male">男性</string>
+    <string name="Female">女性</string>
+    <string name="Unknown">不明</string>
+    <string name="gender_any">すべて</string>
+
+    <string name="history_hint">最近の履歴をブラウズする</string>
+    <string name="name_unknown">不明な名前</string>
+    <string name="lifespan_unknown">不明な生存期間</string>
+    <string name="pid_unknown">不明なID番号</string>
+    <string name="history_action_menu">履歴</string>
+    <string name="tree_menu_item">ツリー</string>
+    <string name="person_menu_item">個人</string>
+    <string name="about_menu_item">ファミリーサーチについて</string> <!-- This string is about the application not an about date -->
+    <string name="signout_menu_item">サインアウト</string>
+    <string name="settings_menu_item">設定</string>
+
+    <!--Labels for Person Ordinances Page-->
+    <string name="baptism">バプテスマ</string>
+    <string name="confirmation">確認</string>
+    <string name="initiatory">イニシャトリー</string>
+    <string name="endowment">エンダウメント</string>
+    <string name="sealingToParents">親子の結び固め</string>
+    <string name="sealingToSpouse">夫婦の結び固め</string>
+
+    <!-- Labels for Person Sources Page -->
+    <string name="externalSourceTitle">情報源を開く</string>
+    <string name="externalSourceWarning">情報源はファミリーサーチのウェブサイトにはありません。ブラウザで開きます。</string>
+
+    <!-- Search activity: -->
+    <string name="search_find_action">探す</string>
+    <string name="search_reset_action">リセット</string>
+    <string name="search_cancel_action">キャンセル</string>
+    <string name="search_new_action">新しい</string>
+    <string name="search_refine_action">絞り込み検索</string>
+    <string name="search_find_ancestors_label">先祖を見つける</string>
+    <string name="search_first_and_last_names_label">姓名</string>
+    <string name="search_first_names_hint">名</string>
+    <string name="search_last_names_hint">姓</string>
+    <string name="search_gender_label">性別</string>
+    <string name="search_event_label">出来事</string>
+    <string name="search_year_range_label">年(範囲）</string>
+    <string name="search_year_to_hint">次の日付まで</string>
+    <string name="search_year_from_hint">次の日付から</string>
+    <string name="search_place_label">場所</string>
+    <string name="search_father_names_label">父親の姓名</string>
+    <string name="search_mother_names_label">母親の姓名</string>
+    <string name="search_spouse_names_label">配偶者の姓名</string>
+    <string name="search_event_choice_select">選択</string>
+    <string name="search_event_choice_birth">出生</string>
+    <string name="search_event_choice_christening">洗礼</string>
+    <string name="search_event_choice_marriage">結婚　　　　　　　　　　</string>
+    <string name="search_event_choice_death">死亡</string>
+    <string name="search_event_choice_burial">埋葬</string>
+    <string name="search_error_no_search_criteria">検索項目を特定しなくてはなりません。</string>
+    <string name="search_error_invalid_year_field">無効な年。</string>
+    <string name="search_error_to_must_be_greater">終わりの年は，始めの年と同じかそれ以降の年でなくてはなりません。</string>
+    <string name="search_showing_25_results">検索結果の最初の25件のみを表示</string>
+    <string name="search_no_results">一致する検索結果はありませんでした。</string>
+    <string name="search_results_error">検索リクエストの処理中に，検索サーバーに問題が起きました。</string>
+    <string name="search_father_label">父親</string>
+    <string name="search_mother_label">母親</string>
+    <string name="search_spouse_label">配偶者</string>
+    <string name="search_result_birth_label">出生：</string>
+    <string name="search_result_death_label">死亡： </string>
+    <string name="search_result_parents_label">両親</string>
+    <string name="search_result_spouse_label">配偶者</string>
+    <!-- Search activity - more generic labels for some locales: -->
+    <string name="search_names_label">名前</string>
+    <string name="search_family_name_hint">姓</string>
+    <string name="search_given_names_hint">名</string>
+    <string name="search_father_names_label_short">父親の名前</string>
+    <string name="search_mother_names_label_short">母親の名前</string>
+    <string name="search_spouse_names_label_short">配偶者の姓</string>
+
+    <!-- Settings: -->
+    <string name="settings_preferences_category">基本設定</string>
+    <string name="settings_cellular_data_label">モバイルデータ通信</string>
+    <string name="settings_cellular_data_description">Wifiが利用できない場合，モバイルデータ通信を使って写真を同期化させます。</string>
+    <string name="settings_save_to_gallery_label">写真をギャラリーに移す</string>
+    <string name="settings_save_to_gallery_description">新しい写真のコピーをデバイスのギャラリーに保存します。</string>
+    <string name="settings_support_category">サポート</string>
+    <string name="settings_feedback_label">フィードバックを送る</string>
+    <string name="settings_feedback_no_email">電子メールアプリはインストールされていません。</string>
+    <string name="settings_advanced_category">上級</string>
+    <string name="settings_clear_cache_label">キャッシュのクリア</string>
+    <string name="settings_clear_cache_description">このデバイス内にある保存済み系図表データを全てクリアします。  アプリにファミリーサーチからの最新データを強制取得させます。</string>
+    <string name="settings_notify_clear_cache_title">ファミリーサーチ・ファミリーツリービューア</string>
+    <string name="settings_notify_clear_cache_message">キャッシュに格納された系図表データはクリアされました。</string>
+    <string name="settings_clear_cache_alert_dlg_title">キャッシュに格納された系図表データのクリア</string>
+    <string name="settings_clear_cache_alert_dlg_message">キャッシュに格納された系図表データのクリアにより，このデータをデバイスから削除します。 これによりアプリは，ファミリーサーチからの最新のデータを強制的に再度読み込みます。 また，デバイス内に表示できる十分なデータが入るまで，アプリのレスポンスタイムが遅れ，オフラインでの作業に使えるデータが制限されます。 先に進みますか？</string>
+    <string name="settings_continue_clearing_cache_button">続ける</string>
+    <string name="settings_cancel_clearing_cache_button">キャンセル</string>
+    <string name="settings_photo_cache_limit_title">写真キャッシュの上限</string>
+    <string name="settings_photo_cache_limit_message">キャッシュに格納できる写真の最大枚数</string>
+
+  <!--About dialog:-->
+    <string name="version">バージョン：</string>
+    <string name="os_version">OSバージョン：</string>
+    <string name="device">デバイス：</string>
+    <string name="display">表示：</string>
+    <string name="network">ネットワーク：</string>
+    <string name="connected">接続されています</string>
+    <string name="not_connected">接続されていません</string>
+
+    <!-- Image detail:-->
+    <string name="image_detail_title_label">タイトル：</string>
+
+    <!-- Fact detail:-->
+    <string name="fact_detail_sub_header_reason">理由</string>
+    <string name="fact_detail_footer_modified">更新済み</string>
+    <string name="fact_detail_send_email_chooser">電子メールアプリの選択</string>
+    <string name="fact_detail_send_email_error_no_client">電子メールアプリが見つかりません</string>
+    <string name="fact_name_label">名前</string>
+    <string name="fact_gender_label">性別</string>
+
+    <!-- Spouse and Children detail && Parents and Siblings detail: -->
+    <string name="spouse_title_label">配偶者</string>
+    <string name="children_title_label">子供</string>
+    <string name="married_title_label">既婚</string>
+    <string name="no_marriage_data_label">結婚の出来事はありません</string>
+    <string name="siblings_title_label">兄弟姉妹</string>
+
+    <!-- Photo submitter agreement screen -->
+    <string name="agreement_accept">そう思う</string>
+    <string name="agreement_reject">そう思わない</string>
+    <string name="agreement_title">アップロードの指針と提出への同意</string>
+    <string name="agreement_paragraph1">「同意する」をタップすることで，あなたはこれらの指針と「提出への同意」に同意することになります。</string>
+    <string name="agreement_all_ages">ファミリーサーチは家族中心のサイトであり，すべての年齢層を対象にしています。</string>
+    <string name="agreement_screened">すべての写真は公開される前に閲覧され検査されます。</string>
+    <string name="agreement_public">加えられたすべての写真は一般に公開されます</string>
+    <string name="agreement_photo_limits">.jpg および.png を最大5MBまでサポートします。</string>
+    <!-- TRANSLATORS:  The following string is supposed to say, "Review the Submission Agreement" with the html link wrapping 'Submission Agreement' Please preserve the html link -->
+    <string name="agreement_link_str"><a href="https://familysearch.org/legal/familysearch-content-submission-agreement">提出への同意</a> を確認する。</string>
+    <string name="agreement_principles_title">写真に関する原則</string>
+    <string name="agreement_principles_paragraph1">ファミリーサーチフォトは，個人が先祖の写真を共有して，家族が互いを知り合い愛し合うことができるようにしています。 以下の総合的な原則は写真に適応されるものとします。</string>
+    <string name="agreement_principle1">適切さ。 写真は慎み深さと徳の標準を適切に守るべきです。</string>
+    <string name="agreement_principle2">関連性。 写真は家族歴史の目的を支持するものであるべきです。</string>
+    <string name="agreement_principle3">心を向けさせる。 写真は個人が先祖を知り，愛するようになる助けとなるべきです。</string>
+    <string name="agreement_principle4">非営利である。 写真は製品を宣伝したり勧めたりするべきではありません。 写真は知的財産の権利を侵害するべきではありません。</string>
+    <string name="agreement_screening_title">写真検査のポリシーに関する指針</string>
+    <string name="agreement_screening1">ヌードや慎みのない写真はご遠慮ください。 洋服のファスナーやボタンはきちんと閉じているべきです。</string>
+    <string name="agreement_screening2">宗教的信条を汚すようなかたちで映し出されている場合，神聖な宗教着やその他の宗教的服装はやめてください。</string>
+    <string name="agreement_screening3">異性の衣類を身につけることはやめてください。</string>
+
+    <!-- "Add Photo" dialogs -->
+    <string name="add_photo_camera">写真を撮る</string>
+    <string name="add_photo_gallery">ギャラリーの写真を選択</string>
+    <string name="add_photo_fs">ファミリーサーチの写真を選択</string>
+    <string name="add_photo_select_title">画像を選択</string>
+    <string name="add_photo_complete_action_using">次でアクションを終了する：</string>  <!-- User is presented a list of apps to get a photo from -->
+    <string name="add_photo_invalid_image_error">エラー： 無効な画像</string>
+    <string name="add_photo_upload_failed">エラー： 画像のアップロードに失敗しました</string>
+    <string name="add_photo_no_images_available">利用できる画像はありません</string>
+
+    <!-- Photo viewer:-->
+    <string name="share_icon_title">共有</string>
+    <string name="download_icon_title">ダウンロード</string>
+    <string name="default_download_description">ファミリーサーチからダウンロードした写真</string>
+    <string name="photo_album_name">ファミリーサーチ</string>
+    <string name="photo_viewer_add_photo_title">タイトルの追加</string>
+
+    <!-- GedcomX types:-->
+    <string name="gedcomx.org.Adoption">養子縁組</string>
+    <string name="gedcomx.org.AdultChristening">成人の洗礼</string>
+    <string name="gedcomx.org.Amnesty">恩赦</string>
+    <string name="gedcomx.org.Apprenticeship">奉公</string>
+    <string name="gedcomx.org.Baptism">バプテスマ</string>
+    <string name="gedcomx.org.BarMitzvah">バルミツバー</string>
+    <string name="gedcomx.org.BatMitzvah">バトミツバー</string>
+    <string name="gedcomx.org.Birth">出生</string>
+    <string name="gedcomx.org.Blessing">祝福</string>
+    <string name="gedcomx.org.Burial">埋葬</string>
+    <string name="gedcomx.org.Caste">カースト</string>
+    <string name="gedcomx.org.Census">国勢調査</string>
+    <string name="gedcomx.org.Christening">洗礼</string>
+    <string name="gedcomx.org.Circumcision">割礼</string>
+    <string name="gedcomx.org.Clan">氏族</string>
+    <string name="gedcomx.org.Confirmation">確認</string>
+    <string name="gedcomx.org.Cremation">火葬</string>
+    <string name="gedcomx.org.Death">死亡</string>
+    <string name="gedcomx.org.Education">教育</string>
+    <string name="gedcomx.org.Emigration">出国</string>
+    <string name="gedcomx.org.Ethnicity">民族</string>
+    <string name="gedcomx.org.Excommunication">破門</string>
+    <string name="gedcomx.org.FirstCommunion">初聖体拝領式</string>
+    <string name="gedcomx.org.Funeral">葬儀</string>
+    <string name="gedcomx.org.Immigration">入国</string>
+    <string name="gedcomx.org.Imprisonment">入牢</string>
+    <string name="gedcomx.org.LandTransation">土地取り引き</string>
+    <string name="gedcomx.org.Living">生者</string>
+    <string name="gedcomx.org.MaritalStatus">婚姻状況</string>
+    <string name="gedcomx.org.Medical">医療歴</string>
+    <string name="gedcomx.org.MilitaryAward">軍事関係の賞</string>
+    <string name="gedcomx.org.MilitaryDischarge">除隊</string>
+    <string name="gedcomx.org.MilitaryService">兵役</string>
+    <string name="gedcomx.org.Mission">伝道</string>
+    <string name="gedcomx.org.MoveFrom">次の場所からの転居：</string>
+    <string name="gedcomx.org.MoveTo">次の場所に移動する：</string>
+    <string name="gedcomx.org.MultipleBirth">複数の出生</string>
+    <string name="gedcomx.org.NationalId">国民登録番号</string>
+    <string name="gedcomx.org.Nationality">国籍</string>
+    <string name="gedcomx.org.Naturalization">帰化</string>
+    <string name="gedcomx.org.NumberOfMarriages">結婚の回数</string>
+    <string name="gedcomx.org.Occupation">職業</string>
+    <string name="gedcomx.org.Ordination">聖任</string>
+    <string name="gedcomx.org.PhysicalDescription">身体的特徴</string>
+    <string name="gedcomx.org.Probate">遺言検認</string>
+    <string name="gedcomx.org.Property">資産</string>
+    <string name="gedcomx.org.Religion">宗教</string>
+    <string name="gedcomx.org.Residence">居住地</string>
+    <string name="gedcomx.org.Retirement">退職</string>
+    <string name="gedcomx.org.Stillbirth">死産</string>
+    <string name="gedcomx.org.Will">遺言</string>
+    <string name="gedcomx.org.Visit">訪問</string>
+    <string name="gedcomx.org.Annulment">婚姻の無効宣言</string>
+    <string name="gedcomx.org.CommonLawMarriage">内縁</string>
+    <string name="gedcomx.org.Divorce">離婚</string>
+    <string name="gedcomx.org.DivorceFiling">離婚申請</string>
+    <string name="gedcomx.org.Engagement">婚約</string>
+    <string name="gedcomx.org.Marriage">結婚　　　　　　　　　　</string>
+    <string name="gedcomx.org.MarriageBanns">結婚予告</string>
+    <string name="gedcomx.org.MarriageContract">婚姻前契約</string>
+    <string name="gedcomx.org.MarriageLicense">結婚許可証</string>
+    <string name="gedcomx.org.MarriageNotice">婚姻届</string>
+    <string name="gedcomx.org.NumberOfChildren">子供の数</string>
+    <string name="gedcomx.org.Separation">別居</string>
+    <string name="gedcomx.org.AdoptiveParent">養親</string>
+    <string name="gedcomx.org.BiologicalParent">実親</string>
+    <string name="gedcomx.org.FosterParent">里親</string>
+    <string name="gedcomx.org.GuardianParent">後見人</string>
+    <string name="gedcomx.org.StepParent">継親</string>
+    <string name="gedcomx.org.SociologicalParent">育ての親</string>
+    <string name="gedcomx.org.Other">その他</string>
+    <string name="gedcomx.org.Female">女性</string>
+    <string name="gedcomx.org.Male">男性</string>
+    <string name="gedcomx.org.BirthName">出生時の名前</string>
+    <string name="gedcomx.org.DeathName">死亡時の名前</string>
+    <string name="gedcomx.org.MarriedName">結婚後の名前</string>
+    <string name="gedcomx.org.AlsoKnownAs">通称</string>
+    <string name="gedcomx.org.Nickname">ニックネーム</string>
+    <string name="gedcomx.org.AdoptiveName">養子縁組後の名前</string>
+    <string name="gedcomx.org.FormalName">正式な名前</string>
+    <string name="gedcomx.org.ReligiousName">宗教上の名前</string>
+    <string name="familysearch.org.v1.LifeSketch">生涯の概要</string>
+
+    <!-- Syncing stuff: -->
+    <string name="syncing_title">同期化しています</string>
+    <string name="syncing_photos">写真</string>
+    <string name="sync_notify_title">ファミリーサーチ・ファミリーツリービューア</string>
+    <string name="sync_add_photo_upload_too_big">画像ファイルが大きすぎます。</string>
+    <string name="sync_add_photo_upload_duplicate">この写真は既にアップロードされています。</string>
+    <string name="sync_add_photo_upload_failed">個人に対して写真を追加することができません。</string>
+
+
+</resources>

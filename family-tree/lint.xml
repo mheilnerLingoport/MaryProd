@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+  <!-- Ignore all lint warnings in generated or included code -->
+  <issue id="all">
+    <ignore path="**/localytics/**/*.java"/>
+    <ignore path="**/com_crashlytics_export_strings.xml"/>
+  </issue>
+
+  <issue id="UnnecessaryLocalVariable" severity="ignore" />
+
+  <!-- This is to suppress a warning from EncryptUtil.java, which strangely cannot be suppressed in the class -->
+  <issue id="TrulyRandom" severity="ignore" >
+      <ignore path="**/EncryptUtil.java"/>
+  </issue>
+
+</lint>

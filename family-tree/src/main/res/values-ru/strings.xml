@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FamilySearch </string>
+    <string name="button_login">Войти в систему</string>
+    <string name="password_message">Пароль</string>
+    <string name="username_message">Имя пользователя</string>
+    <string name="logging_in">Вход в систему…</string>
+    <string name="login_failed">Не удалось войти в систему</string>
+    <string name="login_failed_try_again">Неверное имя пользователя или пароль.</string>
+    <string name="login_credentials_no_longer_valid_toast">Имя пользователя или пароль больше не действительны.  Просьба войти в систему снова.</string>
+    <string name="connection_failed">Не удалось подключиться к FamilySearch.</string>
+    <string name="retrieving_pedigree_failed">Не удалось загрузить родословную!</string>
+    <string name="retrieving_pedigree_failed_try_again">Не удалось загрузить родословную. Попробуйте еще раз. </string>
+    <string name="action_cancelled">Действие отменено.</string>
+    <string name="internet_disconnect_try_again">Данное действие в настоящее время не может быть осуществлено, поскольку устройство не подключено к Интернету.   Проверьте подключение и попробуйте снова..</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отменить</string>
+    <string name="worldwide_records">Более 100 лет FamilySearch и ее предшественники активно занимались сбором, сохранением и публикацией генеалогических записей во всем мире.</string>
+    <string name="copyright1">© 2014 Intellectual Reserve, Inc. Все права защищены.</string>
+    <string name="copyright2">Сервис предоставлен Церковью Иисуса Христа Святых последних дней</string>
+    <string name="menu_search">Поиск</string>
+    <string name="toast_using_production_cloud">Данное приложение теперь будет использовать Облако вместо Песочницы.</string>
+    <string name="toast_using_sandbox">Данное приложение теперь будет использовать Песочницу вместо Облака.</string>
+    <string name="toast_how_to_return_to_production_cloud">Для возвращения к Облаку необходимо нажать на заголовок  окна для входа в систему пять раз.</string>
+    <string name="not_available"> </string>
+    <string name="pedigree_activity_title">Родословная</string>
+
+    <!-- TRANSLATORS:  please preserve the html links in the two strings below.  The first string is supposed to say "Forgot username or password?"
+                       with 'username' and 'password' embedded in hyperlink tags to the appropriate web url.
+                       The second string is supposed to say 'Create an Account' all embedded in a hyperlink : -->
+    <string name="forgot_username_password">Забыли <a href="[@string/recover_username_link_url]">имя пользователя</a> или <a href="[@string/recover_password_link_url]">пароль</a>?</string>
+    <string name="register"><a href="[@string/register_link_url]">Создать учетную запись</a></string>
+
+    <!--Labels for Person Detail Page-->
+    <string name="person_activity_title">Человек </string>
+    <string name="label_person_tree_button">Просмотр этого  древа</string>
+    <string name="label_person_vitals">Ключевые сведения</string>
+    <string name="label_person_other">Другое</string>
+    <string name="label_person_name">Имя</string>
+    <string name="label_person_gender">Пол</string>
+    <string name="label_person_birth">Рождение</string>
+    <string name="label_person_christening">Данные о крещении </string>
+    <string name="label_person_death">Смерть</string>
+    <string name="label_person_burial">Погребение</string>
+    <string name="label_person_details">Детали</string>
+    <string name="label_person_temple">Таинства</string>
+    <string name="label_person_spouses">Супруги</string>
+    <string name="label_person_parents">Родители</string>
+    <string name="label_person_sources">Источники</string>
+    <string name="label_person_photos">Фотографии</string>
+    <string name="label_person_stories">Истории</string>
+    <string name="label_person_charts">Диаграммы</string>
+    <string name="label_person_life_sketch">Краткое жизнеописание</string>
+    <string name="label_alternate_names">Альтернативные имена</string>
+
+    <!-- Charts: -->
+    <string name="chart_download_toast">Загрузка началась</string>
+    <string name="chart_download_failed_toast">Загрузка не удалась Внешняя память была недоступна.</string>
+
+    <string name="chart_pedigree_button">Загрузить PDF файл Родословной</string>
+    <string name="chart_pedigree_title">Диаграмма родословной FamilySearch</string>
+    <string name="chart_pedigree_description">Диаграмма родословной для %s</string>
+
+    <string name="chart_family_button"> Загрузить PDF файл Данные о членах семьи</string>
+    <string name="chart_family_title">Данные о членах семьи FamilySearch</string>
+    <string name="chart_family_description">Данные о членах семьи для %s</string>
+
+    <string name="chart_family_sources_button">Загрузить PDF файл Данные о членах семьи с источниками</string>
+    <string name="chart_family_sources_title">Данные о членах семьи FamilySearch с источниками</string>
+    <string name="chart_family_sources_description">Данные о членах семьи с источниками для %s</string>
+
+    <string name="chart_fan_button">Загрузить PDF файл Веерной диаграммы</string>
+    <string name="chart_fan_title">Веерная диаграмма FamilySearch</string>
+    <string name="chart_fan_description">Веерная диаграмма для %s</string>
+
+    <!-- history: -->
+    <string name="menu_history">История</string>
+    <string name="history_ab_title">История просмотра </string>
+    <string name="history_go_to_label">Перейдите в </string>
+    <string name="history_person_id_hint">Номер идентификатора (ID)</string>
+    <string name="history_invalid_pid_error">Недействительный номер идентификатора (ID) </string>
+
+    <string name="Male">Мужской</string>
+    <string name="Female">Женский</string>
+    <string name="Unknown">Неизвестно </string>
+    <string name="gender_any">Любой</string>
+
+    <string name="history_hint">Просмотреть недавнюю историю</string>
+    <string name="name_unknown">Неизвестное имя </string>
+    <string name="lifespan_unknown">Неизвестная продолжительность жизни</string>
+    <string name="pid_unknown">Неизвестный идентификатор (ID)</string>
+    <string name="history_action_menu">История</string>
+    <string name="tree_menu_item">Древо</string>
+    <string name="person_menu_item">Человек </string>
+    <string name="about_menu_item">О FamilySearch</string> <!-- This string is about the application not an about date -->
+    <string name="signout_menu_item">Выйти из системы</string>
+    <string name="settings_menu_item">Настройки</string>
+
+    <!--Labels for Person Ordinances Page-->
+    <string name="baptism">Крещение</string>
+    <string name="confirmation">Конфирмация</string>
+    <string name="initiatory">Первоначальные таинства</string>
+    <string name="endowment">Облечение</string>
+    <string name="sealingToParents">Запечатывание с родителями </string>
+    <string name="sealingToSpouse">Запечатывание супругов</string>
+
+    <!-- Labels for Person Sources Page -->
+    <string name="externalSourceTitle">Открытие источника</string>
+    <string name="externalSourceWarning">Данный источник не находится на сайте  FamilySearch и будет открыт в вашем браузере.</string>
+
+    <!-- Search activity: -->
+    <string name="search_find_action">Найти</string>
+    <string name="search_reset_action">Сброс</string>
+    <string name="search_cancel_action">Отменить</string>
+    <string name="search_new_action">Новый </string>
+    <string name="search_refine_action">Уточнить </string>
+    <string name="search_find_ancestors_label">Найти предка</string>
+    <string name="search_first_and_last_names_label">Имена и фамилии</string>
+    <string name="search_first_names_hint">Имена и отчества</string>
+    <string name="search_last_names_hint">Фамилии</string>
+    <string name="search_gender_label">Пол</string>
+    <string name="search_event_label">Событие</string>
+    <string name="search_year_range_label">Год (Диапазон)</string>
+    <string name="search_year_to_hint">По </string>
+    <string name="search_year_from_hint">C</string>
+    <string name="search_place_label">Место </string>
+    <string name="search_father_names_label">ФИО отца</string>
+    <string name="search_mother_names_label">ФИО матери </string>
+    <string name="search_spouse_names_label">ФИО супруга(и)</string>
+    <string name="search_event_choice_select">Выбрать</string>
+    <string name="search_event_choice_birth">Рождение</string>
+    <string name="search_event_choice_christening">Данные о крещении </string>
+    <string name="search_event_choice_marriage">Брак</string>
+    <string name="search_event_choice_death">Смерть</string>
+    <string name="search_event_choice_burial">Погребение</string>
+    <string name="search_error_no_search_criteria">Необходимо указать критерии поиска.</string>
+    <string name="search_error_invalid_year_field">Недопустимый год.</string>
+    <string name="search_error_to_must_be_greater">«По какой год» должно быть больше или идентично «С какого года».</string>
+    <string name="search_showing_25_results">Отображать только 25 наиболее точных результатов</string>
+    <string name="search_no_results">Не удалось найти данные, соответствующие поисковому запросу.</string>
+    <string name="search_results_error">Поисковому серверу не удалось обработать поисковый запрос.</string>
+    <string name="search_father_label">Отец</string>
+    <string name="search_mother_label">Мать</string>
+    <string name="search_spouse_label">Супруг(а)</string>
+    <string name="search_result_birth_label">Рождение: </string>
+    <string name="search_result_death_label">Смерть:</string>
+    <string name="search_result_parents_label">Родители</string>
+    <string name="search_result_spouse_label">Супруг(а)</string>
+    <!-- Search activity - more generic labels for some locales: -->
+    <string name="search_names_label">ФИО</string>
+    <string name="search_family_name_hint">Фамилия</string>
+    <string name="search_given_names_hint">Имена </string>
+    <string name="search_father_names_label_short">ФИО отца</string>
+    <string name="search_mother_names_label_short">ФИО матери</string>
+    <string name="search_spouse_names_label_short">ФИО супруга(и)</string>
+
+    <!-- Settings: -->
+    <string name="settings_preferences_category">Варианты</string>
+    <string name="settings_cellular_data_label">Сотовая сеть</string>
+    <string name="settings_cellular_data_description">Если WiFi недоступен, используйте для синхронизации фотографий вашу сотовую связь</string>
+    <string name="settings_save_to_gallery_label">Фотографии в галерею</string>
+    <string name="settings_save_to_gallery_description">Сохранить копию каждой новой фотографии в галерее на данном устройстве.</string>
+    <string name="settings_support_category">Поддержка </string>
+    <string name="settings_feedback_label">Предоставить отзыв</string>
+    <string name="settings_feedback_no_email">Приложения электронной почты не установлены.</string>
+    <string name="settings_advanced_category">Усложненный</string>
+    <string name="settings_clear_cache_label">Очистить кэш</string>
+    <string name="settings_clear_cache_description">Это удалит все данные родословных из памяти данного устройства.  Инициирует приложение извлечь последние данные из FamilySearch.</string>
+    <string name="settings_notify_clear_cache_title">Просмотр Семейного древа FamilySearch </string>
+    <string name="settings_notify_clear_cache_message">Данные родословных, хранившиеся в кэш, удалены.</string>
+    <string name="settings_clear_cache_alert_dlg_title">Удалить данные родословных из кэш </string>
+    <string name="settings_clear_cache_alert_dlg_message">Удаление данных родословных из кэш сотрет эти данные на вашем устройстве. Если вы это сделаете, приложение перезагрузит последние данные из FamilySearch. Это также замедлит скорость работы приложения и ограничит объем данных для автономной работы до тех пор, пока у вас не будет достаточно данных на вашем устройстве Хотите продолжить?</string>
+    <string name="settings_continue_clearing_cache_button">Продолжить</string>
+    <string name="settings_cancel_clearing_cache_button">Отменить</string>
+    <string name="settings_photo_cache_limit_title">Максимальный объем кэш для фотографий</string>
+    <string name="settings_photo_cache_limit_message">Максимальное количество фотографий в кэше.</string>
+
+  <!--About dialog:-->
+    <string name="version">Версия: </string>
+    <string name="os_version">Версия ОС:</string>
+    <string name="device">Устройство:</string>
+    <string name="display">Дисплей:</string>
+    <string name="network">Сеть: </string>
+    <string name="connected">Подключено</string>
+    <string name="not_connected">Нет подключения</string>
+
+    <!-- Image detail:-->
+    <string name="image_detail_title_label">Название:</string>
+
+    <!-- Fact detail:-->
+    <string name="fact_detail_sub_header_reason">Обоснование</string>
+    <string name="fact_detail_footer_modified">Изменено</string>
+    <string name="fact_detail_send_email_chooser">Выбрать приложение электронной почты</string>
+    <string name="fact_detail_send_email_error_no_client">Приложение электронной почты не найдено</string>
+    <string name="fact_name_label">Имя</string>
+    <string name="fact_gender_label">Пол</string>
+
+    <!-- Spouse and Children detail && Parents and Siblings detail: -->
+    <string name="spouse_title_label">Супруг(а)</string>
+    <string name="children_title_label">Дети</string>
+    <string name="married_title_label">В браке</string>
+    <string name="no_marriage_data_label">Нет связанных с браком событий</string>
+    <string name="siblings_title_label">Родные братья и сестры</string>
+
+    <!-- Photo submitter agreement screen -->
+    <string name="agreement_accept">Согласен</string>
+    <string name="agreement_reject">Не согласен</string>
+    <string name="agreement_title">Инструкции по загрузке на сервер и Соглашение по предоставлению</string>
+    <string name="agreement_paragraph1">Нажав на "Согласен", вы выражаете согласие с этими Инструкциями и Соглашением по предоставлению</string>
+    <string name="agreement_all_ages">FamilySearch представляет собой сайт, ориентированный на семью, и подходит для людей любых возрастов.</string>
+    <string name="agreement_screened">Каждая фотография просматривается и проходит проверку до ее публикации.</string>
+    <string name="agreement_public">Все добавленные фотографии открыты для публичного просмотра. </string>
+    <string name="agreement_photo_limits">Мы поддерживаем форматы файлов .jpg и .png размером до 5 МБ.</string>
+    <!-- TRANSLATORS:  The following string is supposed to say, "Review the Submission Agreement" with the html link wrapping 'Submission Agreement' Please preserve the html link -->
+    <string name="agreement_link_str">Просмотреть <a href="https://familysearch.org/legal/familysearch-content-submission-agreement">Соглашение по предоставлению.</a></string>
+    <string name="agreement_principles_title">Принципы для фотографий</string>
+    <string name="agreement_principles_paragraph1">Программа Фотографии FamilySearch дает людям возможность делиться фотографиями предков, что в свою очередь позволяет членам семьи лучше узнавать и любить друг друга.  Следующие общие принципы должны применяться в отношении фотографий:</string>
+    <string name="agreement_principle1">Приличие.	 Соответствие надлежащим стандартам скромности и добродетели.</string>
+    <string name="agreement_principle2">Уместность.  Соответствие целям семейной истории.</string>
+    <string name="agreement_principle3">Способствовать обращению сердец. Они должны помогать людям узнавать больше о своих предках и больше любить их.</string>
+    <string name="agreement_principle4">Иметь некоммерческий характер. Они не должны рекламировать или способствовать продаже какой-либо продукции. Они не должны нарушать права интеллектуальной собственности.</string>
+    <string name="agreement_screening_title">Руководство по отбору фотографий</string>
+    <string name="agreement_screening1">Запрещается изображение обнаженных фигур или людей в нескромной одежде. Одежда должна быть надлежащим образом застегнута.</string>
+    <string name="agreement_screening2">Запрещается изображение одежды религиозного характера, если оно оскверняет данные религиозные верования.</string>
+    <string name="agreement_screening3">Запрещается изображение людей, переодетых в одежду другого пола.</string>
+
+    <!-- "Add Photo" dialogs -->
+    <string name="add_photo_camera">Сфотографировать </string>
+    <string name="add_photo_gallery">Выбрать из галереи</string>
+    <string name="add_photo_fs">Выбрать из FamilySearch</string>
+    <string name="add_photo_select_title">Выбрать снимок</string>
+    <string name="add_photo_complete_action_using">Закончить, используя:</string>  <!-- User is presented a list of apps to get a photo from -->
+    <string name="add_photo_invalid_image_error">Ошибка:  Неприемлемый снимок</string>
+    <string name="add_photo_upload_failed">Ошибка:  Загрузка снимка на сервер не выполнена</string>
+    <string name="add_photo_no_images_available">Нет доступных снимков</string>
+
+    <!-- Photo viewer:-->
+    <string name="share_icon_title">Поделиться</string>
+    <string name="download_icon_title">Загрузить</string>
+    <string name="default_download_description">Фотография загружена из FamilySearch</string>
+    <string name="photo_album_name">FamilySearch </string>
+    <string name="photo_viewer_add_photo_title">Добавить заголовок</string>
+
+    <!-- GedcomX types:-->
+    <string name="gedcomx.org.Adoption">Усыновление </string>
+    <string name="gedcomx.org.AdultChristening">Крещение взрослых в другой церкви</string>
+    <string name="gedcomx.org.Amnesty">Амнистия</string>
+    <string name="gedcomx.org.Apprenticeship">Обучение</string>
+    <string name="gedcomx.org.Baptism">Крещение</string>
+    <string name="gedcomx.org.BarMitzvah">Бар-мицва</string>
+    <string name="gedcomx.org.BatMitzvah">Бат-мицва</string>
+    <string name="gedcomx.org.Birth">Рождение</string>
+    <string name="gedcomx.org.Blessing">Благословение</string>
+    <string name="gedcomx.org.Burial">Погребение</string>
+    <string name="gedcomx.org.Caste">Каста</string>
+    <string name="gedcomx.org.Census">Перепись населения</string>
+    <string name="gedcomx.org.Christening">Данные о крещении </string>
+    <string name="gedcomx.org.Circumcision">Обрезание</string>
+    <string name="gedcomx.org.Clan">Клан</string>
+    <string name="gedcomx.org.Confirmation">Конфирмация</string>
+    <string name="gedcomx.org.Cremation">Кремация</string>
+    <string name="gedcomx.org.Death">Смерть</string>
+    <string name="gedcomx.org.Education">Образование</string>
+    <string name="gedcomx.org.Emigration">Эмиграция</string>
+    <string name="gedcomx.org.Ethnicity">Национальность</string>
+    <string name="gedcomx.org.Excommunication">Отлучение от церкви</string>
+    <string name="gedcomx.org.FirstCommunion">Первое причащение</string>
+    <string name="gedcomx.org.Funeral">Погребение</string>
+    <string name="gedcomx.org.Immigration">Иммиграция </string>
+    <string name="gedcomx.org.Imprisonment">Тюремное заключение</string>
+    <string name="gedcomx.org.LandTransation">Купчая земельного участка</string>
+    <string name="gedcomx.org.Living">Живущий</string>
+    <string name="gedcomx.org.MaritalStatus">Семейное положение</string>
+    <string name="gedcomx.org.Medical">Медицинское обслуживание</string>
+    <string name="gedcomx.org.MilitaryAward">Военная награда</string>
+    <string name="gedcomx.org.MilitaryDischarge">Увольнение в запас</string>
+    <string name="gedcomx.org.MilitaryService">Воинская служба</string>
+    <string name="gedcomx.org.Mission">Миссия</string>
+    <string name="gedcomx.org.MoveFrom">Переезд из</string>
+    <string name="gedcomx.org.MoveTo">Переезд в </string>
+    <string name="gedcomx.org.MultipleBirth">Многоплодное рождение</string>
+    <string name="gedcomx.org.NationalId">Государственный идентификатор (Id)</string>
+    <string name="gedcomx.org.Nationality">Гражданство</string>
+    <string name="gedcomx.org.Naturalization">Натурализация </string>
+    <string name="gedcomx.org.NumberOfMarriages">Количество браков</string>
+    <string name="gedcomx.org.Occupation">Род занятий</string>
+    <string name="gedcomx.org.Ordination">Посвящение</string>
+    <string name="gedcomx.org.PhysicalDescription">Физическое описание</string>
+    <string name="gedcomx.org.Probate">Официальное утверждение завещания </string>
+    <string name="gedcomx.org.Property">Недвижимость</string>
+    <string name="gedcomx.org.Religion">Вероисповедание</string>
+    <string name="gedcomx.org.Residence">Местожительство </string>
+    <string name="gedcomx.org.Retirement">Выход на пенсию </string>
+    <string name="gedcomx.org.Stillbirth">Мертворождение</string>
+    <string name="gedcomx.org.Will">Завещание </string>
+    <string name="gedcomx.org.Visit">Посещение</string>
+    <string name="gedcomx.org.Annulment">Признание брака недействительным </string>
+    <string name="gedcomx.org.CommonLawMarriage">Гражданский брак</string>
+    <string name="gedcomx.org.Divorce">Развод</string>
+    <string name="gedcomx.org.DivorceFiling">Регистрация развода</string>
+    <string name="gedcomx.org.Engagement">Помолвка </string>
+    <string name="gedcomx.org.Marriage">Брак</string>
+    <string name="gedcomx.org.MarriageBanns">Оглашение о заключении брака</string>
+    <string name="gedcomx.org.MarriageContract">Брачный контракт </string>
+    <string name="gedcomx.org.MarriageLicense">Разрешение на вступление в брак</string>
+    <string name="gedcomx.org.MarriageNotice">Объявление о свадьбе</string>
+    <string name="gedcomx.org.NumberOfChildren">Количество детей</string>
+    <string name="gedcomx.org.Separation">Раздельное проживание</string>
+    <string name="gedcomx.org.AdoptiveParent">Усыновитель </string>
+    <string name="gedcomx.org.BiologicalParent">Биологический родитель</string>
+    <string name="gedcomx.org.FosterParent">Приемный родитель</string>
+    <string name="gedcomx.org.GuardianParent">Опекун</string>
+    <string name="gedcomx.org.StepParent">Сводный родитель</string>
+    <string name="gedcomx.org.SociologicalParent">Социальный родитель</string>
+    <string name="gedcomx.org.Other">Другое</string>
+    <string name="gedcomx.org.Female">Женский</string>
+    <string name="gedcomx.org.Male">Мужской</string>
+    <string name="gedcomx.org.BirthName">Имя при рождении</string>
+    <string name="gedcomx.org.DeathName">Имя в момент смерти</string>
+    <string name="gedcomx.org.MarriedName">Фамилия по мужу</string>
+    <string name="gedcomx.org.AlsoKnownAs">Также известен как</string>
+    <string name="gedcomx.org.Nickname">Прозвище </string>
+    <string name="gedcomx.org.AdoptiveName">Имя при усыновлении</string>
+    <string name="gedcomx.org.FormalName">Полное имя</string>
+    <string name="gedcomx.org.ReligiousName">Духовное имя</string>
+    <string name="familysearch.org.v1.LifeSketch">Краткое жизнеописание</string>
+
+    <!-- Syncing stuff: -->
+    <string name="syncing_title">Процесс синхронизации</string>
+    <string name="syncing_photos">Фотографии</string>
+    <string name="sync_notify_title">Просмотр Семейного древа FamilySearch</string>
+    <string name="sync_add_photo_upload_too_big">Файл этого снимка слишком большой.</string>
+    <string name="sync_add_photo_upload_duplicate">Этот снимок уже загружен на сервер.</string>
+    <string name="sync_add_photo_upload_failed">Невозможно добавить фотографию этого человека</string>
+
+
+</resources>

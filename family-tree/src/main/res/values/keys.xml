@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="MissingTranslation" >
+  <!-- Defining preference keys here allows them to be used in preferences.xml and referenced in code via R.string. -->
+
+  <!-- These strings should NOT be translated -->
+  <string name="key_pref_preferences">pref_key_preferences</string>
+  <string name="key_pref_cellular_data">pref_key_cellular_data</string>
+  <string name="key_pref_save_to_gallery">pref_key_save_to_gallery</string>
+  <string name="key_pref_prefetch">pref_key_prefetch</string>
+  <string name="key_pref_feedback">pref_key_feedback</string>
+  <string name="key_pref_support">pref_key_support</string>
+  <string name="key_pref_submitter_agreement_accepted">pref_key_submitter_agreement_accepted</string>
+  <string name="key_pref_advanced">pref_key_advanced</string>
+  <string name="key_pref_clear_cache">pref_key_clear_cache</string>
+  <string name="key_pref_photo_cache_limit">pref_key_photo_cache_size</string>
+</resources>

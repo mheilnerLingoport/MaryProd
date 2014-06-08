@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Fake language strings file.  Test in emulator by running the "Custom Locale" app and creating
+and selecting a new "xx" language locale
+-->
+<resources>
+  <string name="app_name">&#26679;&#21697;Family Tree&#26679;&#21697;&#26679;&#21697;</string>
+  <string name="full_app_name">&#26679;&#21697;Family Tree Viewer&#26679;&#21697;&#26679;&#21697;</string>
+  <string name="button_login">&#26679;&#21697;Sign in</string>
+  <string name="password_message">&#26679;&#21697;Password&#26679;&#21697;&#26679;&#21697;</string>
+  <string name="username_message">&#26679;&#21697;Username&#26679;&#21697;&#26679;&#21697;</string>
+  <string name="logging_in">&#26679;&#21697;Signing In&#8230;&#26679;&#21697;</string>
+  <string name="login_failed">&#26679;&#21697;Sign In Failed&#26679;&#21697;</string>
+  <string name="login_failed_try_again">&#26679;&#21697;The username or password was incorrect.&#26679;&#21697;&#26679;&#21697; &#26679;&#21697;</string>
+  <string name="login_credentials_no_longer_valid_toast">&#26679;&#21697;Your username or password is no longer valid.  Please sign in again.&#26679;&#21697;</string>
+  <string name="connection_failed">&#26679;&#21697;Unable to Connect to FamilySearch.&#26679;&#21697; &#26679;&#21697; &#26679;&#21697;</string>
+  <string name="retrieving_pedigree_failed">&#26679;&#21697;Retrieving Pedigree Failed! &#26679;&#21697;&#26679;&#21697;</string>
+  <string name="retrieving_pedigree_failed_try_again">&#26679;&#21697;Retrieving Pedigree Failed. Please try again. &#26679;&#21697;&#26679;&#21697; &#26679;&#21697;</string>
+  <string name="action_cancelled">&#26679;&#21697;Action Canceled&#26679;&#21697;</string>
+  <string name="internet_disconnect_try_again">&#26679;&#21697;This action cannot be completed at this time because the device is not connected to the Internet.  Please check your connection, and try again.&#26679;&#21697;</string>
+  <string name="ok">&#26679;OK</string>
+  <string name="cancel">&#26679;Cancel</string>
+  <string name="yes">&#26679;Yes</string>
+  <string name="no">&#26679;No</string>
+  <string name="worldwide_records">&#26679;&#21697;&#26679;&#21697;&#26679;&#21697;&#26679;&#21697; For over 100 years, FamilySearch has been actively gathering, preserving, and sharing genealogical records worldwide. &#26679;&#21697;&#26679;&#21697;</string>
+  <string name="copyright1">&#26679;&#21697;&#26679;&#21697;&#169; 2014 Intellectual Reserve, Inc. All rights reserved.</string>
+  <string name="copyright2">&#26679;&#21697;&#26679;&#21697;&#26679;&#21697;&#26679;&#21697;A service provided by The Church of Jesus Christ of Latter-day Saints</string>
+  <string name="menu_search">&#26679;&#21697;Search&#26679;&#21697;</string>
+  <string name="toast_using_production_cloud">&#26679;&#21697;This app will now use the production cloud instead of the sandbox.&#26679;&#21697;</string>
+  <string name="toast_using_sandbox">&#26679;&#21697;This app will now use the sandbox instead of the production cloud.&#26679;&#21697;</string>
+  <string name="toast_how_to_return_to_production_cloud">&#26679;&#21697;Return to the production cloud by tapping the title of the sign-in window 5 times.&#26679;&#21697;</string>
+  <string name="not_available"> </string>
+  <string name="pedigree_activity_title">&#26679;&#21697;Pedigree</string>
+
+  <!-- TRANSLATORS:  please preserve the html links in the two strings below.  The first string is supposed to say "Forgot username or password?"
+                     with 'username' and 'password' embedded in hyperlink tags to the appropriate web url.
+                     The second string is supposed to say 'Create an Account' all embedded in a hyperlink : -->
+  <string name="forgot_username_password">&#26679;&#21697;&#26679;&#21697;Forgot <a href="https://ident.familysearch.org/cis-web/pages/recover/recoverUsername.html">username</a> or <a href="https://ident.familysearch.org/cis-web/pages/recover/recoverPassword.html">password</a>?&#26679;&#21697;&#26679;&#21697;</string>
+  <string name="register"><a href="https://familysearch.org/register/">&#26679;&#21697;&#26679;&#21697;Create an Account&#26679;&#21697;&#26679;&#21697;</a></string>
+
+  <!--Labels for Person Detail Page-->
+  <string name="person_activity_title">&#26679;Person&#21697;</string>
+  <string name="label_person_tree_button">&#26679;View This Tree&#26679;</string>
+  <string name="label_person_vitals">&#26679;Vitals&#26679;</string>
+  <string name="label_person_other">&#26679;&#21697;Other</string>
+  <string name="label_person_name">&#26679;&#21697;Name</string>
+  <string name="label_person_gender">&#26679;&#21697;Gender</string>
+  <string name="label_person_birth">&#26679;&#21697;Birth</string>
+  <string name="label_person_christening">&#26679;&#21697;Christening</string>
+  <string name="label_person_death">&#26679;&#21697;Death</string>
+  <string name="label_person_burial">&#26679;&#21697;Burial</string>
+  <string name="label_person_details">&#26679;&#21697;Details</string>
+  <string name="label_person_temple">&#26679;&#21697;Temple</string>
+  <string name="label_person_spouses">&#26679;&#21697;Spouses</string>
+  <string name="label_person_parents">&#26679;&#21697;Parents</string>
+  <string name="label_person_sources">&#26679;&#21697;Sources</string>
+  <string name="label_person_photos">&#26679;&#21697;Photos</string>
+  <string name="label_person_stories">&#26679;&#21697;Stories</string>
+    <string name="label_person_audio">&#26679;&#21697;Audio</string>
+  <string name="label_person_charts">&#26679;&#21697;Charts</string>
+  <string name="label_person_life_sketch">&#26679;&#21697;Life Sketch</string>
+  <string name="label_alternate_names">&#26679;&#21697;Alternate Names</string>
+
+  <!-- Charts: -->
+  <string name="chart_download_toast">&#26679;&#21697;Download has started</string>
+  <!-- Also used for photo download -->
+  <string name="chart_download_failed_toast">&#26679;&#21697;Download failed. External storage was not available.</string>
+  <string name="label_person_charts_download">&#26679;&#21697;Download PDF</string>
+  <string name="chart_pedigree_button">&#26679;&#21697;Pedigree</string>
+  <string name="chart_pedigree_title">&#26679;&#21697;FamilySearch Pedigree Chart</string>
+  <string name="chart_pedigree_description">&#26679;&#21697;Pedigree chart for %s</string>
+
+  <string name="chart_family_button">&#26679;&#21697;Family</string>
+  <string name="chart_family_title">&#26679;&#21697;FamilySearch Family Chart</string>
+  <string name="chart_family_description">&#26679;&#21697;Family chart for %s</string>
+
+  <string name="chart_family_sources_button">&#26679;&#21697;Family with Sources</string>
+  <string name="chart_family_sources_title">&#26679;&#21697;FamilySearch Family Chart with Sources</string>
+  <string name="chart_family_sources_description">&#26679;&#21697;Family chart with sources for %s</string>
+
+  <string name="chart_fan_button">&#26679;&#21697;Fan Chart</string>
+  <string name="chart_fan_title">&#26679;&#21697;FamilySearch Fan Chart</string>
+  <string name="chart_fan_description">&#26679;&#21697;Fan chart for %s</string>
+
+  <!-- history: -->
+  <string name="menu_history">&#26679;&#21697;History</string>
+  <string name="history_ab_title">&#26679;&#21697;History List</string>
+  <string name="history_go_to_label">&#26679;&#21697;Go to</string>
+  <string name="history_person_id_hint">&#26679;&#21697;ID Number</string>
+  <string name="history_invalid_pid_error">&#26679;&#21697;Invalid ID Number</string>
+
+  <string name="Male">&#26679;&#21697;Male</string>
+  <string name="Female">&#26679;&#21697;Female</string>
+  <string name="Unknown">&#26679;&#21697;Unknown</string>
+  <string name="gender_any">&#26679;&#21697;Any</string>
+
+  <string name="history_hint">&#26679;&#21697;Browse Recent History&#26679;&#21697;</string>
+  <string name="name_unknown">&#26679;&#21697;Unknown Name&#26679;&#21697;</string>
+  <string name="lifespan_unknown">&#26679;&#21697;Unknown Lifespan&#26679;&#21697;</string>
+  <string name="pid_unknown">&#26679;&#21697;Unknown PersonID&#26679;&#21697;</string>
+  <string name="history_action_menu">&#26679;&#21697;History</string>
+  <string name="tree_menu_item">Tree&#26679;&#21697;</string>
+  <string name="person_menu_item">Person&#26679;&#21697;</string>
+  <string name="about_menu_item">About&#26679;&#21697;</string>
+  <string name="signout_menu_item">Sign Out&#26679;&#21697;</string>
+  <string name="settings_menu_item">Settings&#26679;&#21697;</string>
+  <string name="temple_menu_item">Temple&#26679;&#21697;</string>
+  <string name="prefetch_menu_item">Prefetch&#26679;&#21697;</string>
+  <string name="refresh_person_menu_item">Refresh Person&#26679;&#21697;</string>
+
+  <!--Labels for Person Ordinances Page-->
+  <string name="baptism">&#26679;&#21697;Baptism&#26679;&#21697;&#26679;&#21697;</string>
+  <string name="confirmation">&#26679;&#21697;Confirmation&#26679;&#21697;&#26679;&#21697;</string>
+  <string name="initiatory">&#26679;&#21697;Initiatory&#26679;&#21697;&#26679;&#21697;</string>
+  <string name="endowment">&#26679;&#21697;Endowment&#26679;&#21697;&#26679;&#21697;</string>
+  <string name="sealingToParents">&#26679;&#21697;Sealing to Parents&#26679;&#21697;&#26679;&#21697;</string>
+  <string name="sealingToSpouse">&#26679;&#21697;Sealing to Spouse&#26679;&#21697;&#26679;&#21697;</string>
+  <string name="temple_ordinance_icon">Temple ordinance icon&#26679;&#21697;</string>
+
+  <!-- Labels for Person Sources Page -->
+  <string name="externalSourceTitle">&#26679;&#21697;Opening the Source</string>
+  <string name="externalSourceWarning">&#26679;&#21697;The source is not located on the FamilySearch website and will open in your browser.&#26679;&#21697;</string>
+  <string name="sources_add_photo_button_description">&#26679;&#21697;Add a photo as a source.</string>
+  <string name="sources_error_retrieving_photo_for_source">&#26679;&#21697;Unable to display source.</string>
+  <string name="sources_error_title_required">&#26679;&#21697;A source title is required.</string>
+  <string name="sources_download_title">&#26679;&#21697;FamilySearch source download for %s</string>
+  <string name="sources_download_failed_generic">&#26679;&#21697;Unable to download source.</string>
+  <string name="sources_download_in_progress">&#26679;&#21697;Source download in progress.</string>
+  <string name="sources_icon_description">&#26679;&#21697;Source icon</string>
+  <string name="sources_citation_hint">&#26679;&#21697;enter a citation</string>
+
+
+  <!-- Search activity: -->
+  <string name="search_find_action">&#26679;&#21697;Find</string>
+  <string name="search_reset_action">&#26679;&#21697;Reset</string>
+  <string name="search_cancel_action">&#26679;&#21697;Cancel</string>
+  <string name="search_new_action">&#26679;&#21697;New</string>
+  <string name="search_refine_action">&#26679;&#21697;Refine</string>
+  <string name="search_find_ancestors_label">&#26679;&#21697;Find Ancestor&#26679;&#21697;</string>
+  <string name="search_first_and_last_names_label">&#26679;&#21697;&#26679;&#21697;First and Last Names</string>
+  <string name="search_first_names_hint">&#26679;&#21697;&#26679;&#21697;First Names</string>
+  <string name="search_last_names_hint">&#26679;&#21697;&#26679;&#21697;Last Names</string>
+  <string name="search_gender_label">&#26679;&#21697;Gender</string>
+  <string name="search_event_label">&#26679;&#21697;Event</string>
+  <string name="search_year_range_label">&#26679;&#21697;&#26679;&#21697;Year (Range)</string>
+  <string name="search_year_to_hint">&#26679;&#21697;To</string>
+  <string name="search_year_from_hint">&#26679;&#21697;From</string>
+  <string name="search_place_label">&#26679;&#21697;Place</string>
+  <string name="search_father_names_label">&#26679;&#21697;&#26679;&#21697;Father\'s First and Last Names</string>
+  <string name="search_mother_names_label">&#26679;&#21697;&#26679;&#21697;Mother\'s First and Last Names</string>
+  <string name="search_spouse_names_label">&#26679;&#21697;&#26679;&#21697;Spouse\'s First and Last Names</string>
+  <string name="search_event_choice_select">&#26679;&#21697;Select</string>
+  <string name="search_event_choice_birth">&#26679;&#21697;Birth</string>
+  <string name="search_event_choice_christening">&#26679;&#21697;Christening</string>
+  <string name="search_event_choice_marriage">&#26679;&#21697;Marriage</string>
+  <string name="search_event_choice_death">&#26679;&#21697;Death</string>
+  <string name="search_event_choice_burial">&#26679;&#21697;Burial</string>
+  <string name="search_error_no_search_criteria">&#26679;&#21697;&#26679;&#21697;You must specify some search criteria.</string>
+  <string name="search_error_invalid_year_field">&#26679;&#21697;Invalid year.</string>
+  <string name="search_error_to_must_be_greater">&#26679;&#21697;&#26679;&#21697;The To year must be greater than or equal to the From year.</string>
+  <string name="search_showing_25_results">&#26679;&#21697;&#26679;&#21697;Only Showing Top 25 Results</string>
+  <string name="search_no_results">&#26679;&#21697;&#26679;&#21697;No matching search results found.</string>
+  <string name="search_results_error">&#26679;&#21697;&#26679;&#21697;Search server had a problem processing search request.</string>
+  <string name="search_father_label">&#26679;&#21697;Father</string>
+  <string name="search_mother_label">&#26679;&#21697;Mother</string>
+  <string name="search_spouse_label">&#26679;&#21697;Spouse</string>
+  <string name="search_result_birth_label">&#26679;&#21697;Birth:</string>
+  <string name="search_result_death_label">&#26679;&#21697;Death:</string>
+  <string name="search_result_parents_label">&#26679;&#21697;Parents</string>
+  <string name="search_result_spouse_label">&#26679;&#21697;Spouse</string>
+  <!-- Search activity - more generic labels for some locales: -->
+  <string name="search_names_label">&#26679;&#26679;Names</string>
+  <string name="search_family_name_hint">&#26679;&#26679;Family Name</string>
+  <string name="search_given_names_hint">&#26679;&#26679;Given Names</string>
+  <string name="search_father_names_label_short">&#26679;&#26679;Father\'s Names</string>
+  <string name="search_mother_names_label_short">&#26679;&#26679;Mother\'s Names</string>
+  <string name="search_spouse_names_label_short">&#26679;&#26679;Spouse\'s Names</string>
+
+  <!-- Settings: -->
+  <string name="settings_preferences_category">&#26679;&#26679;Preferences</string>
+  <string name="settings_cellular_data_label">&#26679;&#26679;Cellular Data</string>
+  <string name="settings_cellular_data_description">&#26679;&#26679;If wifi isn\'t available, use your cellular data plan to sync photos</string>
+  <string name="settings_prefetch_label">&#26679;&#26679;Download Pedigree</string>
+  <string name="settings_prefetch_description">&#26679;&#26679;Download your 6 generation pedigree for offline viewing</string>
+  <string name="settings_prefetch_started">&#26679;&#26679;Pedigree refresh has started</string>
+  <string name="settings_prefetch_in_progress">&#26679;&#26679;Pedigree refresh already in progress</string>
+  <string name="preference_prefetch_widget_label">&#26679;&#26679;Last Download:</string>
+  <string name="settings_notify_prefetch_title">&#26679;&#26679;FamilySearch Family Tree Viewer</string>
+  <string name="settings_notify_prefetch_progress_message">&#26679;&#26679;Pedigree refresh is in progress.</string>
+  <string name="settings_notify_prefetch_complete_message">&#26679;&#26679;Pedigree refresh is complete.</string>
+  <string name="settings_notify_prefetch_failed_message">&#26679;&#26679;Pedigree refresh canceled because device is not connected to the Internet.</string>
+  <string name="settings_save_to_gallery_label">&#26679;&#26679;Photos to Gallery</string>
+  <string name="settings_save_to_gallery_description">&#26679;&#26679;Save a copy of any new photo to the gallery on the device.</string>
+  <string name="settings_support_category">&#26679;&#26679;Support</string>
+  <string name="settings_feedback_label">&#26679;&#26679;Give Feedback</string>
+  <string name="settings_feedback_no_email">&#26679;&#26679;There are no email clients installed.</string>
+  <string name="settings_advanced_category">&#26679;&#26679;Advanced</string>
+  <string name="settings_clear_cache_label">&#26679;&#26679;Clear Cache</string>
+  <string name="settings_clear_cache_description">&#26679;&#26679;Clear all cached pedigree data, force app to retrieve latest data from FamilySearch.</string>
+  <string name="settings_notify_clear_cache_title">&#26679;&#26679;FamilySearch Family Tree Viewer</string>
+  <string name="settings_notify_clear_cache_message">&#26679;&#26679;Cached pedigree data has been cleared.</string>
+  <string name="settings_clear_cache_alert_dlg_title">&#26679;&#26679;Clear Cached Pedigree Data</string>
+  <string name="settings_clear_cache_alert_dlg_message">&#26679;&#26679;Clearing cached pedigree data will remove data cached locally on your device. Doing so will force the application to fetch the latest data from FamilySearch, but will also slow the application response time and limit the data available for offline work until you have sufficiently rebuilt the cache. Do you want to continue?</string>
+  <string name="settings_continue_clearing_cache_button">&#26679;&#26679;Continue</string>
+  <string name="settings_cancel_clearing_cache_button">&#26679;&#26679;Cancel</string>
+  <string name="settings_photo_cache_limit_title">&#26679;&#26679;Max Photo Cache</string>
+  <string name="settings_photo_cache_limit_message">&#26679;&#26679;The maximum number of photos to cache.</string>
+
+  <!--About dialog:-->
+  <string name="version">&#26679;Version&#26679;:</string>
+  <string name="os_version">&#26679;&#26679;OS Version:</string>
+  <string name="device">&#26679;&#26679;Device:</string>
+  <string name="display">&#26679;&#2667;Display:</string>
+  <string name="network">&#26679;&#26679;Network:</string>
+  <string name="connected">&#26679;&#26679;Connected</string>
+  <string name="not_connected">&#26679;&#26679;Not Connected</string>
+  <string name="about_rights_info">&#26679;&#26679;Rights and Use Information</string>
+  <string name="about_privacy_policy">&#26679;&#26679;Privacy Policy</string>
+  <string name="about_copyright">&#26679;&#26679;&#169; 2014 by Intellectual Reserve, Inc. All rights reserved.</string>
+  <string name="about_service_provided">&#26679;&#26679;A service provided by</string>
+  <string name="about_church">&#26679;&#26679;The Church of Jesus Christ of Latter-day Saints</string>
+
+  <!-- Image detail:-->
+  <string name="image_detail_title_label">&#26679;&#26679;Title:</string>
+
+  <!-- Fact detail:-->
+  <string name="fact_detail_sub_header_reason">&#26679;&#26679;Reason</string>
+  <string name="fact_detail_footer_modified">&#26679;&#26679;Modified</string>
+  <string name="fact_detail_send_email_chooser">&#26679;&#26679;Choose an Email Client</string>
+  <string name="fact_detail_send_email_error_no_client">&#26679;&#26679;Email app not found</string>
+  <string name="fact_name_label">&#26679;&#26679;Name</string>
+  <string name="fact_gender_label">&#26679;&#26679;Gender</string>
+
+  <!-- Spouse and Children detail && Parents and Siblings detail: -->
+  <string name="spouse_title_label">&#26679;&#26679;Spouse</string>
+  <string name="children_title_label">&#26679;&#26679;Children</string>
+  <string name="married_title_label">&#26679;&#26679;Married</string>
+  <string name="no_marriage_data_label">&#26679;&#26679;No Marriage Events</string>
+  <string name="siblings_title_label">&#26679;&#26679;Siblings</string>
+
+  <!-- Strings for the fragments that have empty lists, so we direct them to FS.org to add data :  -->
+  <!-- Note that in these cases, because we are retrieving the string in Java code, we need to wrap the strings with html tags in CDATA tags also to
+       preserve the html special chars -->
+  <string name="no_parents_listed">&#26679;&#26679;No Parents Listed</string>
+  <!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Parents" with the html link wrapping 'FamilySearch.org' Please preserve the html link -->
+  <string name="visit_fs_add_parents"><![CDATA[&#26679;&#26679;Visit <a href="https://familysearch.org/">FamilySearch.org</a> to add Parents]]></string>
+  <string name="no_spouses_listed">&#26679;&#26679;No Spouses Listed</string>
+  <!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Spouses" with the html link wrapping 'FamilySearch.org' Please preserve the html link -->
+  <string name="visit_fs_add_spouses"><![CDATA[&#26679;&#26679;Visit <a href="https://familysearch.org/">FamilySearch.org</a> to add Spouses]]></string>
+  <string name="no_stories_listed">&#26679;&#26679;No Stories Listed</string>
+  <!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Stories" with the html link wrapping 'FamilySearch.org' Please preserve the html link -->
+  <string name="visit_fs_add_stories"><![CDATA[&#26679;&#26679;Visit <a href="https://familysearch.org/">FamilySearch.org</a> to add Stories]]></string>
+  <string name="no_audio_listed">&#26679;&#26679;No Audio Listed</string>
+  <!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Audio" with the html link wrapping 'FamilySearch.org' Please preserve the html link -->
+  <string name="visit_fs_add_audio"><![CDATA[&#26679;&#26679;Visit <a href="https://familysearch.org/">FamilySearch.org</a> to add Audio]]></string>
+
+  <!-- Photo submitter agreement screen -->
+  <string name="agreement_accept">&#26679;&#26679;Agree</string>
+  <string name="agreement_reject">&#26679;&#26679;Disagree</string>
+  <string name="agreement_title">&#26679;&#26679;Upload Guidelines and Submission Agreement</string>
+  <string name="agreement_paragraph1">&#26679;&#26679;&#26679;&#26679;By tapping &#8220;Agree&#8221; you agree to these guidelines and submission agreement</string>
+  <string name="agreement_all_ages">&#26679;&#26679;&#26679;&#26679;&#26679;&#26679;FamilySearch is a family–oriented site and is intended to be appropriate for all ages.</string>
+  <string name="agreement_screened">&#26679;&#26679;&#26679;&#26679;Every photo is viewed and screened before it is published.</string>
+  <string name="agreement_public">&#26679;&#26679;&#26679;&#26679;&#26679;&#26679;All added photos are public.</string>
+  <string name="agreement_photo_limits">&#26679;&#26679;&#26679;&#26679;We support .jpg and .png up to 5MB.</string>
+  <!-- TRANSLATORS:  The following string is supposed to say, "Review the Submission Agreement" with the html link wrapping 'Submission Agreement' Please preserve the html link -->
+  <string name="agreement_link_str">&#26679;&#26679;&#26679;&#26679;&#26679;&#26679;Review the <a href="https://familysearch.org/legal/familysearch-content-submission-agreement">Submission Agreement.</a></string>
+  <string name="agreement_principles_title">&#26679;&#26679;&#26679;&#26679;Principles For Photos</string>
+  <string name="agreement_principles_paragraph1">&#26679;&#26679;&#26679;&#26679;&#26679;&#26679;&#26679;&#26679;FamilySearch Photos should allow individuals to share photos of ancestors that help the family come to
+                                                   know and love one another. The following overall principles should apply to photos:</string>
+  <string name="agreement_principle1">&#26679;&#26679;&#26679;&#26679;Appropriate. Photos should support appropriate standards of modesty and virtue.</string>
+  <string name="agreement_principle2">&#26679;&#26679;&#26679;&#26679;Relevant. They should support a family history purpose.</string>
+  <string name="agreement_principle3">&#26679;&#26679;&#26679;&#26679;Heart-turning. They should support individuals coming to know and love their ancestors.</string>
+  <string name="agreement_principle4">&#26679;&#26679;&#26679;&#26679;Noncommercial. They should not advertise or promote products. They should not infringe on intellectual property rights.</string>
+  <string name="agreement_screening_title">&#26679;&#26679;&#26679;&#26679;Photo Screening Policy Guidelines</string>
+  <string name="agreement_screening1">&#26679;&#26679;&#26679;&#26679;No nudity or immodesty. Clothing should be zipped and buttoned properly.</string>
+  <string name="agreement_screening2">&#26679;&#26679;&#26679;&#26679;No sacred or other religious clothing is allowed if it is displayed in a way that desecrates an associated religious belief.</string>
+  <string name="agreement_screening3">&#26679;&#26679;&#26679;&#26679;No cross-dressing.</string>
+
+  <!-- Numbers for numbered paragraphs (such as in the submitter agreement screen) -->
+  <string name="numbered_list_1">&#26679;1.</string>
+  <string name="numbered_list_2">&#26679;2.</string>
+  <string name="numbered_list_3">&#26679;3.</string>
+  <string name="numbered_list_4">&#26679;4.</string>
+
+  <!-- "Add Photo" dialogs -->
+  <string name="add_photo_camera">&#26679;&#26679;&#26679;&#26679;Take with camera</string>
+  <string name="add_photo_gallery">&#26679;&#26679;&#26679;&#26679;Select from gallery</string>
+  <string name="add_photo_fs">&#26679;&#26679;&#26679;&#26679;Select from FamilySearch</string>
+  <string name="add_photo_select_title">&#26679;&#26679;&#26679;&#26679;Select Image</string>
+  <string name="add_photo_complete_action_using">&#26679;&#26679;Complete action using</string>
+  <!-- User is presented a list of apps to get a photo from -->
+  <string name="add_photo_invalid_image_error">&#26679;&#26679;Error: Invalid image</string>
+  <string name="add_photo_upload_failed">&#26679;&#26679;Error: Image upload failed</string>
+  <string name="add_photo_no_images_available">&#26679;&#26679;No Images available</string>
+  <string name="add_photo_button_description">&#26679;&#21697;Add a photo.</string>
+  <string name="add_photo_empty_list_text">&#26679;&#26679;&#26679;&#26679;Share moments of their life by adding the first photo</string>
+
+  <!-- Photo viewer:-->
+  <string name="share_icon_title">&#26679;&#26679;Share</string>
+  <string name="download_icon_title">&#26679;&#26679;Download</string>
+  <string name="delete_icon_title">&#26679;&#26679;Delete</string>
+  <string name="default_download_description">&#26679;&#26679;Photo downloaded from FamilySearch</string>
+  <string name="photo_album_name">&#26679;&#26679;FamilySearch</string>
+  <string name="photo_viewer_add_photo_title">&#26679;&#26679;Add a Title…</string>
+  <string name="photo_viewer_confirm_delete">&#26679;&#26679;Delete this photo?</string>
+  <string name="photo_viewer_download_succeeded">&#26679;&#26679;Photo download succeeded</string>
+  <string name="photo_viewer_download_failed">&#26679;&#26679;Photo download failed</string>
+
+  <!-- Source details -->
+  <string name="source_detail_photo_description">&#26679;&#26679;Photo to be added as a source.</string>
+  <string name="sources_sorry_living_person_message">&#26679;&#26679;Sources are not available for living people.</string>
+
+  <!-- GedcomX types:-->
+  <string name="gedcomx.org.Adoption">&#26679;&#26679;Adoption</string>
+  <string name="gedcomx.org.AdultChristening">&#26679;&#26679;Adult Christening</string>
+  <string name="gedcomx.org.Amnesty">&#26679;&#26679;Amnesty</string>
+  <string name="gedcomx.org.Apprenticeship">&#26679;&#26679;Apprenticeship</string>
+  <string name="gedcomx.org.Baptism">&#26679;&#26679;Baptism</string>
+  <string name="gedcomx.org.BarMitzvah">&#26679;&#26679;Bar Mitzvah</string>
+  <string name="gedcomx.org.BatMitzvah">&#26679;&#26679;Bat Mitzvah</string>
+  <string name="gedcomx.org.Birth">&#26679;&#26679;Birth</string>
+  <string name="gedcomx.org.Blessing">&#26679;&#26679;Blessing</string>
+  <string name="gedcomx.org.Burial">&#26679;&#26679;Burial</string>
+  <string name="gedcomx.org.Caste">&#26679;&#26679;Caste</string>
+  <string name="gedcomx.org.Census">&#26679;&#26679;Census</string>
+  <string name="gedcomx.org.Christening">&#26679;&#26679;Christening</string>
+  <string name="gedcomx.org.Circumcision">&#26679;&#26679;Circumcision</string>
+  <string name="gedcomx.org.Clan">&#26679;&#26679;Clan</string>
+  <string name="gedcomx.org.Confirmation">&#26679;&#26679;Confirmation</string>
+  <string name="gedcomx.org.Cremation">&#26679;&#26679;Cremation</string>
+  <string name="gedcomx.org.Death">&#26679;&#26679;Death</string>
+  <string name="gedcomx.org.Education">&#26679;&#26679;Education</string>
+  <string name="gedcomx.org.Emigration">&#26679;&#26679;Emigration</string>
+  <string name="gedcomx.org.Ethnicity">&#26679;&#26679;Ethnicity</string>
+  <string name="gedcomx.org.Excommunication">&#26679;&#26679;Excommunication</string>
+  <string name="gedcomx.org.FirstCommunion">&#26679;&#26679;First Communion</string>
+  <string name="gedcomx.org.Funeral">&#26679;&#26679;Funeral</string>
+  <string name="gedcomx.org.Immigration">&#26679;&#26679;Immigration</string>
+  <string name="gedcomx.org.Imprisonment">&#26679;&#26679;Imprisonment</string>
+  <string name="gedcomx.org.LandTransation">&#26679;&#26679;Land Transation</string>
+  <string name="gedcomx.org.Living">&#26679;&#26679;Living</string>
+  <string name="gedcomx.org.MaritalStatus">&#26679;&#26679;Marital Status</string>
+  <string name="gedcomx.org.Medical">&#26679;&#26679;Medical</string>
+  <string name="gedcomx.org.MilitaryAward">&#26679;&#26679;Military Award</string>
+  <string name="gedcomx.org.MilitaryDischarge">&#26679;&#26679;Military Discharge</string>
+  <string name="gedcomx.org.MilitaryService">&#26679;&#26679;Military Service</string>
+  <string name="gedcomx.org.Mission">&#26679;&#26679;Mission</string>
+  <string name="gedcomx.org.MoveFrom">&#26679;&#26679;Move From</string>
+  <string name="gedcomx.org.MoveTo">&#26679;&#26679;Move To</string>
+  <string name="gedcomx.org.MultipleBirth">&#26679;&#26679;Multiple Birth</string>
+  <string name="gedcomx.org.NationalId">&#26679;&#26679;National Id</string>
+  <string name="gedcomx.org.Nationality">&#26679;&#26679;Nationality</string>
+  <string name="gedcomx.org.Naturalization">&#26679;&#26679;Naturalization</string>
+  <string name="gedcomx.org.NumberOfMarriages">&#26679;&#26679;Number Of Marriages</string>
+  <string name="gedcomx.org.Occupation">&#26679;&#26679;Occupation</string>
+  <string name="gedcomx.org.Ordination">&#26679;&#26679;Ordination</string>
+  <string name="gedcomx.org.PhysicalDescription">&#26679;&#26679;Physical Description</string>
+  <string name="gedcomx.org.Probate">&#26679;&#26679;Probate</string>
+  <string name="gedcomx.org.Property">&#26679;&#26679;Property</string>
+  <string name="gedcomx.org.Religion">&#26679;&#26679;Religion</string>
+  <string name="gedcomx.org.Residence">&#26679;&#26679;Residence</string>
+  <string name="gedcomx.org.Retirement">&#26679;&#26679;Retirement</string>
+  <string name="gedcomx.org.Stillbirth">&#26679;&#26679;Stillbirth</string>
+  <string name="gedcomx.org.Will">&#26679;&#26679;Will</string>
+  <string name="gedcomx.org.Visit">&#26679;&#26679;Visit</string>
+  <string name="gedcomx.org.Annulment">&#26679;&#26679;Annulment</string>
+  <string name="gedcomx.org.CommonLawMarriage">&#26679;&#26679;Common Law Marriage</string>
+  <string name="gedcomx.org.Divorce">&#26679;&#26679;Divorce</string>
+  <string name="gedcomx.org.DivorceFiling">&#26679;&#26679;Divorce Filing</string>
+  <string name="gedcomx.org.Engagement">&#26679;&#26679;Engagement</string>
+  <string name="gedcomx.org.Marriage">&#26679;&#26679;Marriage</string>
+  <string name="gedcomx.org.MarriageBanns">&#26679;&#26679;Marriage Banns</string>
+  <string name="gedcomx.org.MarriageContract">&#26679;&#26679;Marriage Contract</string>
+  <string name="gedcomx.org.MarriageLicense">&#26679;&#26679;Marriage License</string>
+  <string name="gedcomx.org.MarriageNotice">&#26679;&#26679;Marriage Notice</string>
+  <string name="gedcomx.org.NumberOfChildren">&#26679;&#26679;Number Of Children</string>
+  <string name="gedcomx.org.Separation">&#26679;&#26679;Separation</string>
+  <string name="gedcomx.org.AdoptiveParent">&#26679;&#26679;Adoptive Parent</string>
+  <string name="gedcomx.org.BiologicalParent">&#26679;&#26679;Biological Parent</string>
+  <string name="gedcomx.org.FosterParent">&#26679;&#26679;Foster Parent</string>
+  <string name="gedcomx.org.GuardianParent">&#26679;&#26679;Guardian Parent</string>
+  <string name="gedcomx.org.StepParent">&#26679;&#26679;Step Parent</string>
+  <string name="gedcomx.org.SociologicalParent">&#26679;&#26679;Sociological Parent</string>
+  <string name="gedcomx.org.Other">&#26679;&#26679;Other</string>
+  <string name="gedcomx.org.Female">&#26679;&#26679;Female</string>
+  <string name="gedcomx.org.Male">&#26679;&#26679;Male</string>
+  <string name="gedcomx.org.BirthName">&#26679;&#26679;Birth Name</string>
+  <string name="gedcomx.org.DeathName">&#26679;&#26679;Death Name</string>
+  <string name="gedcomx.org.MarriedName">&#26679;&#26679;Married Name</string>
+  <string name="gedcomx.org.AlsoKnownAs">&#26679;&#26679;Also Known As</string>
+  <string name="gedcomx.org.Nickname">&#26679;&#26679;Nickname</string>
+  <string name="gedcomx.org.AdoptiveName">&#26679;&#26679;Adoptive Name</string>
+  <string name="gedcomx.org.FormalName">&#26679;&#26679;Formal Name</string>
+  <string name="gedcomx.org.ReligiousName">&#26679;&#26679;Religious Name</string>
+  <string name="familysearch.org.v1.LifeSketch">&#26679;&#26679;Life Sketch</string>
+
+  <!-- Syncing stuff: -->
+  <string name="syncing_title">&#26679;&#26679;Syncing</string>
+  <string name="syncing_photos">&#26679;&#26679;Photos</string>
+  <string name="sync_notify_title">&#26679;&#26679;FamilySearch Family Tree Viewer</string>
+  <string name="sync_add_photo_upload_too_big">&#26679;&#26679;This image file is too large</string>
+  <string name="sync_add_photo_upload_duplicate">&#26679;&#26679;This photo has previously been uploaded</string>
+  <string name="sync_add_photo_upload_failed">&#26679;&#26679;Unable to add photo for person</string>
+  <string name="sync_add_source_upload_failure_generic">&#26679;&#26679;Unable to add photo as a source for person</string>
+  <string name="sync_add_source_failed_source_creation">&#26679;&#26679;Failed creating source for photo</string>
+  <string name="sync_add_source_failed_source_reference_creation">&#26679;&#26679;Failed creating source reference for person</string>
+
+
+</resources>

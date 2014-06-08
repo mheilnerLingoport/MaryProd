@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FamilySearch</string>
+    <string name="button_login">登入</string>
+    <string name="password_message">密碼</string>
+    <string name="username_message">用戶名</string>
+    <string name="logging_in">登入中……</string>
+    <string name="login_failed">登入失敗</string>
+    <string name="login_failed_try_again">用戶名或密碼不正確。</string>
+    <string name="login_credentials_no_longer_valid_toast">您的用戶名或密碼已經無效。  請重新登入。</string>
+    <string name="connection_failed">無法連結到FamilySearch。</string>
+    <string name="retrieving_pedigree_failed">擷取世系表失敗！</string>
+    <string name="retrieving_pedigree_failed_try_again">擷取世系表失敗。 請再試一次。</string>
+    <string name="action_cancelled">行動已取消。</string>
+    <string name="internet_disconnect_try_again">由於裝置未連線到網際網路，所以此行動無法在此刻完成。  請檢查網路連線，然後再試一次。</string>
+    <string name="ok">確認</string>
+    <string name="cancel">取消</string>
+    <string name="worldwide_records">FamilySearch積極蒐集、保存並分享世界各地的族譜紀錄，已逾百年歷史。</string>
+    <string name="copyright1">Intellectual Reserve, Inc.© 2014 版權所有。</string>
+    <string name="copyright2">本服務由耶穌基督後期聖徒教會提供</string>
+    <string name="menu_search">搜尋</string>
+    <string name="toast_using_production_cloud">本應用程式將使用生產雲端（Production Cloud），而非沙箱模型（Sandbox）。</string>
+    <string name="toast_using_sandbox">本應用程式將使用沙箱模型（Sandbox），而非生產雲端（Production Cloud）。</string>
+    <string name="toast_how_to_return_to_production_cloud">點選登入視窗的標題5次，返回生產雲端（production cloud）。</string>
+    <string name="not_available"> </string>
+    <string name="pedigree_activity_title">世系表</string>
+
+    <!-- TRANSLATORS:  please preserve the html links in the two strings below.  The first string is supposed to say "Forgot username or password?"
+                       with 'username' and 'password' embedded in hyperlink tags to the appropriate web url.
+                       The second string is supposed to say 'Create an Account' all embedded in a hyperlink : -->
+    <string name="forgot_username_password">忘了 <a href="[@string/recover_username_link_url]">用戶名</a> 或 <a href="[@string/recover_password_link_url]">密碼</a>？</string>
+    <string name="register"><a href="[@string/register_link_url]">建立帳號</a></string>
+
+    <!--Labels for Person Detail Page-->
+    <string name="person_activity_title">個人</string>
+    <string name="label_person_tree_button">檢視此家譜樹</string>
+    <string name="label_person_vitals">重要資料</string>
+    <string name="label_person_other">其他</string>
+    <string name="label_person_name">名字</string>
+    <string name="label_person_gender">性別</string>
+    <string name="label_person_birth">出生</string>
+    <string name="label_person_christening">領洗</string>
+    <string name="label_person_death">死亡</string>
+    <string name="label_person_burial">埋葬</string>
+    <string name="label_person_details">詳細資料</string>
+    <string name="label_person_temple">教儀</string>
+    <string name="label_person_spouses">配偶</string>
+    <string name="label_person_parents">父母</string>
+    <string name="label_person_sources">來源</string>
+    <string name="label_person_photos">相片</string>
+    <string name="label_person_stories">故事</string>
+    <string name="label_person_charts">圖表</string>
+    <string name="label_person_life_sketch">生活簡述</string>
+    <string name="label_alternate_names">別名</string>
+
+    <!-- Charts: -->
+    <string name="chart_download_toast">已開始下載</string>
+    <string name="chart_download_failed_toast">下載失敗。 沒有可用的外部儲存空間。</string>
+
+    <string name="chart_pedigree_button">下載世系表PDF檔</string>
+    <string name="chart_pedigree_title">FamilySearch世系表</string>
+    <string name="chart_pedigree_description">%s的世系表</string>
+
+    <string name="chart_family_button"> 下載家庭資料表PDF檔</string>
+    <string name="chart_family_title">FamilySearch家庭圖表</string>
+    <string name="chart_family_description">%s的家庭圖表</string>
+
+    <string name="chart_family_sources_button">下載附來源的家庭資料表PDF檔</string>
+    <string name="chart_family_sources_title">附來源的FamilySearch家庭圖表</string>
+    <string name="chart_family_sources_description">%s的附來源家庭圖表</string>
+
+    <string name="chart_fan_button">下載扇形表PDF檔</string>
+    <string name="chart_fan_title">FamilySearch 扇形表</string>
+    <string name="chart_fan_description">%s的扇形表</string>
+
+    <!-- history: -->
+    <string name="menu_history">歷史</string>
+    <string name="history_ab_title">歷史清單</string>
+    <string name="history_go_to_label">前往</string>
+    <string name="history_person_id_hint">ID號碼</string>
+    <string name="history_invalid_pid_error">無效的ID號碼</string>
+
+    <string name="Male">男</string>
+    <string name="Female">女</string>
+    <string name="Unknown">不詳</string>
+    <string name="gender_any">全部</string>
+
+    <string name="history_hint">瀏覽最近的歷史紀錄</string>
+    <string name="name_unknown">名字不詳</string>
+    <string name="lifespan_unknown">壽命不詳</string>
+    <string name="pid_unknown">ID號碼不詳</string>
+    <string name="history_action_menu">歷史</string>
+    <string name="tree_menu_item">家譜樹</string>
+    <string name="person_menu_item">個人</string>
+    <string name="about_menu_item">關於</string> <!-- This string is about the application not an about date -->
+    <string name="signout_menu_item">登出</string>
+    <string name="settings_menu_item">設定</string>
+
+    <!--Labels for Person Ordinances Page-->
+    <string name="baptism">洗禮</string>
+    <string name="confirmation">證實</string>
+    <string name="initiatory">先行禮</string>
+    <string name="endowment">恩道門</string>
+    <string name="sealingToParents">印證給父母</string>
+    <string name="sealingToSpouse">印證給配偶</string>
+
+    <!-- Labels for Person Sources Page -->
+    <string name="externalSourceTitle">開啟來源</string>
+    <string name="externalSourceWarning">FamilySearch網站中找不到此來源，將在你的瀏覽器中開啟來源。</string>
+
+    <!-- Search activity: -->
+    <string name="search_find_action">尋找</string>
+    <string name="search_reset_action">重設</string>
+    <string name="search_cancel_action">取消</string>
+    <string name="search_new_action">新的搜尋</string>
+    <string name="search_refine_action">縮小範圍</string>
+    <string name="search_find_ancestors_label">尋找祖先</string>
+    <string name="search_first_and_last_names_label">名字和姓氏</string>
+    <string name="search_first_names_hint">名字</string>
+    <string name="search_last_names_hint">姓氏</string>
+    <string name="search_gender_label">性別</string>
+    <string name="search_event_label">事項</string>
+    <string name="search_year_range_label">年份（範圍）</string>
+    <string name="search_year_to_hint">至</string>
+    <string name="search_year_from_hint">自</string>
+    <string name="search_place_label">地點</string>
+    <string name="search_father_names_label">父親的名字和姓氏</string>
+    <string name="search_mother_names_label">母親的名字和姓氏</string>
+    <string name="search_spouse_names_label">配偶的名字和姓氏</string>
+    <string name="search_event_choice_select">選取</string>
+    <string name="search_event_choice_birth">出生</string>
+    <string name="search_event_choice_christening">領洗</string>
+    <string name="search_event_choice_marriage">結婚</string>
+    <string name="search_event_choice_death">死亡</string>
+    <string name="search_event_choice_burial">埋葬</string>
+    <string name="search_error_no_search_criteria">你必須指明一些搜尋條件。</string>
+    <string name="search_error_invalid_year_field">無效的年份。</string>
+    <string name="search_error_to_must_be_greater">終止年份數值必須大於或等於起始年份。</string>
+    <string name="search_showing_25_results">僅顯示最佳的25個搜尋結果</string>
+    <string name="search_no_results">找不到相符的搜尋結果。</string>
+    <string name="search_results_error">搜尋伺服器在處理搜尋要求時發生問題。</string>
+    <string name="search_father_label">父親</string>
+    <string name="search_mother_label">母親</string>
+    <string name="search_spouse_label">配偶</string>
+    <string name="search_result_birth_label">出生：</string>
+    <string name="search_result_death_label">死亡：</string>
+    <string name="search_result_parents_label">父母</string>
+    <string name="search_result_spouse_label">配偶</string>
+    <!-- Search activity - more generic labels for some locales: -->
+    <string name="search_names_label">名字</string>
+    <string name="search_family_name_hint">姓氏</string>
+    <string name="search_given_names_hint">名字</string>
+    <string name="search_father_names_label_short">父親姓名</string>
+    <string name="search_mother_names_label_short">母親姓名</string>
+    <string name="search_spouse_names_label_short">配偶姓名</string>
+
+    <!-- Settings: -->
+    <string name="settings_preferences_category">喜好設定</string>
+    <string name="settings_cellular_data_label">行動數據</string>
+    <string name="settings_cellular_data_description">如果無法使用WiFi，請使用行動數據方案來同步相片</string>
+    <string name="settings_save_to_gallery_label">將相片儲存到相片集</string>
+    <string name="settings_save_to_gallery_description">將一張新相片儲存到裝置中的相片集。</string>
+    <string name="settings_support_category">支援</string>
+    <string name="settings_feedback_label">意見回饋</string>
+    <string name="settings_feedback_no_email">沒有安裝電子郵件應用程式。</string>
+    <string name="settings_advanced_category">進階</string>
+    <string name="settings_clear_cache_label">清除快取</string>
+    <string name="settings_clear_cache_description">清除所有儲存在此裝置的世系表資料。  強制應用程式擷取FamilySearch中的最新資料。</string>
+    <string name="settings_notify_clear_cache_title">FamilySearch家譜樹檢視器</string>
+    <string name="settings_notify_clear_cache_message">快取世系表資料已清除。</string>
+    <string name="settings_clear_cache_alert_dlg_title">清除快取世系表資料</string>
+    <string name="settings_clear_cache_alert_dlg_message">清除快取世系表資料時，將從你的裝置中移除此資料。 這樣做將強制應用程式重新載入FamilySearch中的最新資料。 這也將減慢應用程式的回應時間，限制離線工作可使用的資料，直到你的裝置有足夠的資料可以顯示。 要繼續嗎？</string>
+    <string name="settings_continue_clearing_cache_button">繼續</string>
+    <string name="settings_cancel_clearing_cache_button">取消</string>
+    <string name="settings_photo_cache_limit_title">最大相片快取</string>
+    <string name="settings_photo_cache_limit_message">快取相片的最大數量。</string>
+
+  <!--About dialog:-->
+    <string name="version">版本：</string>
+    <string name="os_version">OS版本：</string>
+    <string name="device">裝置：</string>
+    <string name="display">顯示：</string>
+    <string name="network">網絡：</string>
+    <string name="connected">已連接</string>
+    <string name="not_connected">未連接</string>
+
+    <!-- Image detail:-->
+    <string name="image_detail_title_label">標題：</string>
+
+    <!-- Fact detail:-->
+    <string name="fact_detail_sub_header_reason">原因</string>
+    <string name="fact_detail_footer_modified">已修改</string>
+    <string name="fact_detail_send_email_chooser">選擇一個電子郵件用戶端</string>
+    <string name="fact_detail_send_email_error_no_client">找不到電子郵件應用程式</string>
+    <string name="fact_name_label">名字</string>
+    <string name="fact_gender_label">性別</string>
+
+    <!-- Spouse and Children detail && Parents and Siblings detail: -->
+    <string name="spouse_title_label">配偶</string>
+    <string name="children_title_label">子女</string>
+    <string name="married_title_label">已婚</string>
+    <string name="no_marriage_data_label">無結婚事項</string>
+    <string name="siblings_title_label">兄弟姊妹</string>
+
+    <!-- Photo submitter agreement screen -->
+    <string name="agreement_accept">同意</string>
+    <string name="agreement_reject">不同意</string>
+    <string name="agreement_title">上傳準則及提交協議</string>
+    <string name="agreement_paragraph1">點選「同意」表示您同意遵守這些準則及提交協議的內容</string>
+    <string name="agreement_all_ages">FamilySearch是一個以家庭為對象的網站，適合任何年齡層的人使用。</string>
+    <string name="agreement_screened">每張相片在發布前均經過檢視和篩選。</string>
+    <string name="agreement_public">所有加入的相片都是公開的。</string>
+    <string name="agreement_photo_limits">我們支援的JPG和PNG檔最多5MB。</string>
+    <!-- TRANSLATORS:  The following string is supposed to say, "Review the Submission Agreement" with the html link wrapping 'Submission Agreement' Please preserve the html link -->
+    <string name="agreement_link_str">檢閱<a href="https://familysearch.org/legal/familysearch-content-submission-agreement">提交協議。</a></string>
+    <string name="agreement_principles_title">相片的原則</string>
+    <string name="agreement_principles_paragraph1">FamilySearch「相片」應能讓個人分享有助於家人
+                                                   彼此認識和關愛的祖先相片。  下列整體原則適用於所有相片：</string>
+    <string name="agreement_principle1">合宜。 相片應符合端莊和美德的合宜標準。</string>
+    <string name="agreement_principle2">切題。 相片應支持家譜的宗旨。</string>
+    <string name="agreement_principle3">讓心轉向。 相片應能幫助個人認識並喜愛自己的祖先。</string>
+    <string name="agreement_principle4">非商業性。 相片不應該為商品打廣告或促銷。  相片不應該侵害智慧財產權。</string>
+    <string name="agreement_screening_title">相片篩選政策準則</string>
+    <string name="agreement_screening1">不可裸露或不端莊。  衣服上的拉鍊必須妥善拉起，扣子也要扣好。</string>
+    <string name="agreement_screening2">若相片中出現的神聖性或其他宗教性衣著，其顯現方式褻瀆了相關的宗教信仰，則此相片不採用。</string>
+    <string name="agreement_screening3">不可穿著異性服裝。</string>
+
+    <!-- "Add Photo" dialogs -->
+    <string name="add_photo_camera">使用相機拍照</string>
+    <string name="add_photo_gallery">從相片集中選取</string>
+    <string name="add_photo_fs">從FamilySearch中選取</string>
+    <string name="add_photo_select_title">選取影像</string>
+    <string name="add_photo_complete_action_using">完成動作，用的是：</string>  <!-- User is presented a list of apps to get a photo from -->
+    <string name="add_photo_invalid_image_error">錯誤： 無效的影像</string>
+    <string name="add_photo_upload_failed">錯誤： 影像上傳失敗</string>
+    <string name="add_photo_no_images_available">影像無法取得。</string>
+
+    <!-- Photo viewer:-->
+    <string name="share_icon_title">分享</string>
+    <string name="download_icon_title">下載</string>
+    <string name="default_download_description">已從FamilySearch下載相片。</string>
+    <string name="photo_album_name">FamilySearch</string>
+    <string name="photo_viewer_add_photo_title">加入標題</string>
+
+    <!-- GedcomX types:-->
+    <string name="gedcomx.org.Adoption">收養</string>
+    <string name="gedcomx.org.AdultChristening">成人領洗</string>
+    <string name="gedcomx.org.Amnesty">特赦</string>
+    <string name="gedcomx.org.Apprenticeship">實習</string>
+    <string name="gedcomx.org.Baptism">洗禮</string>
+    <string name="gedcomx.org.BarMitzvah">猶太男子成年禮（Bar Mitzvah）</string>
+    <string name="gedcomx.org.BatMitzvah">猶太女子成年禮（Bat Mitzvah）</string>
+    <string name="gedcomx.org.Birth">出生</string>
+    <string name="gedcomx.org.Blessing">祝福</string>
+    <string name="gedcomx.org.Burial">埋葬</string>
+    <string name="gedcomx.org.Caste">種姓</string>
+    <string name="gedcomx.org.Census">人口普查</string>
+    <string name="gedcomx.org.Christening">領洗</string>
+    <string name="gedcomx.org.Circumcision">割禮</string>
+    <string name="gedcomx.org.Clan">氏族</string>
+    <string name="gedcomx.org.Confirmation">證實</string>
+    <string name="gedcomx.org.Cremation">火葬</string>
+    <string name="gedcomx.org.Death">死亡</string>
+    <string name="gedcomx.org.Education">教育</string>
+    <string name="gedcomx.org.Emigration">出境移民</string>
+    <string name="gedcomx.org.Ethnicity">種族</string>
+    <string name="gedcomx.org.Excommunication">開除教籍</string>
+    <string name="gedcomx.org.FirstCommunion">初領聖體</string>
+    <string name="gedcomx.org.Funeral">喪禮</string>
+    <string name="gedcomx.org.Immigration">入境移民</string>
+    <string name="gedcomx.org.Imprisonment">入獄</string>
+    <string name="gedcomx.org.LandTransation">土地交易</string>
+    <string name="gedcomx.org.Living">生活</string>
+    <string name="gedcomx.org.MaritalStatus">婚姻狀態</string>
+    <string name="gedcomx.org.Medical">醫療</string>
+    <string name="gedcomx.org.MilitaryAward">軍事獎章</string>
+    <string name="gedcomx.org.MilitaryDischarge">退役</string>
+    <string name="gedcomx.org.MilitaryService">服役</string>
+    <string name="gedcomx.org.Mission">傳教</string>
+    <string name="gedcomx.org.MoveFrom">遷出自</string>
+    <string name="gedcomx.org.MoveTo">遷入至</string>
+    <string name="gedcomx.org.MultipleBirth">多個出生紀錄</string>
+    <string name="gedcomx.org.NationalId">國民身分證號碼</string>
+    <string name="gedcomx.org.Nationality">國籍</string>
+    <string name="gedcomx.org.Naturalization">歸化入籍</string>
+    <string name="gedcomx.org.NumberOfMarriages">結婚次數</string>
+    <string name="gedcomx.org.Occupation">職業</string>
+    <string name="gedcomx.org.Ordination">按立</string>
+    <string name="gedcomx.org.PhysicalDescription">外觀描述</string>
+    <string name="gedcomx.org.Probate">遺囑認證</string>
+    <string name="gedcomx.org.Property">資產</string>
+    <string name="gedcomx.org.Religion">宗教</string>
+    <string name="gedcomx.org.Residence">居所</string>
+    <string name="gedcomx.org.Retirement">退休</string>
+    <string name="gedcomx.org.Stillbirth">死胎</string>
+    <string name="gedcomx.org.Will">遺囑</string>
+    <string name="gedcomx.org.Visit">訪視</string>
+    <string name="gedcomx.org.Annulment">宣告無效</string>
+    <string name="gedcomx.org.CommonLawMarriage">習慣法婚姻</string>
+    <string name="gedcomx.org.Divorce">離婚</string>
+    <string name="gedcomx.org.DivorceFiling">提出離婚申請</string>
+    <string name="gedcomx.org.Engagement">訂婚</string>
+    <string name="gedcomx.org.Marriage">結婚</string>
+    <string name="gedcomx.org.MarriageBanns">結婚預告</string>
+    <string name="gedcomx.org.MarriageContract">結婚契約</string>
+    <string name="gedcomx.org.MarriageLicense">結婚許可證</string>
+    <string name="gedcomx.org.MarriageNotice">結婚通知</string>
+    <string name="gedcomx.org.NumberOfChildren">子女數</string>
+    <string name="gedcomx.org.Separation">分居</string>
+    <string name="gedcomx.org.AdoptiveParent">收養父母</string>
+    <string name="gedcomx.org.BiologicalParent">親生父母</string>
+    <string name="gedcomx.org.FosterParent">寄養父母</string>
+    <string name="gedcomx.org.GuardianParent">監護人父母</string>
+    <string name="gedcomx.org.StepParent">繼父母</string>
+    <string name="gedcomx.org.SociologicalParent">社會父母</string>
+    <string name="gedcomx.org.Other">其他</string>
+    <string name="gedcomx.org.Female">女</string>
+    <string name="gedcomx.org.Male">男</string>
+    <string name="gedcomx.org.BirthName">出生姓名</string>
+    <string name="gedcomx.org.DeathName">死亡姓名</string>
+    <string name="gedcomx.org.MarriedName">婚後姓名</string>
+    <string name="gedcomx.org.AlsoKnownAs">字號</string>
+    <string name="gedcomx.org.Nickname">別名</string>
+    <string name="gedcomx.org.AdoptiveName">收養姓名</string>
+    <string name="gedcomx.org.FormalName">正式姓名</string>
+    <string name="gedcomx.org.ReligiousName">宗教姓名</string>
+    <string name="familysearch.org.v1.LifeSketch">生活簡述</string>
+
+    <!-- Syncing stuff: -->
+    <string name="syncing_title">同步中</string>
+    <string name="syncing_photos">相片</string>
+    <string name="sync_notify_title">FamilySearch家譜樹檢視器</string>
+    <string name="sync_add_photo_upload_too_big">這個影像檔案太大了。</string>
+    <string name="sync_add_photo_upload_duplicate">這張相片先前已上傳過了。</string>
+    <string name="sync_add_photo_upload_failed">無法加入個人的相片</string>
+
+
+</resources>

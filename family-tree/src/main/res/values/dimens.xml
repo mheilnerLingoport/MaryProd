@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="tree_view_margin">0dp</dimen>
+
+    <!-- History List properties -->
+    <!--<dimen name="spinner_title_top_margin">-3dp</dimen>-->
+
+    <dimen name="spinner_gender_icon_top_margin">13dp</dimen>
+    <dimen name="spinner_gender_icon_horizontal_margin">2dp</dimen>
+    <dimen name="spinner_name_top_margin">5dp</dimen>
+    <dimen name="spinner_subtext_top_margin">2dp</dimen>
+    <dimen name="spinner_subtext_bottom_margin">10dp</dimen>
+    <dimen name="spinner_name_textsize">24sp</dimen>
+    <dimen name="spinner_lifespan_textsize">18sp</dimen>
+    <dimen name="spinner_bullet_textsize">18sp</dimen>
+
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_semi_transparent">#d9333331</color>
+    <color name="spinner_dialog_transparency">#33000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_semi_transparent">#bbffffff</color>
+
+
+    <color name="action_bar_background">#ffffff</color>
+    <color name="action_bar_background_selected">#ecebea</color>
+
+    <color name="action_bar_baseline">#95d065</color>
+    <color name="action_bar_text">#333331</color>
+    <color name="action_bar_subtext">#ee4000</color>
+    <color name="action_bar_controls">#333331</color>
+
+    <color name="history_list_background">#ecebea</color>
+
+    <color name="detail_list_item_label_text">#818181</color>
+
+    <color name="person_child_item_value_text">#3485ff</color>
+    <color name="person_header_background">#333331</color>
+    <color name="person_child_item_background">#ffffff</color>
+    <color name="person_view_background">#ffffff</color>
+    <color name="person_gradient_background1">#84b3ab</color>
+    <color name="person_gradient_background2">#3a748c</color>
+    <color name="person_name_text">#ffffff</color>
+    <color name="person_tree_link_label">#ffffff</color>
+    <color name="person_lifespan_text">#b3b3b3</color>
+    <color name="person_list_item_separator">#b3b3b3</color>
+    <color name="person_tab_background">#a2ffffff</color>
+    <color name="person_tab_indicator">#3a748c</color>
+    <color name="empty_list_text">#80807d</color>
+    <color name="empty_list_link_text">#144cc9</color>
+
+
+    <color name="sync_indicator_text">#3a748c</color>
+
+
+    <!-- old history list colors -->
+    <color name="history_list_item_text">#333331</color>
+    <color name="history_list_item_subtext">#333331</color>
+    <color name="history_list_item_bullet">#333331</color>
+    <color name="history_list_item_bullet_male">#7777ff</color>
+    <color name="history_list_item_bullet_female">#ff7777</color>
+
+    <!-- history list colors -->
+    <color name="history_default_bg">#ffffff</color>
+    <color name="history_top_stripe">#f2662f</color>
+    <color name="history_go_to_label">#333331</color>
+    <color name="history_edit_hint_text">#a3a3a3</color>
+    <color name="history_edit_text">#333331</color>
+    <color name="history_go_to_bg">#cccccc</color>
+    <color name="history_name">#0051c4</color>
+    <color name="history_lifespan_and_pid">#666662</color>
+    <color name="history_item_bg">#f3f3f1</color>
+
+    <!-- stories fragment colors -->
+    <color name="story_list_title">#0051c4</color>
+    <color name="story_list_description">#666662</color>
+    <color name="story_list_bg">#ffffff</color>
+    <color name="story_content_title">#333331</color>
+    <color name="story_content_body">#666662</color>
+
+    <!-- audio fragment colors -->
+    <color name="audio_list_title">#0051c4</color>
+    <color name="audio_list_description">#666662</color>
+    <color name="audio_list_bg">#ffffff</color>
+    <color name="audio_content_title">#333331</color>
+    <color name="audio_content_body">#666662</color>
+
+    <!-- photos fragment -->
+    <color name="photo_list_bg">#e9e9e5</color>
+    <color name="photo_list_item_text">#000000</color>
+
+    <color name="LightCyan">#e0ffff</color>
+    <color name="Orange">#fa5000</color>
+
+    <color name="tree_view_background">#818181</color>
+    <color name="tree_view_lines">#343331</color>
+    <color name="clear_background">#00000000</color>
+    <color name="sandbox_background_solid">#9964989e</color>
+    <color name="sandbox_background_solid_title">#992020cc</color>
+    <color name="production_background_gradient_bottom_right">#3a748c</color>
+    <color name="production_background_gradient_top_left">#84b3ab</color>
+    <color name="sandbox_background_gradient_bottom_right">#b000f0</color>
+    <color name="sandbox_background_gradient_top_left">#2020cc</color>
+
+    <color name="image_detail_background">#ecebea</color>
+    <color name="image_title_label_text">#fffefd</color>
+    <color name="image_title_text">#ffffff</color>
+
+    <!-- Colors for the search screens: -->
+    <color name="search_top_stripe">#f2662f</color>
+    <color name="search_heading_bg">#d9d8d4</color>
+    <color name="search_background">#f1f1f1</color>
+    <color name="search_label_text">#666662</color>
+    <color name="search_edit_hint_text">#a3a3a3</color>
+    <color name="search_edit_text">#333331</color>
+    <color name="search_divider_color1">#cdcdcd</color>
+    <color name="search_divider_color2">#ffffff</color>
+    <color name="search_spinner_btn_text">#ffffff</color>
+    <color name="search_spinner_dropdown_bg">#efefef</color>
+    <color name="search_results_criteria_bg">#4d4d4a</color>
+    <color name="search_results_criteria_label_text">#e4e4e4</color>
+    <color name="search_results_criteria_value_text">#ffffff</color>
+    <color name="search_results_status_text">#333331</color>
+    <color name="search_results_name_text">#0051c4</color>
+    <color name="search_results_pid_text">#66665f</color>
+    <color name="search_results_item_label">#666661</color>
+    <color name="search_results_item_value">#333331</color>
+
+
+    <color name="fact_detail_background">#ecebea</color>
+    <color name="fact_header_semitransparent_overlay">#554c4c4c</color>
+    <color name="fact_header_background">#666662</color>
+    <color name="fact_title_label_text">#cdcdcd</color>
+    <color name="fact_header_text">#ffffff</color>
+    <color name="fact_attribution_date_text">#4c4c4a</color>
+    <color name="fact_title_text">#ffffff</color>
+    <color name="fact_sub_header_background">#909090</color>
+    <color name="fact_sub_header_label_text">#ffffff</color>
+    <color name="fact_footer_background">#ecebea</color>
+    <color name="fact_default_background">#ecebea</color>
+    <color name="fact_footer_label_text">#333331</color>
+    <color name="fact_footer_text">#333331</color>
+    <!--<color name="fact_footer_attributed_text">#0051c4</color>-->
+    <color name="fact_footer_attributed_text">#333331</color>
+    <color name="fact_content_text">#333331</color>
+    <color name="fact_reason_dividing_stripe">#e4e4e4</color>
+
+    <color name="children_name">#0051c4</color>
+    <color name="children_lifespan_and_pid">#666662</color>
+    <color name="children_header_bar_background">#ecebea</color>
+    <color name="children_black">#000000</color>
+
+    <!-- the gender-colored stripe across the top of screens: -->
+    <color name="gender_stripe_male">#3485ff</color>
+    <color name="gender_stripe_female">#e23e7b</color>
+    <color name="gender_stripe_unknown">#cccccc</color>
+
+    <!--person temple colors-->
+    <color name="person_temple_item_label_text">#333331</color>
+    <color name="person_temple_ordinance_label_text">#666662</color>
+    <color name="person_temple_ordinance_background">#ffffff</color>
+
+    <!--person photos colors-->
+    <color name="person_photos_description_background">#191918</color>
+    <color name="person_photos_background">#4c4c4a</color>
+    <color name="person_photos_text">#bab7b1</color>
+
+    <!-- agreement screen -->
+    <color name="agreement_stripe">#97c251</color>
+    <color name="agreement_text">#333331</color>
+
+</resources>

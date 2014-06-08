@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FamilySearch</string>
+    <string name="button_login">Accedi</string>
+    <string name="password_message">Password</string>
+    <string name="username_message">Nome utente</string>
+    <string name="logging_in">Accesso in corso…</string>
+    <string name="login_failed">Accesso non riuscito</string>
+    <string name="login_failed_try_again">Il nome utente o la password non sono corretti.</string>
+    <string name="login_credentials_no_longer_valid_toast">Il nome utente o la password non sono più validi.  Accedi di nuovo.</string>
+    <string name="connection_failed">Impossibile collegarsi a FamilySearch.</string>
+    <string name="retrieving_pedigree_failed">Recupero dell’albero genealogico non riuscito!</string>
+    <string name="retrieving_pedigree_failed_try_again">Recupero dell’albero genealogico non riuscito. Riprova.</string>
+    <string name="action_cancelled">Azione annullata</string>
+    <string name="internet_disconnect_try_again">Questa operazione non può essere completata ora perché il dispositivo non è collegato a Internet.  Controlla la tua connessione e riprova.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+    <string name="worldwide_records">Da oltre cento anni, FamilySearch raccoglie, conserva e condivide attivamente documenti genealogici in tutto il mondo.</string>
+    <string name="copyright1">© 2014 Intellectual Reserve, Inc. Tutti i diritti riservati.</string>
+    <string name="copyright2">Servizio fornito dalla Chiesa di Gesù Cristo dei Santi degli Ultimi Giorni</string>
+    <string name="menu_search">Cerca</string>
+    <string name="toast_using_production_cloud">Questa applicazione ora utilizzerà il cloud di produzione invece del sandbox.</string>
+    <string name="toast_using_sandbox">Questa applicazione ora utilizzerà il sandbox invece del cloud di produzione.</string>
+    <string name="toast_how_to_return_to_production_cloud">Torna al cloud di produzione toccando il titolo della finestra di accesso 5 volte.</string>
+    <string name="not_available"> </string>
+    <string name="pedigree_activity_title">Albero genealogico</string>
+
+    <!-- TRANSLATORS:  please preserve the html links in the two strings below.  The first string is supposed to say "Forgot username or password?"
+                       with 'username' and 'password' embedded in hyperlink tags to the appropriate web url.
+                       The second string is supposed to say 'Create an Account' all embedded in a hyperlink : -->
+    <string name="forgot_username_password">Hai dimenticato il <a href="[@string/recover_username_link_url]">nome utente</a> o la <a href="[@string/recover_password_link_url]">password</a>?</string>
+    <string name="register"><a href="[@string/register_link_url]">Crea un conto</a></string>
+
+    <!--Labels for Person Detail Page-->
+    <string name="person_activity_title">Persona</string>
+    <string name="label_person_tree_button">Visualizza questo albero</string>
+    <string name="label_person_vitals">Dati anagrafici</string>
+    <string name="label_person_other">Altro</string>
+    <string name="label_person_name">Nome</string>
+    <string name="label_person_gender">Sesso</string>
+    <string name="label_person_birth">Nascita</string>
+    <string name="label_person_christening">Battesimo catt./prot./altri</string>
+    <string name="label_person_death">Morte</string>
+    <string name="label_person_burial">Sepoltura</string>
+    <string name="label_person_details">Dettagli</string>
+    <string name="label_person_temple">Ordinanze</string>
+    <string name="label_person_spouses">Coniugi</string>
+    <string name="label_person_parents">Genitori</string>
+    <string name="label_person_sources">Fonti</string>
+    <string name="label_person_photos">Fotografie</string>
+    <string name="label_person_stories">Storie</string>
+    <string name="label_person_charts">Moduli</string>
+    <string name="label_person_life_sketch">Quadro biografico</string>
+    <string name="label_alternate_names">Nomi alternativi</string>
+
+    <!-- Charts: -->
+    <string name="chart_download_toast">Download avviato</string>
+    <string name="chart_download_failed_toast">Download non riuscito. La memoria esterna non è disponibile.</string>
+
+    <string name="chart_pedigree_button">Scarica il PDF dell’albero genealogico</string>
+    <string name="chart_pedigree_title">FamilySearch: albero genealogico</string>
+    <string name="chart_pedigree_description">Albero genealogico di %s</string>
+
+    <string name="chart_family_button"> Scarica il PDF della famiglia</string>
+    <string name="chart_family_title">FamilySearch: famiglia</string>
+    <string name="chart_family_description">Registro di gruppo familiare di %s</string>
+
+    <string name="chart_family_sources_button">Scarica il PDF della famiglia con fonti</string>
+    <string name="chart_family_sources_title">FamilySearch: famiglia con fonti</string>
+    <string name="chart_family_sources_description">Registro di gruppo familiare con fonti di %s</string>
+
+    <string name="chart_fan_button">Scarica il PDF del grafico a ventaglio</string>
+    <string name="chart_fan_title">FamilySearch: grafico a ventaglio</string>
+    <string name="chart_fan_description">Grafico a ventaglio di %s</string>
+
+    <!-- history: -->
+    <string name="menu_history">Cronologia</string>
+    <string name="history_ab_title">Elenco cronologia</string>
+    <string name="history_go_to_label">Vai a</string>
+    <string name="history_person_id_hint">Codice identificativo</string>
+    <string name="history_invalid_pid_error">Codice identificativo non valido</string>
+
+    <string name="Male">Maschio</string>
+    <string name="Female">Femmina</string>
+    <string name="Unknown">Sconosciuto</string>
+    <string name="gender_any">Qualsiasi</string>
+
+    <string name="history_hint">Sfoglia cronologia recente</string>
+    <string name="name_unknown">Nome sconosciuto</string>
+    <string name="lifespan_unknown">Durata della vita sconosciuta</string>
+    <string name="pid_unknown">Codice identificativo sconosciuto</string>
+    <string name="history_action_menu">Cronologia</string>
+    <string name="tree_menu_item">Albero</string>
+    <string name="person_menu_item">Persona</string>
+    <string name="about_menu_item">Informazioni</string> <!-- This string is about the application not an about date -->
+    <string name="signout_menu_item">Esci</string>
+    <string name="settings_menu_item">Impostazioni</string>
+
+    <!--Labels for Person Ordinances Page-->
+    <string name="baptism">Battesimo</string>
+    <string name="confirmation">Confermazione</string>
+    <string name="initiatory">Iniziatorie</string>
+    <string name="endowment">Investitura</string>
+    <string name="sealingToParents">Suggellamento ai genitori</string>
+    <string name="sealingToSpouse">Suggellamento al coniuge</string>
+
+    <!-- Labels for Person Sources Page -->
+    <string name="externalSourceTitle">Apertura fonte in corso</string>
+    <string name="externalSourceWarning">La fonte non si trova sul sito di FamilySearch e verrà aperta nel tuo browser.</string>
+
+    <!-- Search activity: -->
+    <string name="search_find_action">Trova</string>
+    <string name="search_reset_action">Reimposta</string>
+    <string name="search_cancel_action">Annulla</string>
+    <string name="search_new_action">Nuova</string>
+    <string name="search_refine_action">Perfeziona</string>
+    <string name="search_find_ancestors_label">Trova antenato</string>
+    <string name="search_first_and_last_names_label">Nome e cognome</string>
+    <string name="search_first_names_hint">Nome</string>
+    <string name="search_last_names_hint">Cognome</string>
+    <string name="search_gender_label">Sesso</string>
+    <string name="search_event_label">Evento</string>
+    <string name="search_year_range_label">Anno (da – a)</string>
+    <string name="search_year_to_hint">A</string>
+    <string name="search_year_from_hint">Da</string>
+    <string name="search_place_label">Luogo</string>
+    <string name="search_father_names_label">Nome e cognome del padre</string>
+    <string name="search_mother_names_label">Nome e cognome della madre</string>
+    <string name="search_spouse_names_label">Nome e cognome del coniuge</string>
+    <string name="search_event_choice_select">Seleziona</string>
+    <string name="search_event_choice_birth">Nascita</string>
+    <string name="search_event_choice_christening">Battesimo catt./prot./altri</string>
+    <string name="search_event_choice_marriage">Matrimonio</string>
+    <string name="search_event_choice_death">Morte</string>
+    <string name="search_event_choice_burial">Sepoltura</string>
+    <string name="search_error_no_search_criteria">Devi specificare alcuni criteri di ricerca.</string>
+    <string name="search_error_invalid_year_field">Anno non valido.</string>
+    <string name="search_error_to_must_be_greater">L’anno di fine deve essere maggiore o uguale all’anno di inizio.</string>
+    <string name="search_showing_25_results">Visualizzazione dei primi 25 risultati</string>
+    <string name="search_no_results">Nessun risultato di ricerca corrispondente trovato.</string>
+    <string name="search_results_error">Il server di ricerca ha avuto un problema nell’elaborazione della richiesta.</string>
+    <string name="search_father_label">Padre</string>
+    <string name="search_mother_label">Madre</string>
+    <string name="search_spouse_label">Coniuge</string>
+    <string name="search_result_birth_label">Nascita:</string>
+    <string name="search_result_death_label">Morte:</string>
+    <string name="search_result_parents_label">Genitori</string>
+    <string name="search_result_spouse_label">Coniuge</string>
+    <!-- Search activity - more generic labels for some locales: -->
+    <string name="search_names_label">Nome</string>
+    <string name="search_family_name_hint">Cognome</string>
+    <string name="search_given_names_hint">Nome</string>
+    <string name="search_father_names_label_short">Nome del padre</string>
+    <string name="search_mother_names_label_short">Nome della madre</string>
+    <string name="search_spouse_names_label_short">Nome del coniuge</string>
+
+    <!-- Settings: -->
+    <string name="settings_preferences_category">Preferenze</string>
+    <string name="settings_cellular_data_label">Rete dati cellulare</string>
+    <string name="settings_cellular_data_description">Se il Wi-Fi non è disponibile, usa la rete del tuo cellulare per sincronizzare le foto</string>
+    <string name="settings_save_to_gallery_label">Salva foto nella galleria</string>
+    <string name="settings_save_to_gallery_description">Salva una copia delle nuove foto nella galleria del dispositivo.</string>
+    <string name="settings_support_category">Assistenza</string>
+    <string name="settings_feedback_label">Invia un commento</string>
+    <string name="settings_feedback_no_email">Non ci sono applicazioni e-mail installate.</string>
+    <string name="settings_advanced_category">Impostazioni avanzate</string>
+    <string name="settings_clear_cache_label">Cancella cache</string>
+    <string name="settings_clear_cache_description">Cancella tutti i dati genealogici salvati su questo dispositivo.  Forza l’applicazione a recuperare i dati più recenti su FamilySearch.</string>
+    <string name="settings_notify_clear_cache_title">Visualizzatore per Albero familiare di FamilySearch</string>
+    <string name="settings_notify_clear_cache_message">I dati genealogici nella cache sono stati cancellati.</string>
+    <string name="settings_clear_cache_alert_dlg_title">Cancella i dati genealogici nella cache</string>
+    <string name="settings_clear_cache_alert_dlg_message">La cancellazione dei dati genealogici nella cache rimuoverà questi dati dal tuo dispositivo. Così facendo costringerai l’applicazione a ricaricare i dati più aggiornati da FamilySearch. Questo causerà il rallentamento dei tempi di risposta dell’applicazione e limiterà i dati disponibili per il lavoro non in linea sino a quando avrai abbastanza dati da visualizzare sul tuo dispositivo. Vuoi continuare?</string>
+    <string name="settings_continue_clearing_cache_button">Continua</string>
+    <string name="settings_cancel_clearing_cache_button">Annulla</string>
+    <string name="settings_photo_cache_limit_title">Limite foto nella cache</string>
+    <string name="settings_photo_cache_limit_message">Il numero massimo di foto da memorizzare nella cache.</string>
+
+  <!--About dialog:-->
+    <string name="version">Versione:</string>
+    <string name="os_version">Versione del sistema operativo:</string>
+    <string name="device">Dispositivo:</string>
+    <string name="display">Schermo:</string>
+    <string name="network">Rete:</string>
+    <string name="connected">Collegato</string>
+    <string name="not_connected">Non collegato</string>
+
+    <!-- Image detail:-->
+    <string name="image_detail_title_label">Titolo:</string>
+
+    <!-- Fact detail:-->
+    <string name="fact_detail_sub_header_reason">Motivo</string>
+    <string name="fact_detail_footer_modified">Modificato</string>
+    <string name="fact_detail_send_email_chooser">Scegli un cliente di posta elettronica</string>
+    <string name="fact_detail_send_email_error_no_client">Applicazione e–mail non trovata</string>
+    <string name="fact_name_label">Nome</string>
+    <string name="fact_gender_label">Sesso</string>
+
+    <!-- Spouse and Children detail && Parents and Siblings detail: -->
+    <string name="spouse_title_label">Coniuge</string>
+    <string name="children_title_label">Figli</string>
+    <string name="married_title_label">Coniugato/a</string>
+    <string name="no_marriage_data_label">Nessun evento matrimoniale</string>
+    <string name="siblings_title_label">Fratelli e sorelle</string>
+
+    <!-- Photo submitter agreement screen -->
+    <string name="agreement_accept">Accetto</string>
+    <string name="agreement_reject">Non accetto</string>
+    <string name="agreement_title">Carica le linee guida e l’accordo di invio</string>
+    <string name="agreement_paragraph1">Toccando “Accetto” ti impegni ad attenerti a queste linee guida e all’accordo di invio</string>
+    <string name="agreement_all_ages">FamilySearch è un sito rivolto alle famiglie ed è progettato per essere adatto a ogni età.</string>
+    <string name="agreement_screened">Ogni foto viene vista e analizzata prima di essere pubblicata.</string>
+    <string name="agreement_public">Tutte le foto caricate sono pubbliche.</string>
+    <string name="agreement_photo_limits">Possiamo supportare i file .jpg e .png fino a 5 MB.</string>
+    <!-- TRANSLATORS:  The following string is supposed to say, "Review the Submission Agreement" with the html link wrapping 'Submission Agreement' Please preserve the html link -->
+    <string name="agreement_link_str">Esamina l’<a href="https://familysearch.org/legal/familysearch-content-submission-agreement">accordo di invio.</a></string>
+    <string name="agreement_principles_title">Linee guida per le fotografie</string>
+    <string name="agreement_principles_paragraph1">Fotografie di FamilySearch consente alle persone di condividere foto di antenati per aiutare i membri della famiglia a conoscersi e ad amarsi reciprocamente. Le foto dovrebbero soddisfare questi requisiti:</string>
+    <string name="agreement_principle1">Appropriate. Devono sostenere appropriati principi di modestia e virtù.</string>
+    <string name="agreement_principle2">Rilevanti. Devono soddisfare lo scopo della storia familiare.</string>
+    <string name="agreement_principle3">Toccanti. Devono ispirare le persone a conoscere e ad amare i loro antenati.</string>
+    <string name="agreement_principle4">Non a fini commerciali. Non devono pubblicizzare né promuovere prodotti. Non devono violare i diritti di proprietà intellettuale.</string>
+    <string name="agreement_screening_title">Linee guida per la procedura di valutazione delle foto</string>
+    <string name="agreement_screening1">Nessun nudo o immodestia. I vestiti devono essere chiusi e abbottonati appropriatamente.</string>
+    <string name="agreement_screening2">Non è permesso alcun indumento sacro o religioso se in qualche modo profana il credo religioso.</string>
+    <string name="agreement_screening3">Niente travestitismo.</string>
+
+    <!-- "Add Photo" dialogs -->
+    <string name="add_photo_camera">Scatta con la fotocamera del dispositivo</string>
+    <string name="add_photo_gallery">Seleziona dalla galleria del dispositivo</string>
+    <string name="add_photo_fs">Seleziona da FamilySearch</string>
+    <string name="add_photo_select_title">Seleziona immagine</string>
+    <string name="add_photo_complete_action_using">Completa l’azione usando:</string>  <!-- User is presented a list of apps to get a photo from -->
+    <string name="add_photo_invalid_image_error">Errore: Immagine non valida</string>
+    <string name="add_photo_upload_failed">Errore: Caricamento dell’immagine non riuscito</string>
+    <string name="add_photo_no_images_available">Nessuna immagine disponibile.</string>
+
+    <!-- Photo viewer:-->
+    <string name="share_icon_title">Condividi</string>
+    <string name="download_icon_title">Scarica</string>
+    <string name="default_download_description">Foto scaricata da FamilySearch.</string>
+    <string name="photo_album_name">FamilySearch</string>
+    <string name="photo_viewer_add_photo_title">Aggiungi un titolo</string>
+
+    <!-- GedcomX types:-->
+    <string name="gedcomx.org.Adoption">Adozione</string>
+    <string name="gedcomx.org.AdultChristening">Battesimo adulto</string>
+    <string name="gedcomx.org.Amnesty">Amnistia</string>
+    <string name="gedcomx.org.Apprenticeship">Tirocinio</string>
+    <string name="gedcomx.org.Baptism">Battesimo</string>
+    <string name="gedcomx.org.BarMitzvah">Bar mitzvah</string>
+    <string name="gedcomx.org.BatMitzvah">Bat mitzvah</string>
+    <string name="gedcomx.org.Birth">Nascita</string>
+    <string name="gedcomx.org.Blessing">Benedizione</string>
+    <string name="gedcomx.org.Burial">Sepoltura</string>
+    <string name="gedcomx.org.Caste">Casta</string>
+    <string name="gedcomx.org.Census">Censimento</string>
+    <string name="gedcomx.org.Christening">Battesimo catt./prot./altri</string>
+    <string name="gedcomx.org.Circumcision">Circoncisione</string>
+    <string name="gedcomx.org.Clan">Clan</string>
+    <string name="gedcomx.org.Confirmation">Confermazione</string>
+    <string name="gedcomx.org.Cremation">Cremazione</string>
+    <string name="gedcomx.org.Death">Morte</string>
+    <string name="gedcomx.org.Education">Istruzione</string>
+    <string name="gedcomx.org.Emigration">Emigrazione</string>
+    <string name="gedcomx.org.Ethnicity">Etnia</string>
+    <string name="gedcomx.org.Excommunication">Scomunica</string>
+    <string name="gedcomx.org.FirstCommunion">Prima comunione</string>
+    <string name="gedcomx.org.Funeral">Funerale</string>
+    <string name="gedcomx.org.Immigration">Immigrazione</string>
+    <string name="gedcomx.org.Imprisonment">Carcerazione</string>
+    <string name="gedcomx.org.LandTransation">Transazione terriera</string>
+    <string name="gedcomx.org.Living">Vivente</string>
+    <string name="gedcomx.org.MaritalStatus">Stato civile</string>
+    <string name="gedcomx.org.Medical">Salute</string>
+    <string name="gedcomx.org.MilitaryAward">Riconoscimento militare</string>
+    <string name="gedcomx.org.MilitaryDischarge">Congedo militare</string>
+    <string name="gedcomx.org.MilitaryService">Servizio militare</string>
+    <string name="gedcomx.org.Mission">Missione</string>
+    <string name="gedcomx.org.MoveFrom">Trasferimento da</string>
+    <string name="gedcomx.org.MoveTo">Trasferimento a</string>
+    <string name="gedcomx.org.MultipleBirth">Nascita multipla</string>
+    <string name="gedcomx.org.NationalId">Documento d’identità nazionale</string>
+    <string name="gedcomx.org.Nationality">Nazionalità</string>
+    <string name="gedcomx.org.Naturalization">Naturalizzazione</string>
+    <string name="gedcomx.org.NumberOfMarriages">Numero di matrimoni</string>
+    <string name="gedcomx.org.Occupation">Professione</string>
+    <string name="gedcomx.org.Ordination">Ordinazione</string>
+    <string name="gedcomx.org.PhysicalDescription">Descrizione fisica</string>
+    <string name="gedcomx.org.Probate">Successione</string>
+    <string name="gedcomx.org.Property">Proprietà</string>
+    <string name="gedcomx.org.Religion">Religione</string>
+    <string name="gedcomx.org.Residence">Residenza</string>
+    <string name="gedcomx.org.Retirement">Pensionamento</string>
+    <string name="gedcomx.org.Stillbirth">Nato morto</string>
+    <string name="gedcomx.org.Will">Testamento</string>
+    <string name="gedcomx.org.Visit">Visita</string>
+    <string name="gedcomx.org.Annulment">Annullamento</string>
+    <string name="gedcomx.org.CommonLawMarriage">Unione more uxorio</string>
+    <string name="gedcomx.org.Divorce">Divorzio</string>
+    <string name="gedcomx.org.DivorceFiling">Atto di divorzio</string>
+    <string name="gedcomx.org.Engagement">Fidanzamento</string>
+    <string name="gedcomx.org.Marriage">Matrimonio</string>
+    <string name="gedcomx.org.MarriageBanns">Pubblicazioni matrimoniali</string>
+    <string name="gedcomx.org.MarriageContract">Contratto matrimoniale</string>
+    <string name="gedcomx.org.MarriageLicense">Licenza di matrimonio</string>
+    <string name="gedcomx.org.MarriageNotice">Avviso di matrimonio</string>
+    <string name="gedcomx.org.NumberOfChildren">Numero di figli</string>
+    <string name="gedcomx.org.Separation">Separazione</string>
+    <string name="gedcomx.org.AdoptiveParent">Genitore adottivo</string>
+    <string name="gedcomx.org.BiologicalParent">Genitore naturale</string>
+    <string name="gedcomx.org.FosterParent">Genitore affidatario</string>
+    <string name="gedcomx.org.GuardianParent">Genitore tutore</string>
+    <string name="gedcomx.org.StepParent">Genitore acquisito</string>
+    <string name="gedcomx.org.SociologicalParent">Genitore sociale</string>
+    <string name="gedcomx.org.Other">Altro</string>
+    <string name="gedcomx.org.Female">Femmina</string>
+    <string name="gedcomx.org.Male">Maschio</string>
+    <string name="gedcomx.org.BirthName">Nome alla nascita</string>
+    <string name="gedcomx.org.DeathName">Nome alla morte</string>
+    <string name="gedcomx.org.MarriedName">Nome dopo il matrimonio</string>
+    <string name="gedcomx.org.AlsoKnownAs">Anche noto come</string>
+    <string name="gedcomx.org.Nickname">Soprannome</string>
+    <string name="gedcomx.org.AdoptiveName">Nome adottivo</string>
+    <string name="gedcomx.org.FormalName">Nome formale</string>
+    <string name="gedcomx.org.ReligiousName">Nome religioso</string>
+    <string name="familysearch.org.v1.LifeSketch">Quadro biografico</string>
+
+    <!-- Syncing stuff: -->
+    <string name="syncing_title">Sincronizzazione</string>
+    <string name="syncing_photos">Fotografie</string>
+    <string name="sync_notify_title">Visualizzatore per Albero familiare di FamilySearch</string>
+    <string name="sync_add_photo_upload_too_big">Il file di immagine è troppo grande.</string>
+    <string name="sync_add_photo_upload_duplicate">Questa foto è stata già caricata.</string>
+    <string name="sync_add_photo_upload_failed">Impossibile aggiungere foto per questa persona</string>
+
+
+</resources>

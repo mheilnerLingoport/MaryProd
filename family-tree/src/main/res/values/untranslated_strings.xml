@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="MissingTranslation">
+  <!-- These strings should NOT be translated -->
+
+  <string name="organization_name">FamilySearch</string>
+
+  <!-- Email strings: not translated, because the email message is sent to our English-speaking support team -->
+  <string name="feedback_email_body_intro">Please add your feedback at the end of this message.\n\nDevice Information:\n</string>
+  <string name="feedback_email_body_end">\nAdd your feedback below:\n\n</string>
+  <string name="feedback_email_subject">Feedback for Android Family Tree Viewer</string>
+  <string name="feedback_email_address">fs-mobile@familysearch.org</string>
+
+  <!-- URL strings used in LoginActivity -->
+  <string name="register_link_url">https://familysearch.org/register/?cid=MobileAppReg</string>
+  <string name="recover_username_link_url">https://ident.familysearch.org/cis-web/pages/recover/recoverUsername.html</string>
+  <string name="recover_password_link_url">https://ident.familysearch.org/cis-web/pages/recover/recoverPassword.html</string>
+
+  <!-- Strings used as Tags for UI elements -->
+  <string name="photo_viewer_photo_title_tag">photoViewerPhotoTitleTag</string>
+  <string name="photo_viewer_edit_photo_title_tag">photoViewerEditPhotoTitleTag</string>
+  <string name="photo_viewer_edit_photo_title_container_tag">photoViewerEditPhotoTitleContainerTag</string>
+  <string name="settings_confirm_clear_cache_dialog_tag">settingsActivityConfirmClearCacheDialogTag</string>
+
+  <!-- Photo cache preference values -->
+  <string-array name="settings_photo_cache_size_array_entries">
+    <item>0</item>
+    <item>50</item>
+    <item>100</item>
+    <item>200</item>
+  </string-array>
+  <string name="settings_photo_cache_size_default">200</string>
+
+  <!-- URL Strings in About dialog -->
+  <string name="rights_link_url">https://familysearch.org/terms</string>
+  <string name="privacy_link_url">https://familysearch.org/privacy</string>
+  <string name="church_link_url">http://mormon.org/</string>
+</resources>

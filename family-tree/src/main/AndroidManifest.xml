@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.familysearch.mobile" android:installLocation="auto">
+  <!--The android:versionCode above is an integer value that is internal and needs to go up in value with each new release we publish to the
+  store.  Our strategy is to match the versionName, with each minor version number being two digits.  Leading zeros for the overall integer are eliminated.
+  For example, if versionName is 0.0.3, versionCode would be 3, and if versionName is 1.0.0, versionCode would be 10000, 1.0.1 would be 10001, etc -->
+
+  <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19"/>
+
+  <!-- Permissions -->
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <!-- Use Internet to sync data -->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <!-- Determine Internet connection -->
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <!-- write database and cache images to sdcard -->
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <!-- Take pictures directly from app -->
+  <uses-permission android:name="android.permission.NFC"/>
+  <!-- Share viewed individual, calendar event, etc-->
+
+  <uses-feature android:name="android.hardware.camera" android:required="false"/>
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+
+  <!-- TODO for AccountManager we will need more permissions
+  MANAGE_ACCOUNTS
+  AUTHENTICATE_ACCOUNTS
+  GET_ACCOUNTS
+  USE_CREDENTIALS
+  -->
+
+  <application android:hardwareAccelerated="true" android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name=".FSApp" android:theme="@style/Theme.FSApp">
+    <provider
+      android:name="android.support.v4.content.FileProvider"
+      android:authorities="org.familysearch.photoprovider"
+      android:exported="false"
+      android:grantUriPermissions="true">
+      <meta-data
+        android:name="android.support.FILE_PROVIDER_PATHS"
+        android:resource="@xml/paths" />
+    </provider>
+
+    <activity android:launchMode="singleTop" android:name=".ui.activity.TreeActivity" android:windowSoftInputMode="stateHidden"/>
+    <activity android:label="@string/app_name" android:launchMode="singleTop" android:name=".ui.activity.LoginActivity" android:theme="@style/Theme.Base.Light" android:windowSoftInputMode="stateHidden">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:launchMode="singleTop" android:name=".ui.activity.PersonActivity"/>
+    <activity android:launchMode="singleTop" android:name=".ui.activity.SearchActivity" android:windowSoftInputMode="stateHidden"/>
+    <activity android:launchMode="singleTop" android:name=".ui.activity.HistoryActivity" android:windowSoftInputMode="stateHidden"/>
+    <activity android:launchMode="singleTop" android:name=".ui.activity.SettingsActivity" android:windowSoftInputMode="stateHidden"/>
+    <activity android:launchMode="singleTop" android:name=".ui.activity.PhotoChooserActivity" android:windowSoftInputMode="stateHidden"/>
+    <!-- set the windowSoftInputMode to include "adjustResize" - this will force the window to resize when the soft key input is displayed - this is the
+         only way we can detect in our view if the keyboard is displayed and/or dismissed is by forcing the view to resize when it is displayed/hidden. -->
+    <activity android:launchMode="singleTop" android:name=".ui.activity.PhotoViewerActivity" android:windowSoftInputMode="stateHidden|adjustResize"/>
+    <activity android:launchMode="singleTop" android:name=".ui.activity.AgreementActivity" android:windowSoftInputMode="stateHidden" android:theme="@style/Theme.Base.Light"/>
+    <activity android:launchMode="singleTop" android:name=".ui.activity.SourceDetailsActivity" />
+
+    <service android:name=".service.SyncService" android:exported="false"/>
+
+    <meta-data android:name="com.crashlytics.ApiKey" android:value="f8bda6354465e90010a78fd54ab49da1227e9837"/>
+    <meta-data android:name="LOCALYTICS_APP_KEY" android:value="5f46e89c8acc119bc0e0ec3-7629426c-7f05-11e3-9861-009c5fda0a25"/>
+  </application>
+
+</manifest>

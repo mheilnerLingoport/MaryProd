@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ok">OK</string>
+    <string name="nav_continue">Continue</string>
+    <string name="nav_select_people_title">Select People</string>
+    <string name="nav_select_ordinances_title">Select Ordinances</string>
+    <string name="button_request_ordinances">Request Ordinances</string>
+    <string name="reservation_warning_dialog_title">Warning Message</string>
+    <string name="reservation_reprint_message_single">A Family Ordinance Request was previously printed for this person. Please destroy the old Family Ordinance Request and any old family ordinance cards that were printed by the temple.</string>
+    <string name="reservation_reprint_message_multiple">A Family Ordinance Request was previously printed for one or more of the people you selected. Please destroy the old Family Ordinance Request and any old family ordinance cards that were printed by the temple.</string>
+    <string name="reservation_filter_instructions">Filter %d by %s Needed Ordinances</string>
+	<string name="welcome_messages">Hello, %1$s! You have %2$d new messages.</string>
+
+</resources>

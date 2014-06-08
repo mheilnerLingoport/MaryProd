@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--mobile-android-test_1_2 - FULL-FILE-->
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>	
+	<string name="exit">Exit</string>	
+	  <!--Lingoport test -->
+	<string name="param_digit">This is a digit param %d</string>
+	<string name="param_string">This is a digit param %s</string>
+	<string name="param_multi">This %1$d is multiple params %2$s</string>
+</resources>
