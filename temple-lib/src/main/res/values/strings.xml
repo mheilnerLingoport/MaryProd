@@ -11,5 +11,6 @@
     <string name="reservation_reprint_message_multiple">A Family Ordinance Request was previously printed for one or more of the people you selected. Please destroy the old Family Ordinance Request and any old family ordinance cards that were printed by the temple.</string>
     <string name="reservation_filter_instructions">Filter %d by %s Needed Ordinances</string>
 	<string name="welcome_messages">Hello, %1$s! You have %2$d new messages.</string>
+	<string name="o_message">Good morning Olivier, you have	a new message.</string>
 
 </resources>
