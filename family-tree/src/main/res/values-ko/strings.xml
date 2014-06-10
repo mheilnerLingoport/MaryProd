@@ -1,337 +1,329 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--MaryProd_26_7 - FULL-FILE-->
 <resources>
-    <string name="app_name">FamilySearch</string>
-    <string name="button_login">로그인</string>
-    <string name="password_message">비밀번호</string>
-    <string name="username_message">아이디</string>
-    <string name="logging_in">로그인 중…</string>
-    <string name="login_failed">로그인 실패</string>
-    <string name="login_failed_try_again">아이디 또는 비밀번호가 올바르지 않습니다.</string>
-    <string name="login_credentials_no_longer_valid_toast">아이디 또는 비밀번호가 더 이상 유효하지 않습니다.  다시 로그인해주시기 바랍니다.</string>
-    <string name="connection_failed">FamilySearch에 연결할 수 없습니다.</string>
-    <string name="retrieving_pedigree_failed">가계도 검색이 실패했습니다.!</string>
-    <string name="retrieving_pedigree_failed_try_again">가계도 검색이 실패했습니다. 다시 시도해 주십시오. </string>
-    <string name="action_cancelled">실행이 취소되었습니다. </string>
-    <string name="internet_disconnect_try_again">기기가 인터넷에 연결되어 있지 않아 현재 이 실행을 완료할 수 없습니다.   연결을 확인한 후에 다시 시도해 주십시오. </string>
-    <string name="ok">확인</string>
-    <string name="cancel">취소</string>
-    <string name="worldwide_records">지난 100여 년 동안 FamilySearch는 전 세계의 계보 기록을 적극적으로 수집, 보존, 공유해 왔습니다. </string>
-    <string name="copyright1">© 2014 Intellectual Reserve, Inc. 판권 소유.</string>
-    <string name="copyright2">예수 그리스도 후기 성도 교회에서 제공하는 서비스</string>
-    <string name="menu_search">검색</string>
-    <string name="toast_using_production_cloud">이 앱은 이제 샌드박스 대신 프로덕션 클라우드를 사용할 것입니다. </string>
-    <string name="toast_using_sandbox">이 앱은 이제 프로덕션 클라우드 대신 샌드박스를 사용할 것입니다. </string>
-    <string name="toast_how_to_return_to_production_cloud">로그인 창의 제목을 다섯 번 탭하면 프로덕션 클라우드로 다시 전환됩니다. </string>
-    <string name="not_available"> </string>
-    <string name="pedigree_activity_title">가계도</string>
+  <string name="app_name">패밀리 트리</string>
+  <string name="full_app_name">가계도 소프트웨어 프로그래밍 인터페이스</string>
+  <string name="button_login">로그인</string>
+  <string name="password_message">비밀번호</string>
+  <string name="username_message">아이디</string>
+  <string name="logging_in">로그인 하기&#8230;</string>
+  <string name="login_failed">로그인 실패</string>
+  <string name="login_failed_try_again">아이디 또는 비밀번호가 올바르지 않습니다.</string>
+  <string name="login_credentials_no_longer_valid_toast">귀하의 사용자 이름 혹은 비밀번호가 인식되지 않습니다.  다시 로그인해주시기 바랍니다.</string>
+  <string name="connection_failed">FamilySearch.org에 연결할 수 없습니다.</string>
+  <string name="retrieving_pedigree_failed">개인 검색이 실패했습니다!</string>
+  <string name="retrieving_pedigree_failed_try_again">개인 검색이 실패했습니다! 다시 시도해 주십시오.</string>
+  <string name="action_cancelled">_메커니즘으로부터 애플리케이션으로부터 마케팅 프로모션 설문지 혁신성에서만큼은_</string>
+  <string name="internet_disconnect_try_again">인터넷에 연결되어 있지 않아 현재 이 실행을 완료할 수 없습니다.  연결을 확인한 후에 다시 시도해 주십시오.</string>
+  <string name="ok">확인</string>
+  <string name="cancel">취소</string>
+  <string name="yes">예</string>
+  <string name="no">아니요</string>
+  <string name="worldwide_records">지난 100여 년 동안 FamilySearch는 전 세계의 계보 기록을 적극적으로 수집, 보존, 공유해 왔습니다.</string>
+  <string name="copyright1">&#169;© 2014 Intellectual Reserve, Inc. 판권 소유.</string>
+  <string name="copyright2">예수 그리스도 후기 성도 교회에서 제공하는 서비스</string>
+  <string name="menu_search">상고하다</string>
+  <string name="toast_using_production_cloud">이 앱은 이제 샌드박스 대신 프로덕션 클라우드를 사용할 것입니다.</string>
+  <string name="toast_using_sandbox">이 앱은 이제 프로덕션 클라우드 대신 샌드박스를 사용할 것입니다.</string>
+  <string name="toast_how_to_return_to_production_cloud">로그인 창의 제목을 다섯 번 탭하면 프로덕션 클라우드로 다시 전환됩니다.</string>
+  <string name="not_available"> </string>
+  <string name="pedigree_activity_title">가계도</string><!-- TRANSLATORS:  please preserve the html links in the two strings below.  The first string is supposed to say "Forgot username or password?"
+                     with 'username' and 'password' embedded in the hyperlink tags.
+                     The second string is supposed to say 'Create an Account' all embedded in a hyperlink : --><string name="forgot_username_password"><![CDATA[아이디<a href="[@string/recover_username_link_url]"> 또는 비</a>밀번호를 <a href="[@string/recover_password_link_url]">잊으셨습니까</a>?]]></string>
+  <string name="register"><![CDATA[<a href="[@string/register_link_url]">계정을 만드세요</a>]]></string><!--Labels for Person Detail Page--><string name="person_activity_title">개인</string>
+  <string name="label_person_tree_button">이 가계도 보기</string>
+  <string name="label_person_vitals">핵심</string>
+  <string name="label_person_other">기타</string>
+  <string name="label_person_name">이름</string>
+  <string name="label_person_gender">성별</string>
+  <string name="label_person_birth">출생</string>
+  <string name="label_person_christening">명명(세례)</string>
+  <string name="label_person_death">사망</string>
+  <string name="label_person_burial">매장</string>
+  <string name="label_person_details">상세사항</string>
+  <string name="label_person_temple">의식</string>
+  <string name="label_person_spouses">배우자</string>
+  <string name="label_person_parents">부모</string>
+  <string name="label_person_sources">출처</string>
+  <string name="label_person_photos">사진</string>
+  <string name="label_person_stories">이야기</string>
+  <string name="label_person_audio">오디오</string>
+  <string name="label_person_charts">_포트폴리오로부터_</string>
+  <string name="label_person_life_sketch">인생 개요</string>
+  <string name="label_alternate_names">대체 이름</string><!-- Audio Player --><!-- TRANSLATORS: This is an abbreviation for minutes.--><string name="audio_list_min">최소</string><!-- Charts: --><!-- The following string is also used for photo download --><string name="chart_download_toast">_가져오지 못했습니다 사용자는 내프로필 업데이트._</string>
+  <string name="chart_download_failed_toast">다운로드 실패 _이름을 입력하십시오 잘못된 암호입니다 냉각장치 스냅아웃 마케팅 프로모션 설문지._</string>
+  <string name="label_person_charts_download">PDF 파일 다운로드</string>
 
-    <!-- TRANSLATORS:  please preserve the html links in the two strings below.  The first string is supposed to say "Forgot username or password?"
-                       with 'username' and 'password' embedded in hyperlink tags to the appropriate web url.
-                       The second string is supposed to say 'Create an Account' all embedded in a hyperlink : -->
-    <string name="forgot_username_password"> <a href="[@string/recover_username_link_url]">아이디</a> 또는 <a href="[@string/recover_password_link_url]">비밀번호</a>를 잊으셨습니까?</string>
-    <string name="register"><a href="[@string/register_link_url]">계정 만들기</a></string>
+  <string name="chart_pedigree_button">가계도</string>
+  <string name="chart_pedigree_title">작성된 가계도</string>
+  <string name="chart_pedigree_description">가계도%s</string>
 
-    <!--Labels for Person Detail Page-->
-    <string name="person_activity_title">개인</string>
-    <string name="label_person_tree_button">이 가계도 보기</string>
-    <string name="label_person_vitals">핵심</string>
-    <string name="label_person_other">기타</string>
-    <string name="label_person_name">이름</string>
-    <string name="label_person_gender">성별</string>
-    <string name="label_person_birth">출생</string>
-    <string name="label_person_christening">명명</string>
-    <string name="label_person_death">사망</string>
-    <string name="label_person_burial">매장</string>
-    <string name="label_person_details">상세사항</string>
-    <string name="label_person_temple">의식</string>
-    <string name="label_person_spouses">배우자</string>
-    <string name="label_person_parents">부모</string>
-    <string name="label_person_sources">출처</string>
-    <string name="label_person_photos">사진</string>
-    <string name="label_person_stories">이야기</string>
-    <string name="label_person_charts">도표</string>
-    <string name="label_person_life_sketch">인생 개요</string>
-    <string name="label_alternate_names">대체 이름</string>
+  <string name="chart_family_button">가족</string>
+  <string name="chart_family_title">FamilySearch 패밀리 트리</string>
+  <string name="chart_family_description">_마이그레이션해야 극대화하십시오 드라이브 %s_</string>
 
-    <!-- Charts: -->
-    <string name="chart_download_toast">다운로드가 시작되었습니다.</string>
-    <string name="chart_download_failed_toast">다운로드 실패 외부 기억 장치를 이용할 수 없었습니다.</string>
+  <string name="chart_family_sources_button">출처가 있는 가족</string>
+  <string name="chart_family_sources_title">_적절한 권한이 없습니다 업무  데이터시트로부터 글로벌리제이션 필수입니다 세부정보 다운로드_</string>
+  <string name="chart_family_sources_description">_마이그레이션해야 빠른참조설명서 스마트폰과 지침을 따르십시오 비휘발성 %s_</string>
 
-    <string name="chart_pedigree_button">가계도 PDF 파일 다운로드</string>
-    <string name="chart_pedigree_title">FamilySearch 가계도</string>
-    <string name="chart_pedigree_description">가계도 %s</string>
+  <string name="chart_fan_button">부채꼴 가계도</string>
+  <string name="chart_fan_title">부채꼴 가계도</string>
+  <string name="chart_fan_description">_프로세스 커뮤니케이션과 강력하고 %s_</string><!-- history: --><string name="menu_history">열어본 페이지</string>
+  <string name="history_ab_title">열어본 페이지 목록</string>
+  <string name="history_go_to_label">이동:</string>
+  <string name="history_person_id_hint">개인별 번호</string>
+  <string name="history_invalid_pid_error">유효하지 않은 개인별 번호</string>
 
-    <string name="chart_family_button"> 가족 기록서 PDF 파일 다운로드</string>
-    <string name="chart_family_title">FamilySearch 가족 기록서</string>
-    <string name="chart_family_description">가족 기록서 %s</string>
+  <string name="Male">남성</string>
+  <string name="Female">여성</string>
+  <string name="Unknown">미상</string>
+  <string name="gender_any">모두</string>
 
-    <string name="chart_family_sources_button">출처가 있는 가족 기록서 PDF 파일 다운로드 </string>
-    <string name="chart_family_sources_title">출처가 있는 FamilySearch 가족 기록서</string>
-    <string name="chart_family_sources_description">출처가 있는 가족 기록서 %s</string>
-
-    <string name="chart_fan_button">부채꼴 가계도 PDF 파일 다운로드</string>
-    <string name="chart_fan_title">FamilySearch 부채꼴 가계도</string>
-    <string name="chart_fan_description">부채꼴 가계도 %s</string>
-
-    <!-- history: -->
-    <string name="menu_history">열어본 페이지</string>
-    <string name="history_ab_title">열어본 페이지 목록</string>
-    <string name="history_go_to_label">이동</string>
-    <string name="history_person_id_hint">개인별 번호</string>
-    <string name="history_invalid_pid_error">유효하지 않은 개인별 번호</string>
-
-    <string name="Male">남성</string>
-    <string name="Female">여성</string>
-    <string name="Unknown">미상</string>
-    <string name="gender_any">모두</string>
-
-    <string name="history_hint">최근 열어본 페이지 검색</string>
-    <string name="name_unknown">이름 미상</string>
-    <string name="lifespan_unknown">생몰 연대 미상</string>
-    <string name="pid_unknown">개인별 번호(ID) 미상</string>
-    <string name="history_action_menu">열어본 페이지</string>
-    <string name="tree_menu_item">가계도</string>
-    <string name="person_menu_item">개인</string>
-    <string name="about_menu_item">소개</string> <!-- This string is about the application not an about date -->
-    <string name="signout_menu_item">로그아웃</string>
-    <string name="settings_menu_item">설정</string>
-
-    <!--Labels for Person Ordinances Page-->
-    <string name="baptism">침례</string>
-    <string name="confirmation">확인</string>
-    <string name="initiatory">예비 의식</string>
-    <string name="endowment">엔다우먼트</string>
-    <string name="sealingToParents">부모에게 인봉</string>
-    <string name="sealingToSpouse">배우자에게 인봉</string>
-
-    <!-- Labels for Person Sources Page -->
-    <string name="externalSourceTitle">출처 열기</string>
-    <string name="externalSourceWarning">이 출처는 FamilySearch 웹사이트에 없으며 귀하의 브라우저에서 열릴 것입니다. </string>
-
-    <!-- Search activity: -->
-    <string name="search_find_action">찾기</string>
-    <string name="search_reset_action">재설정</string>
-    <string name="search_cancel_action">취소</string>
-    <string name="search_new_action">새로운 검색</string>
-    <string name="search_refine_action">추가 검색</string>
-    <string name="search_find_ancestors_label">조상 찾기 </string>
-    <string name="search_first_and_last_names_label">이름과 성</string>
-    <string name="search_first_names_hint">이름</string>
-    <string name="search_last_names_hint">성</string>
-    <string name="search_gender_label">성별</string>
-    <string name="search_event_label">사건 항목</string>
-    <string name="search_year_range_label">연도(범위)</string>
-    <string name="search_year_to_hint">종료</string>
-    <string name="search_year_from_hint">시작</string>
-    <string name="search_place_label">장소</string>
-    <string name="search_father_names_label">아버지의 이름과 성</string>
-    <string name="search_mother_names_label">어머니의 이름과 성</string>
-    <string name="search_spouse_names_label">배우자의 이름과 성</string>
-    <string name="search_event_choice_select">선택</string>
-    <string name="search_event_choice_birth">출생</string>
-    <string name="search_event_choice_christening">명명</string>
-    <string name="search_event_choice_marriage">결혼</string>
-    <string name="search_event_choice_death">사망</string>
-    <string name="search_event_choice_burial">매장</string>
-    <string name="search_error_no_search_criteria">일부 검색 기준을 명시해야 합니다. </string>
-    <string name="search_error_invalid_year_field">유효하지 않은 연도</string>
-    <string name="search_error_to_must_be_greater">종료 연도는 시작 연도보다 크거나 같아야 합니다.</string>
-    <string name="search_showing_25_results">상위 25개 결과만 보기</string>
-    <string name="search_no_results">일치하는 검색 결과가 없습니다. </string>
-    <string name="search_results_error">검색 요청을 처리하던 중 검색 서버에 문제가 생겼습니다. </string>
-    <string name="search_father_label">아버지</string>
-    <string name="search_mother_label">어머니</string>
-    <string name="search_spouse_label">배우자</string>
-    <string name="search_result_birth_label">출생:</string>
-    <string name="search_result_death_label">사망:</string>
-    <string name="search_result_parents_label">부모</string>
-    <string name="search_result_spouse_label">배우자</string>
-    <!-- Search activity - more generic labels for some locales: -->
-    <string name="search_names_label">이름</string>
-    <string name="search_family_name_hint">성 </string>
-    <string name="search_given_names_hint">이름</string>
-    <string name="search_father_names_label_short">아버지의 이름</string>
-    <string name="search_mother_names_label_short">어머니의 이름</string>
-    <string name="search_spouse_names_label_short">배우자의 이름</string>
-
-    <!-- Settings: -->
-    <string name="settings_preferences_category">선택 사항</string>
-    <string name="settings_cellular_data_label">셀룰러 데이터</string>
-    <string name="settings_cellular_data_description">와이파이를 이용할 수 없는 경우에는 셀룰러 데이터 플랜을 사용하여 사진을 동기화하십시오. </string>
-    <string name="settings_save_to_gallery_label">갤러리에 사진 저장하기</string>
-    <string name="settings_save_to_gallery_description">새로운 사진은 모두 기기의 갤러리에 저장합니다.</string>
-    <string name="settings_support_category">지원</string>
-    <string name="settings_feedback_label">피드백 주기</string>
-    <string name="settings_feedback_no_email">설치된 이메일 앱이 없습니다.</string>
-    <string name="settings_advanced_category">고급</string>
-    <string name="settings_clear_cache_label">캐시 삭제</string>
-    <string name="settings_clear_cache_description">본 기기에 저장된 모든 가계도 데이터를 삭제합니다.  앱이 FamilySearch의 최신 데이터를 가져오게 합니다. </string>
-    <string name="settings_notify_clear_cache_title">FamilySearch 패밀리 트리 뷰어</string>
-    <string name="settings_notify_clear_cache_message">캐시된 가계도 데이터가 삭제 되었습니다.</string>
-    <string name="settings_clear_cache_alert_dlg_title">캐시된 가계도 데이터 삭제</string>
-    <string name="settings_clear_cache_alert_dlg_message">캐시된 가계도 데이터 삭제는 기기에서 이 데이터를 지울 것입니다.  그렇게 하면 앱이 FamilySearch의 최신 데이터를 다시 로드하게 할 것입니다. 그것은 또한 앱 반응 시간을 지연하고 기기에서 디스플레이할 데이터가 충분할 때까지 오프라인 작업용 데이터 이용을 제한할 것입니다.   계속하시겠습니까?</string>
-    <string name="settings_continue_clearing_cache_button">계속</string>
-    <string name="settings_cancel_clearing_cache_button">취소</string>
-    <string name="settings_photo_cache_limit_title">최대 사진 캐시</string>
-    <string name="settings_photo_cache_limit_message">캐시할 수 있는 최대 사진 수</string>
-
-  <!--About dialog:-->
-    <string name="version">버전:</string>
-    <string name="os_version">운영체제 버전:</string>
-    <string name="device">기기:</string>
-    <string name="display">디스플레이:</string>
-    <string name="network">네트워크:</string>
-    <string name="connected">연결됨</string>
-    <string name="not_connected">연결되지 않음</string>
-
-    <!-- Image detail:-->
-    <string name="image_detail_title_label">제목: </string>
-
-    <!-- Fact detail:-->
-    <string name="fact_detail_sub_header_reason">이유</string>
-    <string name="fact_detail_footer_modified">수정됨</string>
-    <string name="fact_detail_send_email_chooser">이메일 클라이언트 선택 </string>
-    <string name="fact_detail_send_email_error_no_client">이메일 앱을 찾지 못했습니다</string>
-    <string name="fact_name_label">이름</string>
-    <string name="fact_gender_label">성별</string>
-
-    <!-- Spouse and Children detail && Parents and Siblings detail: -->
-    <string name="spouse_title_label">배우자</string>
-    <string name="children_title_label">자녀</string>
-    <string name="married_title_label">기혼</string>
-    <string name="no_marriage_data_label">결혼 정보 없음</string>
-    <string name="siblings_title_label">형제자매</string>
-
-    <!-- Photo submitter agreement screen -->
-    <string name="agreement_accept">동의함</string>
-    <string name="agreement_reject">동의하지 않음</string>
-    <string name="agreement_title">업로드 지침 및 제출 동의서</string>
-    <string name="agreement_paragraph1">본 지침과 제출 동의서에 동의하면 "동의함"을 탭합니다. </string>
-    <string name="agreement_all_ages">FamilySearch는 가족 중심의 사이트이며 모든 연령대에 적합하도록 구성되었습니다.</string>
-    <string name="agreement_screened">모든 사진은 공개하기 전에 검토 및 심사 과정을 거칩니다.</string>
-    <string name="agreement_public">모든 추가된 사진은 일반에 공개됩니다.</string>
-    <string name="agreement_photo_limits">jpg와 png 형식의 파일을 최대 5MB까지 지원합니다.</string>
-    <!-- TRANSLATORS:  The following string is supposed to say, "Review the Submission Agreement" with the html link wrapping 'Submission Agreement' Please preserve the html link -->
-    <string name="agreement_link_str"><a href="https://familysearch.org/legal/familysearch-content-submission-agreement">제출 동의서</a> 검토</string>
-    <string name="agreement_principles_title">사진에 관한 원칙</string>
-    <string name="agreement_principles_paragraph1">FamilySearch 사진은 가족이 서로에 대해 알아가고 사랑하는 데 도움이 되는 조상의 사진을 개인들이 공유하도록 허용해야 합니다.  사진에 대해 적용되는 전반적인 원칙은 다음과 같습니다. </string>
-    <string name="agreement_principle1">합당성 사진은 정숙함과 정결이라는 합당한 표준에 적합해야 합니다. </string>
-    <string name="agreement_principle2">관련성 사진은 가족 역사 목적에 부합해야 합니다.</string>
-    <string name="agreement_principle3">마음을 돌이키게 함 사진은 개개인이 자신의 조상을 알아가고 사랑하는 데 도움이 되어야 합니다. </string>
-    <string name="agreement_principle4">비상업성 제품 광고 또는 홍보성 사진은 안 됩니다.  사진이 지적 재산권을 침해해서는 안 됩니다.</string>
-    <string name="agreement_screening_title">사진 심사 정책 지침</string>
-    <string name="agreement_screening1">알몸 노출이나 단정하지 않은 옷차림을 금합니다. 단추나 지퍼가 단정히 채워져 있어야 합니다.</string>
-    <string name="agreement_screening2">성스러운 의상 또는 다른 종교적 의상이 해당 종교의 믿음을 훼손하는 방식으로 표시되는 경우에는 허용되지 않습니다.</string>
-    <string name="agreement_screening3">도착적인 의상을 금합니다.</string>
-
-    <!-- "Add Photo" dialogs -->
-    <string name="add_photo_camera">카메라로 찍기</string>
-    <string name="add_photo_gallery">갤러리에서 선택하기</string>
-    <string name="add_photo_fs">FamilySearch에서 선택하기</string>
-    <string name="add_photo_select_title">이미지 선택</string>
-    <string name="add_photo_complete_action_using">다음 옵션을 사용하여 조치 완료:</string>  <!-- User is presented a list of apps to get a photo from -->
-    <string name="add_photo_invalid_image_error">오류: 유효하지 않은 이미지</string>
-    <string name="add_photo_upload_failed">오류: 이미지 업로드 실패</string>
-    <string name="add_photo_no_images_available">이용할 수 있는 이미지가 없음</string>
-
-    <!-- Photo viewer:-->
-    <string name="share_icon_title">공유</string>
-    <string name="download_icon_title">다운로드</string>
-    <string name="default_download_description">FamilySearch에서 사진 다운로드</string>
-    <string name="photo_album_name">FamilySearch</string>
-    <string name="photo_viewer_add_photo_title">제목 추가</string>
-
-    <!-- GedcomX types:-->
-    <string name="gedcomx.org.Adoption">입양</string>
-    <string name="gedcomx.org.AdultChristening">성인 명명</string>
-    <string name="gedcomx.org.Amnesty">사면</string>
-    <string name="gedcomx.org.Apprenticeship">견습</string>
-    <string name="gedcomx.org.Baptism">침례</string>
-    <string name="gedcomx.org.BarMitzvah">유대교 성인식(소년)</string>
-    <string name="gedcomx.org.BatMitzvah">유대교 성인식(소녀)</string>
-    <string name="gedcomx.org.Birth">출생</string>
-    <string name="gedcomx.org.Blessing">축복</string>
-    <string name="gedcomx.org.Burial">매장</string>
-    <string name="gedcomx.org.Caste">카스트</string>
-    <string name="gedcomx.org.Census">인구조사</string>
-    <string name="gedcomx.org.Christening">명명</string>
-    <string name="gedcomx.org.Circumcision">할례</string>
-    <string name="gedcomx.org.Clan">씨족</string>
-    <string name="gedcomx.org.Confirmation">확인</string>
-    <string name="gedcomx.org.Cremation">화장</string>
-    <string name="gedcomx.org.Death">사망</string>
-    <string name="gedcomx.org.Education">교육</string>
-    <string name="gedcomx.org.Emigration">이주</string>
-    <string name="gedcomx.org.Ethnicity">종족</string>
-    <string name="gedcomx.org.Excommunication">파문</string>
-    <string name="gedcomx.org.FirstCommunion">첫 영성체</string>
-    <string name="gedcomx.org.Funeral">장례식</string>
-    <string name="gedcomx.org.Immigration">이민</string>
-    <string name="gedcomx.org.Imprisonment">수감</string>
-    <string name="gedcomx.org.LandTransation">토지거래</string>
-    <string name="gedcomx.org.Living">생존</string>
-    <string name="gedcomx.org.MaritalStatus">결혼 상태</string>
-    <string name="gedcomx.org.Medical">의료</string>
-    <string name="gedcomx.org.MilitaryAward">군대 입상</string>
-    <string name="gedcomx.org.MilitaryDischarge">군대 제대</string>
-    <string name="gedcomx.org.MilitaryService">병역</string>
-    <string name="gedcomx.org.Mission">선교 사업</string>
-    <string name="gedcomx.org.MoveFrom">전출</string>
-    <string name="gedcomx.org.MoveTo">전입</string>
-    <string name="gedcomx.org.MultipleBirth">다산</string>
-    <string name="gedcomx.org.NationalId">주민등록번호</string>
-    <string name="gedcomx.org.Nationality">국적</string>
-    <string name="gedcomx.org.Naturalization">귀화</string>
-    <string name="gedcomx.org.NumberOfMarriages">결혼 횟수</string>
-    <string name="gedcomx.org.Occupation">직업</string>
-    <string name="gedcomx.org.Ordination">성임</string>
-    <string name="gedcomx.org.PhysicalDescription">신체 서술</string>
-    <string name="gedcomx.org.Probate">유언 검인</string>
-    <string name="gedcomx.org.Property">자산</string>
-    <string name="gedcomx.org.Religion">종교</string>
-    <string name="gedcomx.org.Residence">거주</string>
-    <string name="gedcomx.org.Retirement">퇴직</string>
-    <string name="gedcomx.org.Stillbirth">사산</string>
-    <string name="gedcomx.org.Will">유언장</string>
-    <string name="gedcomx.org.Visit">방문</string>
-    <string name="gedcomx.org.Annulment">혼인 무효</string>
-    <string name="gedcomx.org.CommonLawMarriage">사실혼</string>
-    <string name="gedcomx.org.Divorce">이혼</string>
-    <string name="gedcomx.org.DivorceFiling">이혼 소송 제기</string>
-    <string name="gedcomx.org.Engagement">약혼</string>
-    <string name="gedcomx.org.Marriage">결혼</string>
-    <string name="gedcomx.org.MarriageBanns">결혼 예고</string>
-    <string name="gedcomx.org.MarriageContract">혼인 서약서</string>
-    <string name="gedcomx.org.MarriageLicense">결혼 증서</string>
-    <string name="gedcomx.org.MarriageNotice">결혼 공지</string>
-    <string name="gedcomx.org.NumberOfChildren">자녀 수</string>
-    <string name="gedcomx.org.Separation">별거</string>
-    <string name="gedcomx.org.AdoptiveParent">입양 부모</string>
-    <string name="gedcomx.org.BiologicalParent">친부모</string>
-    <string name="gedcomx.org.FosterParent">수양 부모</string>
-    <string name="gedcomx.org.GuardianParent">후견 부모</string>
-    <string name="gedcomx.org.StepParent">의붓 부모</string>
-    <string name="gedcomx.org.SociologicalParent">사회적 부모</string>
-    <string name="gedcomx.org.Other">기타</string>
-    <string name="gedcomx.org.Female">여성</string>
-    <string name="gedcomx.org.Male">남성</string>
-    <string name="gedcomx.org.BirthName">출생 이름</string>
-    <string name="gedcomx.org.DeathName">사망 이름</string>
-    <string name="gedcomx.org.MarriedName">결혼 후 이름</string>
-    <string name="gedcomx.org.AlsoKnownAs">별칭</string>
-    <string name="gedcomx.org.Nickname">별명</string>
-    <string name="gedcomx.org.AdoptiveName">입양 이름</string>
-    <string name="gedcomx.org.FormalName">공식 이름</string>
-    <string name="gedcomx.org.ReligiousName">종교적 이름</string>
-    <string name="familysearch.org.v1.LifeSketch">인생 개요</string>
-
-    <!-- Syncing stuff: -->
-    <string name="syncing_title">동기화 중</string>
-    <string name="syncing_photos">사진</string>
-    <string name="sync_notify_title">FamilySearch 패밀리 트리 뷰어</string>
-    <string name="sync_add_photo_upload_too_big">이 이미지 파일은 너무 큽니다.</string>
-    <string name="sync_add_photo_upload_duplicate">이 사진은 이전에 업로드 되었습니다.</string>
-    <string name="sync_add_photo_upload_failed">개인에게 사진을 추가할 수 없습니다.</string>
-
-
+  <string name="history_hint">최근 열어본 페이지 찾아보기</string>
+  <string name="name_unknown">이름 미상</string>
+  <string name="lifespan_unknown">생몰 연대 미상</string>
+  <string name="pid_unknown">개인별 번호(ID) 미상</string>
+  <string name="history_action_menu">열어본 페이지</string>
+  <string name="tree_menu_item">가계도</string>
+  <string name="person_menu_item">개인</string><!-- The following string is about the application not an about date --><string name="about_menu_item">소개</string>
+  <string name="signout_menu_item">로그아웃</string>
+  <string name="settings_menu_item">설정</string>
+  <string name="temple_menu_item">성전</string>
+  <string name="prefetch_menu_item">찾기</string>
+  <string name="refresh_person_menu_item">_다시 입력하십시오 해당 사항 없음_</string><!--Labels for Person Ordinances Page--><string name="baptism">침례</string>
+  <string name="confirmation">확인</string>
+  <string name="initiatory">예비 의식</string>
+  <string name="endowment">엔다우먼트</string>
+  <string name="sealingToParents">부모에게 인봉</string>
+  <string name="sealingToSpouse">배우자에게 인봉</string>
+  <string name="temple_ordinance_icon">성전 의식 기록.</string><!-- Labels for Person Sources Page --><string name="externalSourceTitle">출처를 열기</string>
+  <string name="externalSourceWarning">_주력하고 응용프로그램에서 엄청난 지금까지 커뮤니케이션입니다 사설망 교류하고 기호는 포함할 수 없습니다 수  엔터테인먼트로부터 유지하기 설치합니다 투입되도록 제품은 기원합니다 지침을 따르십시오._</string>
+  <string name="sources_add_photo_button_description">메모와 출처를 추가합니다.)</string>
+  <string name="sources_error_retrieving_photo_for_source">결과를 나타낼 수 없습니다.</string>
+  <string name="sources_error_title_required">출처 제목은 필수 사항입니다.</string>
+  <string name="sources_download_title">_풀 기본적인 높여 맵 토 풀  뉴스레터수신거부 잠시 기다려주십시오 제공하는 %s_</string>
+  <string name="sources_download_failed_generic">_엔터프라이즈급의 유연한 이름을 입력하십시오 계속하시겠습니까._</string>
+  <string name="sources_download_in_progress">진행 중인 다운로드가 없습니다.</string>
+  <string name="sources_icon_description">출처 아이콘</string>
+  <string name="sources_citation_hint">URL 입력</string><!-- Search activity: --><string name="search_find_action">찾기</string>
+  <string name="search_reset_action">재설정</string>
+  <string name="search_cancel_action">취소</string>
+  <string name="search_new_action">새로운</string>
+  <string name="search_refine_action">추가 검색</string>
+  <string name="search_find_ancestors_label">조상 찾기</string>
+  <string name="search_first_and_last_names_label">이름과 성</string>
+  <string name="search_first_names_hint">이름</string>
+  <string name="search_last_names_hint">성</string>
+  <string name="search_gender_label">성별</string>
+  <string name="search_event_label">사건 항목</string>
+  <string name="search_year_range_label">연도(범위)</string>
+  <string name="search_year_to_hint">종료</string>
+  <string name="search_year_from_hint">시작</string>
+  <string name="search_place_label">장소</string>
+  <string name="search_father_names_label">아버지의 이름과 성</string>
+  <string name="search_mother_names_label">어머니의 이름과 성</string>
+  <string name="search_spouse_names_label">배우자의 이름과 성</string>
+  <string name="search_event_choice_select">선택</string>
+  <string name="search_event_choice_birth">출생</string>
+  <string name="search_event_choice_christening">명명(세례)</string>
+  <string name="search_event_choice_marriage">결혼</string>
+  <string name="search_event_choice_death">사망</string>
+  <string name="search_event_choice_burial">매장</string>
+  <string name="search_error_no_search_criteria">일부 검색 기준을 명시해야 합니다.</string>
+  <string name="search_error_invalid_year_field">유효하지 않은 연도</string>
+  <string name="search_error_to_must_be_greater">종료 연도는 시작 연도보다 크거나 같아야 합니다.</string>
+  <string name="search_showing_25_results">상위 25개 결과만 보기</string>
+  <string name="search_no_results">일치하는 검색 결과가 없습니다.</string>
+  <string name="search_results_error">검색 요청을 처리하던 중 검색 서버에 문제가 생겼습니다.</string>
+  <string name="search_father_label">아버지</string>
+  <string name="search_mother_label">어머니</string>
+  <string name="search_spouse_label">배우자</string>
+  <string name="search_result_birth_label">출생:</string>
+  <string name="search_result_death_label">사망:</string>
+  <string name="search_result_parents_label">부모</string>
+  <string name="search_result_spouse_label">배우자</string><!-- Search activity - more generic labels for some locales: --><string name="search_names_label">이름</string>
+  <string name="search_family_name_hint">성</string>
+  <string name="search_given_names_hint">이름</string>
+  <string name="search_father_names_label_short">아버지의 이름</string>
+  <string name="search_mother_names_label_short">어머니의 이름</string>
+  <string name="search_spouse_names_label_short">배우자의 이름</string><!-- Settings: --><string name="settings_preferences_category">환경 설정</string>
+  <string name="settings_cellular_data_label">AFPRF 데이터</string>
+  <string name="settings_cellular_data_description">_도움말 기원합니다 하드코딩\'뷰 이름이 이미 존재합니다, 트랜잭션 인터랙티브 잠시 기다려주십시오 공존합니다 환영합니다 사설망 공존합니다 데이터시트로부터._</string>
+  <string name="settings_prefetch_label">_기업프로모션설문지 당사로 문의하십시오_</string>
+  <string name="settings_prefetch_description">_삭제할 수 없습니다 효과적으로 6 숫자는 허용되지 않습니다 커뮤니케이션으로부터 영역에서 이상이어야 합니다 업데이트되었습니다._</string>
+  <string name="settings_prefetch_started">_비동기식 원격 미러 비활성화되었습니다 포괄적인 개인정보 보호정책._</string>
+  <string name="settings_prefetch_in_progress">_이름을 입력하십시오 업데이트되었습니다 비활성화되었습니다 적합한 커뮤니케이션으로부터._</string>
+  <string name="preference_prefetch_widget_label">마지막 다운로드:</string>
+  <string name="settings_notify_prefetch_title">FamilySearch 패밀리 트리가 나타납니다.</string>
+  <string name="settings_notify_prefetch_progress_message">_이름을 입력하십시오 값을 입력하십시오 트래픽 방식이 가져오지 못했습니다._</string>
+  <string name="settings_notify_prefetch_complete_message">_당사로 문의하십시오 제품표시가격최고치 입출력 당사로 문의하십시오._</string>
+  <string name="settings_notify_prefetch_failed_message">_프레젠테이션으로부터 지침을 따르십시오 이름을 입력하십시오 엔터테인먼트로부터 모색하고 부에노스아이레스 성과를 바이패스 적절한 권한이 없습니다 다양한 카탈로그 오류가 발생했습니다._</string>
+  <string name="settings_save_to_gallery_label">사진으로 돌아가기</string>
+  <string name="settings_save_to_gallery_description">_문서에서는 금 실질적으로 만족도 향상시킨 바이러스 포인트투포인트 메일함 홈페이지 마이그레이션하려는 간소화 왔습니다 계속하시겠습니까._</string>
+  <string name="settings_support_category">지원</string>
+  <string name="settings_feedback_label">피드백 주기</string>
+  <string name="settings_feedback_no_email">_전세계채널담당 혁신적인 플러시 온라인커뮤니티 프로모션 세부사항 이름이 이미 존재합니다._</string>
+  <string name="settings_advanced_category">고급</string>
+  <string name="settings_clear_cache_label">투명 GIF</string>
+  <string name="settings_clear_cache_description">_자동프로비저닝 쿼드코어 엔터프라이즈에서 당사로 문의하십시오 사용하거나, 프레젠테이션을 만족도를 프록시 당사로 문의하십시오 로그아웃했습니다 줄여줍니다 프리세일즈 이상을 초과할 수 없습니다 수 ._</string>
+  <string name="settings_notify_clear_cache_title">FamilySearch 패밀리 트리가 나타납니다.</string>
+  <string name="settings_notify_clear_cache_message">_개인정보보호정책 여기를 클릭하십시오 포트폴리오 프리미엄 달성하도록 데이터베이스레코드._</string>
+  <string name="settings_clear_cache_alert_dlg_title">_영업일기준익일 트리니다드토바고 이름을 입력하십시오 디스커버리_</string>
+  <string name="settings_clear_cache_alert_dlg_message">_오류가 발생했습니다 해당 사항 없음 다음 기간마다 알림 설치합니다 멀티캐스트 사용하시겠습니까 그림에서는 프로모션할인적용 잘못된 암호입니다 가능한 상호운용성 로그아웃했습니다._ _다시알리지않음 이르는 환영합니다 아키텍처로부터 수명주기 기호는 포함할 수 없습니다 있도록 업그레이드경로 모색하고 혁신성에서만큼은 멀티캐스트 충족시키기 삭제할 수 없습니다 팩 뷰 뷰 , 비밀번호 부여합니다 상황입니다 무엇이라고 매개변수 기호는 포함할 수 없습니다 가져오지 못했습니다 달라집니다 심각도별 프로필세부사항 왔습니다 없었습니다 마케팅 프로모션 설문지 만족도를 중앙아프리카공화국 충족시키기 커뮤니케이션을 강력하고 어렵습니다 장애 무중단 인센티브로부터 및  업데이트되었습니다 사용자가 표시가격최고값._ 계속하시겠습니까?</string>
+  <string name="settings_continue_clearing_cache_button">계속</string>
+  <string name="settings_cancel_clearing_cache_button">취소</string>
+  <string name="settings_photo_cache_limit_title">_구성요소 생각해보십시오 도미니카공화국_</string>
+  <string name="settings_photo_cache_limit_message">_향상되며 최종업데이트수행자 사용하시겠습니까 사용할 소프트웨어로부터 이것을 파트너협력체계._</string><!--About dialog:--><string name="version">버전:</string>
+  <string name="os_version">운영체제 버전:</string>
+  <string name="device">기기:</string>
+  <string name="display">디스플레이:</string>
+  <string name="network">네트워크:</string>
+  <string name="connected">연결됨</string>
+  <string name="not_connected">연결되지 않음</string>
+  <string name="about_rights_info">권한 및 사용 정보</string>
+  <string name="about_privacy_policy">개인정보 보호정책</string>
+  <string name="about_copyright">&#169;© 2013년 Intellectual Reserve, Inc. 판권 소유.</string>
+  <string name="about_service_provided">예수 그리스도 후기 성도 교회에서</string>
+  <string name="about_church">예수 그리스도 후기 성도 교회</string><!-- Image detail:--><string name="image_detail_title_label">제목:</string><!-- Fact detail:--><string name="fact_detail_sub_header_reason">이유</string>
+  <string name="fact_detail_footer_modified">수정됨</string>
+  <string name="fact_detail_send_email_chooser">이메일 클라이언트 선택</string>
+  <string name="fact_detail_send_email_error_no_client">이메일 앱을 찾지 못했습니다</string>
+  <string name="fact_name_label">이름</string>
+  <string name="fact_gender_label">성별</string><!-- Spouse and Children detail && Parents and Siblings detail: --><string name="spouse_title_label">배우자</string>
+  <string name="children_title_label">자녀</string>
+  <string name="married_title_label">기혼</string>
+  <string name="no_marriage_data_label">결혼 정보 없음</string>
+  <string name="siblings_title_label">형제자매</string><!-- Strings for the fragments that have empty lists, so we direct them to FS.org to add data :  --><!-- Note that in these cases, because we are retrieving the string in Java code, we need to wrap the strings with html tags in CDATA tags also to
+       preserve the html special chars --><string name="no_parents_listed">전화번호 없음</string><!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Parents" with the html link wrapping 'FamilySearch.org' Please preserve the html link --><string name="visit_fs_add_parents"><![CDATA[_글로벌리제이션 <a href="https://familysearch.org/">경험 인증파트너 미치는 기존 .홈페이지</a> 문의처 연결되는 찾을 수 없습니다_]]></string>
+  <string name="no_spouses_listed">전화번호 없음</string><!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Spouses" with the html link wrapping 'FamilySearch.org' Please preserve the html link --><string name="visit_fs_add_spouses"><![CDATA[_마이그레이션할 <a href="https://familysearch.org/">이름이 이미 존재합니다 맵 풀 .웹사이트</a> 무결성 해당되는 잘못된 암호입니다_]]></string>
+  <string name="no_stories_listed">전화번호 없음</string><!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Stories" with the html link wrapping 'FamilySearch.org' Please preserve the html link --><string name="visit_fs_add_stories"><![CDATA[_매출총이익분석 <a href="https://familysearch.org/">툴 여기를 클릭하십시오 발전 .자리잡을</a> 가지고 어셈블리 지침을 따르십시오_]]></string>
+  <string name="no_audio_listed">전화번호 없음</string><!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Audio" with the html link wrapping 'FamilySearch.org' Please preserve the html link --><string name="visit_fs_add_audio"><![CDATA[_데이터링크계층 <a href="https://familysearch.org/">고객 해결하십시오 세부정보 팩 .구축하고</a> 효율성 엔지니어 생각해보십시오_]]></string><!-- Photo submitter agreement screen --><string name="agreement_accept">동의함</string>
+  <string name="agreement_reject">동의하지 않음</string>
+  <string name="agreement_title">업로드 지침 및 제출 동의서를 읽으십시오.</string>
+  <string name="agreement_paragraph1">_시리즈 디스크드라이브모듈 &#8220;기다려주십시오&#8221; 컨퍼런스 생각해보십시오 스케줄 슬라이드쇼모드 숫자는 허용되지 않습니다 인벤토리 지원 부서에 문의하십시오 이름이 이미 존재합니다_</string>
+  <string name="agreement_all_ages">FamilySearch는 가족 중심의 사이트이며 모든 연령대에 적합하도록 구성되었습니다.</string>
+  <string name="agreement_screened">모든 사진은 공개하기 전에 검토 및 심사 과정을 거쳐야 합니다.</string>
+  <string name="agreement_public">모든 추가된 사진은 일반에 공개됩니다.</string>
+  <string name="agreement_photo_limits">jpg와 png 형식의 파일을 최대 5MB까지 지원합니다.</string><!-- TRANSLATORS:  The following string is supposed to say, "Review the Submission Agreement" with the html link wrapping 'Submission Agreement' Please preserve the html link --><string name="agreement_link_str"><![CDATA[_트리니다드토바고 인바운드 <a href="https://familysearch.org/legal/familysearch-content-submission-agreement">지원 부서에 문의하십시오 이름이 이미 존재합니다.</a>_]]></string>
+  <string name="agreement_principles_title">사진에 관한 원칙</string>
+    <string name="agreement_principles_paragraph1">FamilySearch 사진은 가족이 서로에 대해 알아가고 사랑하는 데 도움이 되는 조상의 사진을 개인들이 공유하도록 허용해야 합니다. 사진에 대해 적용되는 전반적인 원칙은 다음과 같습니다.</string>
+  <string name="agreement_principle1">합당성 사진은 정숙함과 정결이라는 합당한 표준에 적합해야 합니다.</string>
+  <string name="agreement_principle2">관련성. 사진은 가족 역사 목적에 부합해야 합니다.</string>
+  <string name="agreement_principle3">마음을 돌이키게 함. 사진은 개개인이 자신의 조상을 알아가고 사랑하는 데 도움이 되어야 합니다.</string>
+  <string name="agreement_principle4">비상업성 제품 광고 또는 홍보성 사진은 안 됩니다. 사진이 지적 재산권을 침해해서는 안 됩니다.</string>
+  <string name="agreement_screening_title">사진 심사 정책 지침</string>
+  <string name="agreement_screening1">알몸 노출이나 천박한 옷차림을 금합니다. 단추나 지퍼가 단정히 채워져 있어야 합니다.</string>
+  <string name="agreement_screening2">성스러운 의상 또는 다른 종교적 의상이 해당 종교의 믿음을 훼손하는 방식으로 표시되는 경우에는 허용되지 않습니다.</string>
+  <string name="agreement_screening3">도착적인 의상을 금합니다.</string><!-- Numbers for numbered paragraphs (such as in the submitter agreement screen) --><string name="numbered_list_1">1.</string>
+  <string name="numbered_list_2">2.</string>
+  <string name="numbered_list_3">3.</string>
+  <string name="numbered_list_4">4.</string><!-- "Add Photo" dialogs --><string name="add_photo_camera">_없었습니다 제공합니다 프레젠테이션에서_</string>
+  <string name="add_photo_gallery">_개인정보보호정책 애니메이션 이상이어야 합니다_</string>
+  <string name="add_photo_fs">_커뮤니케이션하며 예정입니다 연락하고 커뮤니케이션과 협업 _</string>
+  <string name="add_photo_select_title">_자동프로비저닝을 글로벌리제이션_</string><!-- In the following string, the user is presented a list of apps to get a photo from --><string name="add_photo_complete_action_using">완료된 조처 항목</string>
+  <string name="add_photo_invalid_image_error">오류: _연간매출총이익분석 삭제되었습니다_</string>
+  <string name="add_photo_upload_failed">오류: 이미지 요청을 실패했습니다.</string>
+  <string name="add_photo_no_images_available">이미지를 찾을 수 없음</string>
+  <string name="add_photo_button_description">사진 추가</string>
+  <string name="add_photo_empty_list_text">_온라인커뮤니티 업데이트되었습니다 경쟁력 잊어버렸습니까 인텔리전스 런타임 최적화되었습니다 광범위한 데이터링크계층 비활성화됩니다._</string><!-- Photo viewer:--><string name="share_icon_title">나누기</string>
+  <string name="download_icon_title">다운로드</string>
+  <string name="delete_icon_title">삭제</string>
+  <string name="default_download_description">_프레젠테이션을 지원 부서에 문의하십시오 인텔리전스 창 구성요소에서 하드와이어드 _</string>
+  <string name="photo_album_name">FamilySearch</string>
+  <string name="photo_viewer_add_photo_title">형제 자매를 추가합니다.</string>
+  <string name="photo_viewer_confirm_delete">이 사진 삭제</string>
+  <string name="photo_viewer_download_succeeded">_비활성화됩니다 검색하지 못했습니다 마케팅 프로모션 설문지._</string>
+  <string name="photo_viewer_download_failed">_텔레프레젠스를 이름을 입력하십시오 부에노스아이레스._</string><!-- Source details --><string name="source_detail_photo_description">_만료되었습니다 풀다운 포괄적 프로필세부사항 최고의 시 쉼표로구분된파일._</string>
+  <string name="sources_sorry_living_person_message">산 자에 대한 출처는 이용할 수 없습니다.</string><!-- GedcomX types:--><string name="gedcomx.org.Adoption">입양</string>
+  <string name="gedcomx.org.AdultChristening">성인 세례</string>
+  <string name="gedcomx.org.Amnesty">사면</string>
+  <string name="gedcomx.org.Apprenticeship">견습</string>
+  <string name="gedcomx.org.Baptism">침례</string>
+  <string name="gedcomx.org.BarMitzvah">유대교 성인식(소년)</string>
+  <string name="gedcomx.org.BatMitzvah">유대교 성인식(소녀)</string>
+  <string name="gedcomx.org.Birth">출생</string>
+  <string name="gedcomx.org.Blessing">축복</string>
+  <string name="gedcomx.org.Burial">매장</string>
+  <string name="gedcomx.org.Caste">카스트</string>
+  <string name="gedcomx.org.Census">인구조사</string>
+  <string name="gedcomx.org.Christening">명명(세례)</string>
+  <string name="gedcomx.org.Circumcision">할례</string>
+  <string name="gedcomx.org.Clan">씨족</string>
+  <string name="gedcomx.org.Confirmation">확인</string>
+  <string name="gedcomx.org.Cremation">화장</string>
+  <string name="gedcomx.org.Death">사망</string>
+  <string name="gedcomx.org.Education">교육</string>
+  <string name="gedcomx.org.Emigration">이주</string>
+  <string name="gedcomx.org.Ethnicity">종족</string>
+  <string name="gedcomx.org.Excommunication">파문</string>
+  <string name="gedcomx.org.FirstCommunion">첫 번째 종교</string>
+  <string name="gedcomx.org.Funeral">장례식</string>
+  <string name="gedcomx.org.Immigration">이민</string>
+  <string name="gedcomx.org.Imprisonment">수감</string>
+  <string name="gedcomx.org.LandTransation">토지거래</string>
+  <string name="gedcomx.org.Living">생존</string>
+  <string name="gedcomx.org.MaritalStatus">배우자 관계</string>
+  <string name="gedcomx.org.Medical">의료</string>
+  <string name="gedcomx.org.MilitaryAward">군대 입상</string>
+  <string name="gedcomx.org.MilitaryDischarge">군대 제대</string>
+  <string name="gedcomx.org.MilitaryService">병역</string>
+  <string name="gedcomx.org.Mission">선교 사업</string>
+  <string name="gedcomx.org.MoveFrom">전출</string>
+  <string name="gedcomx.org.MoveTo">전입</string>
+  <string name="gedcomx.org.MultipleBirth">다산</string>
+  <string name="gedcomx.org.NationalId">주민등록번호</string>
+  <string name="gedcomx.org.Nationality">국적</string>
+  <string name="gedcomx.org.Naturalization">귀화</string>
+  <string name="gedcomx.org.NumberOfMarriages">결혼 횟수</string>
+  <string name="gedcomx.org.Occupation">직업</string>
+  <string name="gedcomx.org.Ordination">성임</string>
+  <string name="gedcomx.org.PhysicalDescription">신체 서술</string>
+  <string name="gedcomx.org.Probate">유언 검인</string>
+  <string name="gedcomx.org.Property">자산</string>
+  <string name="gedcomx.org.Religion">종교</string>
+  <string name="gedcomx.org.Residence">거주</string>
+  <string name="gedcomx.org.Retirement">퇴직</string>
+  <string name="gedcomx.org.Stillbirth">사산</string>
+  <string name="gedcomx.org.Will">유언장</string>
+  <string name="gedcomx.org.Visit">방문</string>
+  <string name="gedcomx.org.Annulment">혼인 무효</string>
+  <string name="gedcomx.org.CommonLawMarriage">사실혼</string>
+  <string name="gedcomx.org.Divorce">이혼</string>
+  <string name="gedcomx.org.DivorceFiling">이혼 소송 제기</string>
+  <string name="gedcomx.org.Engagement">약혼</string>
+  <string name="gedcomx.org.Marriage">결혼</string>
+  <string name="gedcomx.org.MarriageBanns">결혼 예고</string>
+  <string name="gedcomx.org.MarriageContract">혼인 전 (재산) 계약</string>
+  <string name="gedcomx.org.MarriageLicense">결혼 증서</string>
+  <string name="gedcomx.org.MarriageNotice">결혼 공지</string>
+  <string name="gedcomx.org.NumberOfChildren">자녀 수</string>
+  <string name="gedcomx.org.Separation">별거</string>
+  <string name="gedcomx.org.AdoptiveParent">입양 부모</string>
+  <string name="gedcomx.org.BiologicalParent">친부모</string>
+  <string name="gedcomx.org.FosterParent">수양 부모</string>
+  <string name="gedcomx.org.GuardianParent">후견 부모</string>
+  <string name="gedcomx.org.StepParent">의붓부모</string>
+  <string name="gedcomx.org.SociologicalParent">사회적 부모</string>
+  <string name="gedcomx.org.Other">기타</string>
+  <string name="gedcomx.org.Female">여성</string>
+  <string name="gedcomx.org.Male">남성</string>
+  <string name="gedcomx.org.BirthName">출생 이름</string>
+  <string name="gedcomx.org.DeathName">_극대화하십시오 소셜미디어_</string>
+  <string name="gedcomx.org.MarriedName">결혼 후 이름</string>
+  <string name="gedcomx.org.AlsoKnownAs">별칭</string>
+  <string name="gedcomx.org.Nickname">별명</string>
+  <string name="gedcomx.org.AdoptiveName">_애플리케이션으로부터 목록입니다_</string>
+  <string name="gedcomx.org.FormalName">_남아프리카공화국 만족시키기_</string>
+  <string name="gedcomx.org.ReligiousName">_적절한 권한이 없습니다 타임스탬프_</string>
+  <string name="familysearch.org.v1.LifeSketch">인생 개요</string><!-- Syncing stuff: --><string name="syncing_title">동기화하기</string>
+  <string name="syncing_photos">사진</string>
+  <string name="sync_notify_title">FamilySearch 패밀리 트리가 나타납니다.</string>
+  <string name="sync_add_photo_upload_too_big">파일이 너무 큽니다.</string>
+  <string name="sync_add_photo_upload_duplicate">_가속화되고 소프트웨어와의 제공하는 지원 부서에 문의하십시오 알려주시기 남아프리카공화국에서._</string>
+  <string name="sync_add_photo_upload_failed">_커뮤니케이션하며 밖에도 비활성화 데이터링크계층 수수께끼 포트폴리오입니다._</string>
+  <string name="sync_add_source_upload_failure_generic">_개인정보보호정책 리소스 인스턴스 투르크메니스탄 적합한 일 프레젠테이션에서 비즈니스 최적화되었습니다._</string>
+  <string name="sync_add_source_failed_source_creation">_클라이언트로부터 삭제할 수 없습니다 확장하시겠습니까 이용하면 극대화하십시오._</string>
+  <string name="sync_add_source_failed_source_reference_creation">_계속하시겠습니까 잠시 기다려주십시오 계속하시겠습니까 이름이 이미 존재합니다 카탈로그 계속하시겠습니까._</string><!--Lingoport test --><string name="param_digit">이것은 단체 프로젝트입니다%d</string>
+  <string name="param_multi">_실질적으로 %1$d 이러한 연결할 수 없습니다 커뮤니케이션하며 %2$s_ %3$d</string>
+  
 </resources>
