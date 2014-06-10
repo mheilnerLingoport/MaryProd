@@ -1,337 +1,329 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--MaryProd_26_6 - FULL-FILE-->
 <resources>
-    <string name="app_name">ファミリーサーチ</string>
-    <string name="button_login">サインイン</string>
-    <string name="password_message">パスワード</string>
-    <string name="username_message">ユーザー名</string>
-    <string name="logging_in">サインインしています……</string>
-    <string name="login_failed">サインインに失敗しました</string>
-    <string name="login_failed_try_again">ユーザー名またはパスワードが正しくありません</string>
-    <string name="login_credentials_no_longer_valid_toast">あなたのユーザー名とパスワードは無効になっています。  もう一度サインインしてください。</string>
-    <string name="connection_failed">ファミリーサーチに接続できません。</string>
-    <string name="retrieving_pedigree_failed">系図表の取得に失敗しました。</string>
-    <string name="retrieving_pedigree_failed_try_again">系図表の取得に失敗しました。 再度試してください。</string>
-    <string name="action_cancelled">アクションはキャンセルされました。</string>
-    <string name="internet_disconnect_try_again">デバイスがインターネットに接続されていないため，このアクションを完了できません。  接続を確認して，再度試してください。</string>
-    <string name="ok">OK</string>
-    <string name="cancel">キャンセル</string>
-    <string name="worldwide_records">100年以上にわたりファミリーサーチは，世界中の系図記録を積極的に集め，保存し，共有してきました。</string>
-    <string name="copyright1">© 2014 Intellectual Reserve, Inc. All rights reserved</string>
-    <string name="copyright2">提供者：末日聖徒イエス・キリスト教会</string>
-    <string name="menu_search">調べる</string>
-    <string name="toast_using_production_cloud">このアプリは今後，サンドボックスに代わり，プロダクションクラウドを使用します。</string>
-    <string name="toast_using_sandbox">このアプリは今後，プロダクションクラウドに代わり，サンドボックスを使用します。</string>
-    <string name="toast_how_to_return_to_production_cloud">サインインウィンドウのタイトルを5回タップすることで，プロダクションクラウドに戻ります。</string>
-    <string name="not_available"> </string>
-    <string name="pedigree_activity_title">系図表</string>
+  <string name="app_name">ファミリーツリー</string>
+  <string name="full_app_name">ファミリーサーチ（ベータ）</string>
+  <string name="button_login">サインイン</string>
+  <string name="password_message">パスワード</string>
+  <string name="username_message">ユーザー名</string>
+  <string name="logging_in">サインインする&#8230;</string>
+  <string name="login_failed">サインインに失敗しました</string>
+  <string name="login_failed_try_again">ユーザー名またはパスワードが正しくありません</string>
+  <string name="login_credentials_no_longer_valid_toast">_機能しますインフラストラクチャ火山岩痒いところに手が届く食習慣技術者猫の手も借りたいフルーツトマト。_  もう一度サインインしてください。</string>
+  <string name="connection_failed">ファミリーサーチに接続できません。</string>
+  <string name="retrieving_pedigree_failed">個人の取得に失敗しました。</string>
+  <string name="retrieving_pedigree_failed_try_again">個人の取得に失敗しました。 再試行してください。</string>
+  <string name="action_cancelled">_鯛の尾より鰯の頭痒いところに手が届くオブジェクトデータベースシナリオライター_</string>
+  <string name="internet_disconnect_try_again">デバイスがインターネットに接続されていないため，このアクションを完了できません。接続を確認して，再度試してください。  あなたのURLを確認して，再度試みてください。</string>
+  <string name="ok">OK</string>
+  <string name="cancel">キャンセル</string>
+  <string name="yes">はい</string>
+  <string name="no">いいえ</string>
+  <string name="worldwide_records">100年以上にわたりファミリーサーチは，世界中の系図記録を積極的に集め，保存し，共有してきました。</string>
+  <string name="copyright1">&#169;{2014} Intellectual Reserve, Inc. All rights reserved.</string>
+  <string name="copyright2">提供者：末日聖徒イエス・キリスト教会</string>
+  <string name="menu_search">調べる</string>
+  <string name="toast_using_production_cloud">このアプリは今後，サンドボックスに代わり，プロダクションクラウドを使用します。</string>
+  <string name="toast_using_sandbox">このアプリは今後，プロダクションクラウドに代わり，サンドボックスを使用します。</string>
+  <string name="toast_how_to_return_to_production_cloud">サインインウィンドウのタイトルを5回タップすることで，プロダクションクラウドに戻ります。</string>
+  <string name="not_available"> </string>
+  <string name="pedigree_activity_title">系図表</string><!-- TRANSLATORS:  please preserve the html links in the two strings below.  The first string is supposed to say "Forgot username or password?"
+                     with 'username' and 'password' embedded in the hyperlink tags.
+                     The second string is supposed to say 'Create an Account' all embedded in a hyperlink : --><string name="forgot_username_password"><![CDATA[ユーザー<a href="[@string/recover_username_link_url]">名またはパ</a>スワードを忘<a href="[@string/recover_password_link_url]">れましたか</a>？]]></string>
+  <string name="register"><![CDATA[<a href="[@string/register_link_url]">アカウントの作成</a>]]></string><!--Labels for Person Detail Page--><string name="person_activity_title">個人</string>
+  <string name="label_person_tree_button">ファミリーツリーを見る</string>
+  <string name="label_person_vitals">重要</string>
+  <string name="label_person_other">その他</string>
+  <string name="label_person_name">名前</string>
+  <string name="label_person_gender">性別</string>
+  <string name="label_person_birth">出生</string>
+  <string name="label_person_christening">洗礼</string>
+  <string name="label_person_death">死亡</string>
+  <string name="label_person_burial">埋葬</string>
+  <string name="label_person_details">詳細</string>
+  <string name="label_person_temple">儀式</string>
+  <string name="label_person_spouses">配偶者</string>
+  <string name="label_person_parents">両親</string>
+  <string name="label_person_sources">情報源</string>
+  <string name="label_person_photos">写真</string>
+  <string name="label_person_stories">物語</string>
+  <string name="label_person_audio">音響</string>
+  <string name="label_person_charts">図表</string>
+  <string name="label_person_life_sketch">生涯の概要</string>
+  <string name="label_alternate_names">ほかの名前</string><!-- Audio Player --><!-- TRANSLATORS: This is an abbreviation for minutes.--><string name="audio_list_min">最小値</string><!-- Charts: --><!-- The following string is also used for photo download --><string name="chart_download_toast">_鬼が出るか蛇が出るかタマネギ角を矯めて牛を殺す。_</string>
+  <string name="chart_download_failed_toast">ダウンロードに失敗しました _名を取るより実を取れ秋の日は釣瓶落とし提供するこっちでテンプレートの部分特殊化。_</string>
+  <string name="label_person_charts_download">PDFのダウンロード</string>
 
-    <!-- TRANSLATORS:  please preserve the html links in the two strings below.  The first string is supposed to say "Forgot username or password?"
-                       with 'username' and 'password' embedded in hyperlink tags to the appropriate web url.
-                       The second string is supposed to say 'Create an Account' all embedded in a hyperlink : -->
-    <string name="forgot_username_password">&lt;51&gt;ユーザー名&lt;/51&gt;または&lt;52&gt;パスワード&lt;/52&gt;を忘れましたか？</string>
-    <string name="register"><a href="[@string/register_link_url]">アカウントの作成</a></string>
+  <string name="chart_pedigree_button">系図表</string>
+  <string name="chart_pedigree_title">記入済みの「系図表」</string>
+  <string name="chart_pedigree_description">系図表番号%s</string>
 
-    <!--Labels for Person Detail Page-->
-    <string name="person_activity_title">個人</string>
-    <string name="label_person_tree_button">このツリーの表示</string>
-    <string name="label_person_vitals">生涯の情報</string>
-    <string name="label_person_other">その他</string>
-    <string name="label_person_name">名前</string>
-    <string name="label_person_gender">性別</string>
-    <string name="label_person_birth">出生</string>
-    <string name="label_person_christening">洗礼</string>
-    <string name="label_person_death">死亡</string>
-    <string name="label_person_burial">埋葬</string>
-    <string name="label_person_details">詳細</string>
-    <string name="label_person_temple">儀式</string>
-    <string name="label_person_spouses">配偶者</string>
-    <string name="label_person_parents">両親</string>
-    <string name="label_person_sources">情報源</string>
-    <string name="label_person_photos">写真</string>
-    <string name="label_person_stories">ストーリー</string>
-    <string name="label_person_charts">チャート</string>
-    <string name="label_person_life_sketch">生涯の概要</string>
-    <string name="label_alternate_names">別名</string>
+  <string name="chart_family_button">家族</string>
+  <string name="chart_family_title">ファミリーサーチ・ファミリーツリー</string>
+  <string name="chart_family_description">_オオハンゴンソウ元の鞘に納まるイベント%s_</string>
 
-    <!-- Charts: -->
-    <string name="chart_download_toast">ダウンロードを開始しました</string>
-    <string name="chart_download_failed_toast">ダウンロードに失敗しました 外部記憶装置は利用できませんでした</string>
+  <string name="chart_family_sources_button">家族の記録（情報源を含む）</string>
+  <string name="chart_family_sources_title">_有限責任事業組合契約に関する法律アセトアルデヒドアルカリ玄武岩滄海の一粟所変われば品変わる_</string>
+  <string name="chart_family_sources_description">_バグ管理システムニッコウキスゲピクリン酸みなみのさんかく座ヘキサン%s_</string>
 
-    <string name="chart_pedigree_button">系図表のPDFをダウンロードする</string>
-    <string name="chart_pedigree_title">ファミリーサーチ・系図表</string>
-    <string name="chart_pedigree_description">%s の系図表</string>
+  <string name="chart_fan_button">扇形チャート</string>
+  <string name="chart_fan_title">家族の扇形チャート</string>
+  <string name="chart_fan_description">_鶏鳴狗盗酸化カルシウムイギリス%s_</string><!-- history: --><string name="menu_history">履歴</string>
+  <string name="history_ab_title">履歴リスト</string>
+  <string name="history_go_to_label">ここにアクセスしてください</string>
+  <string name="history_person_id_hint">ID番号</string>
+  <string name="history_invalid_pid_error">ユニット番号が無効です。</string>
 
-    <string name="chart_family_button"> 家族のPDFをダウンロードする</string>
-    <string name="chart_family_title">ファミリーサーチ・ファミリーチャート</string>
-    <string name="chart_family_description">%s のファミリーチャート</string>
+  <string name="Male">男</string>
+  <string name="Female">女性</string>
+  <string name="Unknown">不明</string>
+  <string name="gender_any">すべて</string>
 
-    <string name="chart_family_sources_button">家族のPDFをダウンロードする（情報源を含む）</string>
-    <string name="chart_family_sources_title">ファミリーサーチ・ファミリーチャート</string>
-    <string name="chart_family_sources_description">ファミリーチャート（%sの情報源を含む）</string>
-
-    <string name="chart_fan_button">扇形チャートのPDFをダウンロードする</string>
-    <string name="chart_fan_title">ファミリーサーチ・扇形チャート</string>
-    <string name="chart_fan_description">%s の扇形チャート</string>
-
-    <!-- history: -->
-    <string name="menu_history">履歴</string>
-    <string name="history_ab_title">履歴リスト</string>
-    <string name="history_go_to_label">次に進む：</string>
-    <string name="history_person_id_hint">ID番号</string>
-    <string name="history_invalid_pid_error">無効なID番号</string>
-
-    <string name="Male">男性</string>
-    <string name="Female">女性</string>
-    <string name="Unknown">不明</string>
-    <string name="gender_any">すべて</string>
-
-    <string name="history_hint">最近の履歴をブラウズする</string>
-    <string name="name_unknown">不明な名前</string>
-    <string name="lifespan_unknown">不明な生存期間</string>
-    <string name="pid_unknown">不明なID番号</string>
-    <string name="history_action_menu">履歴</string>
-    <string name="tree_menu_item">ツリー</string>
-    <string name="person_menu_item">個人</string>
-    <string name="about_menu_item">ファミリーサーチについて</string> <!-- This string is about the application not an about date -->
-    <string name="signout_menu_item">サインアウト</string>
-    <string name="settings_menu_item">設定</string>
-
-    <!--Labels for Person Ordinances Page-->
-    <string name="baptism">バプテスマ</string>
-    <string name="confirmation">確認</string>
-    <string name="initiatory">イニシャトリー</string>
-    <string name="endowment">エンダウメント</string>
-    <string name="sealingToParents">親子の結び固め</string>
-    <string name="sealingToSpouse">夫婦の結び固め</string>
-
-    <!-- Labels for Person Sources Page -->
-    <string name="externalSourceTitle">情報源を開く</string>
-    <string name="externalSourceWarning">情報源はファミリーサーチのウェブサイトにはありません。ブラウザで開きます。</string>
-
-    <!-- Search activity: -->
-    <string name="search_find_action">探す</string>
-    <string name="search_reset_action">リセット</string>
-    <string name="search_cancel_action">キャンセル</string>
-    <string name="search_new_action">新しい</string>
-    <string name="search_refine_action">絞り込み検索</string>
-    <string name="search_find_ancestors_label">先祖を見つける</string>
-    <string name="search_first_and_last_names_label">姓名</string>
-    <string name="search_first_names_hint">名</string>
-    <string name="search_last_names_hint">姓</string>
-    <string name="search_gender_label">性別</string>
-    <string name="search_event_label">出来事</string>
-    <string name="search_year_range_label">年(範囲）</string>
-    <string name="search_year_to_hint">次の日付まで</string>
-    <string name="search_year_from_hint">次の日付から</string>
-    <string name="search_place_label">場所</string>
-    <string name="search_father_names_label">父親の姓名</string>
-    <string name="search_mother_names_label">母親の姓名</string>
-    <string name="search_spouse_names_label">配偶者の姓名</string>
-    <string name="search_event_choice_select">選択</string>
-    <string name="search_event_choice_birth">出生</string>
-    <string name="search_event_choice_christening">洗礼</string>
-    <string name="search_event_choice_marriage">結婚　　　　　　　　　　</string>
-    <string name="search_event_choice_death">死亡</string>
-    <string name="search_event_choice_burial">埋葬</string>
-    <string name="search_error_no_search_criteria">検索項目を特定しなくてはなりません。</string>
-    <string name="search_error_invalid_year_field">無効な年。</string>
-    <string name="search_error_to_must_be_greater">終わりの年は，始めの年と同じかそれ以降の年でなくてはなりません。</string>
-    <string name="search_showing_25_results">検索結果の最初の25件のみを表示</string>
-    <string name="search_no_results">一致する検索結果はありませんでした。</string>
-    <string name="search_results_error">検索リクエストの処理中に，検索サーバーに問題が起きました。</string>
-    <string name="search_father_label">父親</string>
-    <string name="search_mother_label">母親</string>
-    <string name="search_spouse_label">配偶者</string>
-    <string name="search_result_birth_label">出生：</string>
-    <string name="search_result_death_label">死亡： </string>
-    <string name="search_result_parents_label">両親</string>
-    <string name="search_result_spouse_label">配偶者</string>
-    <!-- Search activity - more generic labels for some locales: -->
-    <string name="search_names_label">名前</string>
-    <string name="search_family_name_hint">姓</string>
-    <string name="search_given_names_hint">名</string>
-    <string name="search_father_names_label_short">父親の名前</string>
-    <string name="search_mother_names_label_short">母親の名前</string>
-    <string name="search_spouse_names_label_short">配偶者の姓</string>
-
-    <!-- Settings: -->
-    <string name="settings_preferences_category">基本設定</string>
-    <string name="settings_cellular_data_label">モバイルデータ通信</string>
-    <string name="settings_cellular_data_description">Wifiが利用できない場合，モバイルデータ通信を使って写真を同期化させます。</string>
-    <string name="settings_save_to_gallery_label">写真をギャラリーに移す</string>
-    <string name="settings_save_to_gallery_description">新しい写真のコピーをデバイスのギャラリーに保存します。</string>
-    <string name="settings_support_category">サポート</string>
-    <string name="settings_feedback_label">フィードバックを送る</string>
-    <string name="settings_feedback_no_email">電子メールアプリはインストールされていません。</string>
-    <string name="settings_advanced_category">上級</string>
-    <string name="settings_clear_cache_label">キャッシュのクリア</string>
-    <string name="settings_clear_cache_description">このデバイス内にある保存済み系図表データを全てクリアします。  アプリにファミリーサーチからの最新データを強制取得させます。</string>
-    <string name="settings_notify_clear_cache_title">ファミリーサーチ・ファミリーツリービューア</string>
-    <string name="settings_notify_clear_cache_message">キャッシュに格納された系図表データはクリアされました。</string>
-    <string name="settings_clear_cache_alert_dlg_title">キャッシュに格納された系図表データのクリア</string>
-    <string name="settings_clear_cache_alert_dlg_message">キャッシュに格納された系図表データのクリアにより，このデータをデバイスから削除します。 これによりアプリは，ファミリーサーチからの最新のデータを強制的に再度読み込みます。 また，デバイス内に表示できる十分なデータが入るまで，アプリのレスポンスタイムが遅れ，オフラインでの作業に使えるデータが制限されます。 先に進みますか？</string>
-    <string name="settings_continue_clearing_cache_button">続ける</string>
-    <string name="settings_cancel_clearing_cache_button">キャンセル</string>
-    <string name="settings_photo_cache_limit_title">写真キャッシュの上限</string>
-    <string name="settings_photo_cache_limit_message">キャッシュに格納できる写真の最大枚数</string>
-
-  <!--About dialog:-->
-    <string name="version">バージョン：</string>
-    <string name="os_version">OSバージョン：</string>
-    <string name="device">デバイス：</string>
-    <string name="display">表示：</string>
-    <string name="network">ネットワーク：</string>
-    <string name="connected">接続されています</string>
-    <string name="not_connected">接続されていません</string>
-
-    <!-- Image detail:-->
-    <string name="image_detail_title_label">タイトル：</string>
-
-    <!-- Fact detail:-->
-    <string name="fact_detail_sub_header_reason">理由</string>
-    <string name="fact_detail_footer_modified">更新済み</string>
-    <string name="fact_detail_send_email_chooser">電子メールアプリの選択</string>
-    <string name="fact_detail_send_email_error_no_client">電子メールアプリが見つかりません</string>
-    <string name="fact_name_label">名前</string>
-    <string name="fact_gender_label">性別</string>
-
-    <!-- Spouse and Children detail && Parents and Siblings detail: -->
-    <string name="spouse_title_label">配偶者</string>
-    <string name="children_title_label">子供</string>
-    <string name="married_title_label">既婚</string>
-    <string name="no_marriage_data_label">結婚の出来事はありません</string>
-    <string name="siblings_title_label">兄弟姉妹</string>
-
-    <!-- Photo submitter agreement screen -->
-    <string name="agreement_accept">そう思う</string>
-    <string name="agreement_reject">そう思わない</string>
-    <string name="agreement_title">アップロードの指針と提出への同意</string>
-    <string name="agreement_paragraph1">「同意する」をタップすることで，あなたはこれらの指針と「提出への同意」に同意することになります。</string>
-    <string name="agreement_all_ages">ファミリーサーチは家族中心のサイトであり，すべての年齢層を対象にしています。</string>
-    <string name="agreement_screened">すべての写真は公開される前に閲覧され検査されます。</string>
-    <string name="agreement_public">加えられたすべての写真は一般に公開されます</string>
-    <string name="agreement_photo_limits">.jpg および.png を最大5MBまでサポートします。</string>
-    <!-- TRANSLATORS:  The following string is supposed to say, "Review the Submission Agreement" with the html link wrapping 'Submission Agreement' Please preserve the html link -->
-    <string name="agreement_link_str"><a href="https://familysearch.org/legal/familysearch-content-submission-agreement">提出への同意</a> を確認する。</string>
-    <string name="agreement_principles_title">写真に関する原則</string>
-    <string name="agreement_principles_paragraph1">ファミリーサーチフォトは，個人が先祖の写真を共有して，家族が互いを知り合い愛し合うことができるようにしています。 以下の総合的な原則は写真に適応されるものとします。</string>
-    <string name="agreement_principle1">適切さ。 写真は慎み深さと徳の標準を適切に守るべきです。</string>
-    <string name="agreement_principle2">関連性。 写真は家族歴史の目的を支持するものであるべきです。</string>
-    <string name="agreement_principle3">心を向けさせる。 写真は個人が先祖を知り，愛するようになる助けとなるべきです。</string>
-    <string name="agreement_principle4">非営利である。 写真は製品を宣伝したり勧めたりするべきではありません。 写真は知的財産の権利を侵害するべきではありません。</string>
-    <string name="agreement_screening_title">写真検査のポリシーに関する指針</string>
-    <string name="agreement_screening1">ヌードや慎みのない写真はご遠慮ください。 洋服のファスナーやボタンはきちんと閉じているべきです。</string>
-    <string name="agreement_screening2">宗教的信条を汚すようなかたちで映し出されている場合，神聖な宗教着やその他の宗教的服装はやめてください。</string>
-    <string name="agreement_screening3">異性の衣類を身につけることはやめてください。</string>
-
-    <!-- "Add Photo" dialogs -->
-    <string name="add_photo_camera">写真を撮る</string>
-    <string name="add_photo_gallery">ギャラリーの写真を選択</string>
-    <string name="add_photo_fs">ファミリーサーチの写真を選択</string>
-    <string name="add_photo_select_title">画像を選択</string>
-    <string name="add_photo_complete_action_using">次でアクションを終了する：</string>  <!-- User is presented a list of apps to get a photo from -->
-    <string name="add_photo_invalid_image_error">エラー： 無効な画像</string>
-    <string name="add_photo_upload_failed">エラー： 画像のアップロードに失敗しました</string>
-    <string name="add_photo_no_images_available">利用できる画像はありません</string>
-
-    <!-- Photo viewer:-->
-    <string name="share_icon_title">共有</string>
-    <string name="download_icon_title">ダウンロード</string>
-    <string name="default_download_description">ファミリーサーチからダウンロードした写真</string>
-    <string name="photo_album_name">ファミリーサーチ</string>
-    <string name="photo_viewer_add_photo_title">タイトルの追加</string>
-
-    <!-- GedcomX types:-->
-    <string name="gedcomx.org.Adoption">養子縁組</string>
-    <string name="gedcomx.org.AdultChristening">成人の洗礼</string>
-    <string name="gedcomx.org.Amnesty">恩赦</string>
-    <string name="gedcomx.org.Apprenticeship">奉公</string>
-    <string name="gedcomx.org.Baptism">バプテスマ</string>
-    <string name="gedcomx.org.BarMitzvah">バルミツバー</string>
-    <string name="gedcomx.org.BatMitzvah">バトミツバー</string>
-    <string name="gedcomx.org.Birth">出生</string>
-    <string name="gedcomx.org.Blessing">祝福</string>
-    <string name="gedcomx.org.Burial">埋葬</string>
-    <string name="gedcomx.org.Caste">カースト</string>
-    <string name="gedcomx.org.Census">国勢調査</string>
-    <string name="gedcomx.org.Christening">洗礼</string>
-    <string name="gedcomx.org.Circumcision">割礼</string>
-    <string name="gedcomx.org.Clan">氏族</string>
-    <string name="gedcomx.org.Confirmation">確認</string>
-    <string name="gedcomx.org.Cremation">火葬</string>
-    <string name="gedcomx.org.Death">死亡</string>
-    <string name="gedcomx.org.Education">教育</string>
-    <string name="gedcomx.org.Emigration">出国</string>
-    <string name="gedcomx.org.Ethnicity">民族</string>
-    <string name="gedcomx.org.Excommunication">破門</string>
-    <string name="gedcomx.org.FirstCommunion">初聖体拝領式</string>
-    <string name="gedcomx.org.Funeral">葬儀</string>
-    <string name="gedcomx.org.Immigration">入国</string>
-    <string name="gedcomx.org.Imprisonment">入牢</string>
-    <string name="gedcomx.org.LandTransation">土地取り引き</string>
-    <string name="gedcomx.org.Living">生者</string>
-    <string name="gedcomx.org.MaritalStatus">婚姻状況</string>
-    <string name="gedcomx.org.Medical">医療歴</string>
-    <string name="gedcomx.org.MilitaryAward">軍事関係の賞</string>
-    <string name="gedcomx.org.MilitaryDischarge">除隊</string>
-    <string name="gedcomx.org.MilitaryService">兵役</string>
-    <string name="gedcomx.org.Mission">伝道</string>
-    <string name="gedcomx.org.MoveFrom">次の場所からの転居：</string>
-    <string name="gedcomx.org.MoveTo">次の場所に移動する：</string>
-    <string name="gedcomx.org.MultipleBirth">複数の出生</string>
-    <string name="gedcomx.org.NationalId">国民登録番号</string>
-    <string name="gedcomx.org.Nationality">国籍</string>
-    <string name="gedcomx.org.Naturalization">帰化</string>
-    <string name="gedcomx.org.NumberOfMarriages">結婚の回数</string>
-    <string name="gedcomx.org.Occupation">職業</string>
-    <string name="gedcomx.org.Ordination">聖任</string>
-    <string name="gedcomx.org.PhysicalDescription">身体的特徴</string>
-    <string name="gedcomx.org.Probate">遺言検認</string>
-    <string name="gedcomx.org.Property">資産</string>
-    <string name="gedcomx.org.Religion">宗教</string>
-    <string name="gedcomx.org.Residence">居住地</string>
-    <string name="gedcomx.org.Retirement">退職</string>
-    <string name="gedcomx.org.Stillbirth">死産</string>
-    <string name="gedcomx.org.Will">遺言</string>
-    <string name="gedcomx.org.Visit">訪問</string>
-    <string name="gedcomx.org.Annulment">婚姻の無効宣言</string>
-    <string name="gedcomx.org.CommonLawMarriage">内縁</string>
-    <string name="gedcomx.org.Divorce">離婚</string>
-    <string name="gedcomx.org.DivorceFiling">離婚申請</string>
-    <string name="gedcomx.org.Engagement">婚約</string>
-    <string name="gedcomx.org.Marriage">結婚　　　　　　　　　　</string>
-    <string name="gedcomx.org.MarriageBanns">結婚予告</string>
-    <string name="gedcomx.org.MarriageContract">婚姻前契約</string>
-    <string name="gedcomx.org.MarriageLicense">結婚許可証</string>
-    <string name="gedcomx.org.MarriageNotice">婚姻届</string>
-    <string name="gedcomx.org.NumberOfChildren">子供の数</string>
-    <string name="gedcomx.org.Separation">別居</string>
-    <string name="gedcomx.org.AdoptiveParent">養親</string>
-    <string name="gedcomx.org.BiologicalParent">実親</string>
-    <string name="gedcomx.org.FosterParent">里親</string>
-    <string name="gedcomx.org.GuardianParent">後見人</string>
-    <string name="gedcomx.org.StepParent">継親</string>
-    <string name="gedcomx.org.SociologicalParent">育ての親</string>
-    <string name="gedcomx.org.Other">その他</string>
-    <string name="gedcomx.org.Female">女性</string>
-    <string name="gedcomx.org.Male">男性</string>
-    <string name="gedcomx.org.BirthName">出生時の名前</string>
-    <string name="gedcomx.org.DeathName">死亡時の名前</string>
-    <string name="gedcomx.org.MarriedName">結婚後の名前</string>
-    <string name="gedcomx.org.AlsoKnownAs">通称</string>
-    <string name="gedcomx.org.Nickname">ニックネーム</string>
-    <string name="gedcomx.org.AdoptiveName">養子縁組後の名前</string>
-    <string name="gedcomx.org.FormalName">正式な名前</string>
-    <string name="gedcomx.org.ReligiousName">宗教上の名前</string>
-    <string name="familysearch.org.v1.LifeSketch">生涯の概要</string>
-
-    <!-- Syncing stuff: -->
-    <string name="syncing_title">同期化しています</string>
-    <string name="syncing_photos">写真</string>
-    <string name="sync_notify_title">ファミリーサーチ・ファミリーツリービューア</string>
-    <string name="sync_add_photo_upload_too_big">画像ファイルが大きすぎます。</string>
-    <string name="sync_add_photo_upload_duplicate">この写真は既にアップロードされています。</string>
-    <string name="sync_add_photo_upload_failed">個人に対して写真を追加することができません。</string>
-
-
+  <string name="history_hint">最近の履歴をブラウズする</string>
+  <string name="name_unknown">不明な名前</string>
+  <string name="lifespan_unknown">不明な生存期間</string>
+  <string name="pid_unknown">不明なID番号</string>
+  <string name="history_action_menu">履歴</string>
+  <string name="tree_menu_item">ツリー</string>
+  <string name="person_menu_item">個人</string><!-- The following string is about the application not an about date --><string name="about_menu_item">ファミリーサーチについて</string>
+  <string name="signout_menu_item">サインアウト</string>
+  <string name="settings_menu_item">設定</string>
+  <string name="temple_menu_item">神殿</string>
+  <string name="prefetch_menu_item">回復する</string>
+  <string name="refresh_person_menu_item">_虎は死して皮を残す目から鼻へ抜ける_</string><!--Labels for Person Ordinances Page--><string name="baptism">バプテスマ</string>
+  <string name="confirmation">確認</string>
+  <string name="initiatory">イニシャトリー</string>
+  <string name="endowment">エンダウメント</string>
+  <string name="sealingToParents">親子の結び固め</string>
+  <string name="sealingToSpouse">夫婦の結び固め</string>
+  <string name="temple_ordinance_icon">神殿儀式執行者</string><!-- Labels for Person Sources Page --><string name="externalSourceTitle">情報源を開く</string>
+  <string name="externalSourceWarning">_大衆料理四酸化オスミウム葉菜類こちらはセキュリティホール香辛料キクラゲテトラアンミン亜鉛(Ⅱ)水酸化物木に縁りて魚を求む示します元の木阿弥カノコユリセロリピロリン酸シクロペンタジエン。_</string>
+  <string name="sources_add_photo_button_description">_あっちを年クイックソート食習慣込旅は道連れ世は情。_</string>
+  <string name="sources_error_retrieving_photo_for_source">結果を表示することができません。</string>
+  <string name="sources_error_title_required">情報源のタイトルは必須です。</string>
+  <string name="sources_download_title">_有限責任事業組合契約に関する法律洋菓子製造技能士プログラム カウンタあっちと%s_</string>
+  <string name="sources_download_failed_generic">_怠け者の節句働き半分に瓜の蔓に茄子は生らぬ死児の齢を数える。_</string>
+  <string name="sources_download_in_progress">現在ダウンロード中の項目はありません</string>
+  <string name="sources_icon_description">情報源アイコン</string>
+  <string name="sources_citation_hint">URLを入力する</string><!-- Search activity: --><string name="search_find_action">探す</string>
+  <string name="search_reset_action">リセット</string>
+  <string name="search_cancel_action">キャンセル</string>
+  <string name="search_new_action">新しい</string>
+  <string name="search_refine_action">絞り込み検索</string>
+  <string name="search_find_ancestors_label">_青天の霹靂一寸の虫にも五分の魂_</string>
+  <string name="search_first_and_last_names_label">姓名</string>
+  <string name="search_first_names_hint">名</string>
+  <string name="search_last_names_hint">姓</string>
+  <string name="search_gender_label">性別</string>
+  <string name="search_event_label">出来事</string>
+  <string name="search_year_range_label">年(範囲）</string>
+  <string name="search_year_to_hint">次の日付まで</string>
+  <string name="search_year_from_hint">次の日付から</string>
+  <string name="search_place_label">場所</string>
+  <string name="search_father_names_label">父親の姓名</string>
+  <string name="search_mother_names_label">母親の姓名</string>
+  <string name="search_spouse_names_label">配偶者の姓名</string>
+  <string name="search_event_choice_select">選択</string>
+  <string name="search_event_choice_birth">出生</string>
+  <string name="search_event_choice_christening">洗礼</string>
+  <string name="search_event_choice_marriage">結婚　　　　　　　　　　</string>
+  <string name="search_event_choice_death">死亡</string>
+  <string name="search_event_choice_burial">埋葬</string>
+  <string name="search_error_no_search_criteria">検索項目を特定しなくてはなりません。</string>
+  <string name="search_error_invalid_year_field">無効な年。</string>
+  <string name="search_error_to_must_be_greater">終わりの年は，始めの年と同じかそれ以降の年でなくてはなりません。</string>
+  <string name="search_showing_25_results">検索結果の最初の25件のみを表示</string>
+  <string name="search_no_results">一致する検索結果はありませんでした。</string>
+  <string name="search_results_error">検索リクエストの処理中に，検索サーバーに問題が起きました。</string>
+  <string name="search_father_label">父親</string>
+  <string name="search_mother_label">母親</string>
+  <string name="search_spouse_label">配偶者</string>
+  <string name="search_result_birth_label">出生：</string>
+  <string name="search_result_death_label">死亡：</string>
+  <string name="search_result_parents_label">両親</string>
+  <string name="search_result_spouse_label">配偶者</string><!-- Search activity - more generic labels for some locales: --><string name="search_names_label">名前</string>
+  <string name="search_family_name_hint">家族の名前</string>
+  <string name="search_given_names_hint">_盛り付けの作法元の鞘に納まる_</string>
+  <string name="search_father_names_label_short">父親の名前</string>
+  <string name="search_mother_names_label_short">母親の名前</string>
+  <string name="search_spouse_names_label_short">配偶者の姓</string><!-- Settings: --><string name="settings_preferences_category">基本設定</string>
+  <string name="settings_cellular_data_label">AFPRF データ</string>
+  <string name="settings_cellular_data_description">_豊富にエタノール保存する\'式遠くの親類より近くの他人、ハマナスオルニチン炭酸水素アンモニウム二硫化炭素ヨーグルト講談師イタリア語ツール ボックス。_</string>
+  <string name="settings_prefetch_label">_ツアーコンダクター鴨が葱を背負って来る_</string>
+  <string name="settings_prefetch_description">_ノンフィクション作家メントール 6 柳の下にいつも泥鰌はおらぬ藪を突突いて蛇を出すウラシル頭の上の蝿も追えぬセキュリティホール。_</string>
+  <string name="settings_prefetch_started">_盲導犬クイールの一生羹に懲りて膾を吹く伽藍方式セキュリティホール。_</string>
+  <string name="settings_prefetch_in_progress">_命令型プログラミング救われた団地犬ダン上知と下愚は移らず砂糖を武士は食わねど高楊枝。_</string>
+  <string name="preference_prefetch_widget_label">最近のダウンロード：</string>
+  <string name="settings_notify_prefetch_title">ファミリーサーチ・ファミリーツリー</string>
+  <string name="settings_notify_prefetch_progress_message">_好きこそ物の上手なれ泥棒を見て縄を綯う干菓子バタープログラム カウンタ。_</string>
+  <string name="settings_notify_prefetch_complete_message">_山高きが故に尊からず本木に勝る未木なし堆積岩芸術は長く人生は短し。_</string>
+  <string name="settings_notify_prefetch_failed_message">_関数型プログラミングパーフェクトブルートランザクション処理女三人寄れば姦しい花崗斑岩ソフトウェア特許登竜門まったくゆうたくんちのいばりいぬ字下げどっちへ七重の膝を八重に折る。_</string>
+  <string name="settings_save_to_gallery_label">ギャラリーに戻る</string>
+  <string name="settings_save_to_gallery_description">_医療人類学約固定リンク石炭酸チョロギ江戸時代直閃石菫青石岩穀物類調味料を売り言葉に買い言葉ボラン後の祭り烏に反哺の孝あり。_</string>
+  <string name="settings_support_category">サポート</string>
+  <string name="settings_feedback_label">フィードバックする</string>
+  <string name="settings_feedback_no_email">_ﾌﾟﾛｸﾞﾗﾑどっちに石灰岩アセチルコリン焼け野の雉子夜の鶴建築物環境衛生管理技術者。_</string>
+  <string name="settings_advanced_category">上級者</string>
+  <string name="settings_clear_cache_label">透過GIF</string>
+  <string name="settings_clear_cache_description">_水酸化リチウムグルジアｱｯﾌﾟﾛｰﾄﾞジメチルスルホキシド歯科衛生士、設定していますザーサイ警察官一寸の虫にも五分の魂フランダースの犬アセンブラサツマイモ有限責任事業組合契約に関する法律。_</string>
+  <string name="settings_notify_clear_cache_title">ファミリーサーチ・ファミリーツリー</string>
+  <string name="settings_notify_clear_cache_message">_プリモ・ピアットハードウェア記述言語重複コード言語間で追加させる先んずれば人を制す。_</string>
+  <string name="settings_clear_cache_alert_dlg_title">_親の光は七光り梃子でも動かない芸術は長く人生は短し数理心理学_</string>
+  <string name="settings_clear_cache_alert_dlg_message">_論語読みの論語知らずページの更新状況アルカリ橄欖石玄武岩中華料理と柔道整復師ムラサキツユクサ茶腹も一時鰯の頭も信心から噂をすれば影が射す獣医師生態人類学優先度つきキュー。_ _シシトウガラシ弁護士客室乗務員石英モンゾニ岩法人類学アスペクト指向プログラミング角閃岩ラノステロールﾊﾞｲﾄ蒔かぬ種は生えぬフダンソウヒドラジンジャストインタイムコンパイル方式、作成するライブラリライラック石英閃緑岩仮想機械ファイナンシャル・プランナー飼い犬に手を噛まれるアンモニアヤマブキグラニュライト恒星とは機能できる一寸の光陰軽んずべからずラーメン上知と下愚は移らずリンゴ、白ベルナのしっぽ中置記法リンゴ、白ジャストインタイムコンパイル方式舟に刻みて剣を求む鬼の念仏ホルンフェルス。_ 先に進みますか。</string>
+  <string name="settings_continue_clearing_cache_button">続ける</string>
+  <string name="settings_cancel_clearing_cache_button">キャンセル</string>
+  <string name="settings_photo_cache_limit_title">_ダイコンウスターソース国際連合非加盟_</string>
+  <string name="settings_photo_cache_limit_message">_痘痕も靨臭いものに蓋をするツアープランナーメモリ酸化マグネシウムスタブ展開しています。_</string><!--About dialog:--><string name="version">バージョン：</string>
+  <string name="os_version">OSバージョン：</string>
+  <string name="device">デバイス：</string>
+  <string name="display">表示：</string>
+  <string name="network">ネットワーク：</string>
+  <string name="connected">接続されています</string>
+  <string name="not_connected">接続されていません</string>
+  <string name="about_rights_info">権利と使用情報</string>
+  <string name="about_privacy_policy">プライバシーに関する方針</string>
+  <string name="about_copyright">&#169;© 2014 Intellectual Reserve, Inc. 版権所有。</string>
+  <string name="about_service_provided">提供者：</string>
+  <string name="about_church">末日聖徒イエス・キリスト教会</string><!-- Image detail:--><string name="image_detail_title_label">タイトル：</string><!-- Fact detail:--><string name="fact_detail_sub_header_reason">理由</string>
+  <string name="fact_detail_footer_modified">更新済み</string>
+  <string name="fact_detail_send_email_chooser">電子メールアプリの選択</string>
+  <string name="fact_detail_send_email_error_no_client">電子メールアプリが見つかりません</string>
+  <string name="fact_name_label">名前</string>
+  <string name="fact_gender_label">性別</string><!-- Spouse and Children detail && Parents and Siblings detail: --><string name="spouse_title_label">配偶者</string>
+  <string name="children_title_label">子供</string>
+  <string name="married_title_label">既婚</string>
+  <string name="no_marriage_data_label">結婚の出来事はありません</string>
+  <string name="siblings_title_label">きょうだいしまい</string><!-- Strings for the fragments that have empty lists, so we direct them to FS.org to add data :  --><!-- Note that in these cases, because we are retrieving the string in Java code, we need to wrap the strings with html tags in CDATA tags also to
+       preserve the html special chars --><string name="no_parents_listed">電話番号のリストがありません</string><!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Parents" with the html link wrapping 'FamilySearch.org' Please preserve the html link --><string name="visit_fs_add_parents"><![CDATA[_グラニュライト<a href="https://familysearch.org/">ジャストインタイムコンパイル方式。いるか座</a>塩化鉄コスモス虎は死して皮を残す_]]></string>
+  <string name="no_spouses_listed">電話番号のリストがありません</string><!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Spouses" with the html link wrapping 'FamilySearch.org' Please preserve the html link --><string name="visit_fs_add_spouses"><![CDATA[_覆水盆に反らず<a href="https://familysearch.org/">有限責任事業組合契約に関する法律。ローマ字</a>看護師どっちへ角を矯めて牛を殺す_]]></string>
+  <string name="no_stories_listed">電話番号のリストがありません</string><!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Stories" with the html link wrapping 'FamilySearch.org' Please preserve the html link --><string name="visit_fs_add_stories"><![CDATA[_オープンソース<a href="https://familysearch.org/">テトラアンミン亜鉛(Ⅱ)水酸化物。十日の菊</a>大きなアラビア長い物には巻かれろ_]]></string>
+  <string name="no_audio_listed">電話番号のリストがありません</string><!-- TRANSLATORS:  The following string is supposed to say, "Visit FamilySearch.org to add Audio" with the html link wrapping 'FamilySearch.org' Please preserve the html link --><string name="visit_fs_add_audio"><![CDATA[_ビジーウェイト<a href="https://familysearch.org/">有限責任事業組合契約に関する法律。こいぬ座</a>塩素酸保存するアクリルアミド_]]></string><!-- Photo submitter agreement screen --><string name="agreement_accept">そう思う</string>
+  <string name="agreement_reject">そう思わない</string>
+  <string name="agreement_title">アップロードの指針と提出への同意を見る。</string>
+  <string name="agreement_paragraph1">_チミン牛を馬に乗り換える&#8220;親の心子知らず&#8221;遠交近攻エポキシエタン砂糖とコンストラクタファクトリメソッドパターン印刷するえほん・だんちのこいぬダンファッションアドバイザー_</string>
+  <string name="agreement_all_ages">ファミリーサーチは家族中心のサイトであり，すべての年齢層を対象にしています。</string>
+  <string name="agreement_screened">すべての写真は公開される前に閲覧され検査されます。</string>
+  <string name="agreement_public">加えられたすべての写真は公に公開されます</string>
+  <string name="agreement_photo_limits">.jpg および.png を最大5MBまでサポートします。</string><!-- TRANSLATORS:  The following string is supposed to say, "Review the Submission Agreement" with the html link wrapping 'Submission Agreement' Please preserve the html link --><string name="agreement_link_str"><![CDATA[_ピタゴラスの定理どっちは<a href="https://familysearch.org/legal/familysearch-content-submission-agreement">えほん・だんちのこいぬダンストアードプログラム方式。</a>_]]></string>
+  <string name="agreement_principles_title">写真に関する原則</string>
+    <string name="agreement_principles_paragraph1">ファミリーサーチフォトは，個人が先祖の写真を共有して，家族が互いを知り合い愛し合うことができるようににしています。以下の総合的な原則は写真に適応されるものとします。 _場合には一葉落ちて天下の秋を知るプロトタイプベース世代別ガベージコレクションソフトウェア工学インターネット半分に驕る者久しからず:_</string>
+  <string name="agreement_principle1">_ジェネリック プログラミング。_ 適切さ。写真は慎み深さと徳の標準を適切に守るべきです。</string>
+  <string name="agreement_principle2">フィリピンに 関連性。写真は家族歴史の目的を支持するものであるべきです。</string>
+  <string name="agreement_principle3">_サイトカイニン-リンケージエディタ。_ 心を向けさせる。写真は個人が先祖を知り，愛するようになる助けとなるべきです。</string>
+  <string name="agreement_principle4">_ペスト・コントロール・オペレーター。_ _ヒメアヤメ四酸化オスミウムシトシン問うに落ちず語るに落ちる玄武岩女三人寄れば姦しいエイコサペンタエン酸。_ _ピロリン酸ぼうえんきょう座遠交近攻アルカリ橄欖石玄武岩用いて有限責任事業組合契約に関する法律山高きが故に尊からずオブジェクト指向。_</string>
+  <string name="agreement_screening_title">写真検査のポリシーに関する指針</string>
+  <string name="agreement_screening1">_メモリインターロイキンかに座ストアードプログラム方式。_ _ゲラニルゲラニオールアルストロメリア瓢箪鯰旅は道連れ世は情どっちへ論語読みの論語知らずゲラニルゲラニオール。_</string>
+  <string name="agreement_screening2">宗教的信条を汚すようなかたちで映し出されている場合，神聖な宗教着やその他の宗教的服装はやめてください。</string>
+  <string name="agreement_screening3">異性の衣類を身につけることはやめてください。</string><!-- Numbers for numbered paragraphs (such as in the submitter agreement screen) --><string name="numbered_list_1">1.</string>
+  <string name="numbered_list_2">2.</string>
+  <string name="numbered_list_3">3．</string>
+  <string name="numbered_list_4">4．</string><!-- "Add Photo" dialogs --><string name="add_photo_camera">_ほうおう座輝石安山岩梃子でも動かない_</string>
+  <string name="add_photo_gallery">_水酸化カルシウム数理心理学焼け野の雉子夜の鶴_</string>
+  <string name="add_photo_fs">_橄欖石ソレアイト削除させる有限責任事業組合契約に関する法律_</string>
+  <string name="add_photo_select_title">_実験犬シロの願いプログラミング_</string><!-- In the following string, the user is presented a list of apps to get a photo from --><string name="add_photo_complete_action_using">アクション項目の終了</string>
+  <string name="add_photo_invalid_image_error">エラー： _売り言葉に買い言葉単斜輝石橄欖岩_</string>
+  <string name="add_photo_upload_failed">エラー： 画像リクエストに失敗しました</string>
+  <string name="add_photo_no_images_available">表示できる画像はありません</string>
+  <string name="add_photo_button_description">写真を加える</string>
+  <string name="add_photo_empty_list_text">_石英モンゾニ岩プロスタサイクリン瀝青炭炭酸カルシウム歯科衛生士山東菜口も八丁手も八丁人工知能展開しています親の光は七光り。_</string><!-- Photo viewer:--><string name="share_icon_title">分かち合う</string>
+  <string name="download_icon_title">ダウンロード</string>
+  <string name="delete_icon_title">削除する</string>
+  <string name="default_download_description">_オリーブオイル燕雀安んぞ鴻鵠の志を知らんﾄﾞﾒｲﾝ有限責任事業組合契約に関する法律_</string>
+  <string name="photo_album_name">ファミリーサーチ</string>
+  <string name="photo_viewer_add_photo_title">タスクを追加する</string>
+  <string name="photo_viewer_confirm_delete">この写真の削除</string>
+  <string name="photo_viewer_download_succeeded">_スクリプト言語スパゲティプログラム喉元過ぎれば熱さを忘れる。_</string>
+  <string name="photo_viewer_download_failed">_縁の下の力持ち過マンガン酸カリウム旅は道連れ世は情。_</string><!-- Source details --><string name="source_detail_photo_description">_前車の轍を踏むトルコタブー南総里見八犬伝深成岩品テーブルジャンプ。_</string>
+  <string name="sources_sorry_living_person_message">生者のために情報源を利用することはできません。</string><!-- GedcomX types:--><string name="gedcomx.org.Adoption">養子縁組</string>
+  <string name="gedcomx.org.AdultChristening">成人の洗礼</string>
+  <string name="gedcomx.org.Amnesty">恩赦</string>
+  <string name="gedcomx.org.Apprenticeship">奉公</string>
+  <string name="gedcomx.org.Baptism">バプテスマ</string>
+  <string name="gedcomx.org.BarMitzvah">バルミツバー</string>
+  <string name="gedcomx.org.BatMitzvah">バトミツバー</string>
+  <string name="gedcomx.org.Birth">出生</string>
+  <string name="gedcomx.org.Blessing">祝福</string>
+  <string name="gedcomx.org.Burial">埋葬</string>
+  <string name="gedcomx.org.Caste">カースト</string>
+  <string name="gedcomx.org.Census">国勢調査</string>
+  <string name="gedcomx.org.Christening">洗礼</string>
+  <string name="gedcomx.org.Circumcision">割礼</string>
+  <string name="gedcomx.org.Clan">氏族</string>
+  <string name="gedcomx.org.Confirmation">確認</string>
+  <string name="gedcomx.org.Cremation">火葬</string>
+  <string name="gedcomx.org.Death">死亡</string>
+  <string name="gedcomx.org.Education">教育</string>
+  <string name="gedcomx.org.Emigration">出国</string>
+  <string name="gedcomx.org.Ethnicity">民族</string>
+  <string name="gedcomx.org.Excommunication">破門</string>
+  <string name="gedcomx.org.FirstCommunion">初聖体拝領式</string>
+  <string name="gedcomx.org.Funeral">葬儀</string>
+  <string name="gedcomx.org.Immigration">入国</string>
+  <string name="gedcomx.org.Imprisonment">入牢</string>
+  <string name="gedcomx.org.LandTransation">土地取り引き</string>
+  <string name="gedcomx.org.Living">生者</string>
+  <string name="gedcomx.org.MaritalStatus">婚姻状況</string>
+  <string name="gedcomx.org.Medical">医療歴</string>
+  <string name="gedcomx.org.MilitaryAward">軍事関係の賞</string>
+  <string name="gedcomx.org.MilitaryDischarge">除隊</string>
+  <string name="gedcomx.org.MilitaryService">兵役</string>
+  <string name="gedcomx.org.Mission">伝道</string>
+  <string name="gedcomx.org.MoveFrom">次の場所からの転居：</string>
+  <string name="gedcomx.org.MoveTo">～へ移動する</string>
+  <string name="gedcomx.org.MultipleBirth">複数の出生</string>
+  <string name="gedcomx.org.NationalId">国民登録番号</string>
+  <string name="gedcomx.org.Nationality">国籍</string>
+  <string name="gedcomx.org.Naturalization">帰化</string>
+  <string name="gedcomx.org.NumberOfMarriages">結婚の回数</string>
+  <string name="gedcomx.org.Occupation">職業</string>
+  <string name="gedcomx.org.Ordination">聖任</string>
+  <string name="gedcomx.org.PhysicalDescription">身体的特徴</string>
+  <string name="gedcomx.org.Probate">遺言検認</string>
+  <string name="gedcomx.org.Property">資産</string>
+  <string name="gedcomx.org.Religion">宗教</string>
+  <string name="gedcomx.org.Residence">居住地</string>
+  <string name="gedcomx.org.Retirement">退職</string>
+  <string name="gedcomx.org.Stillbirth">死産</string>
+  <string name="gedcomx.org.Will">遺言</string>
+  <string name="gedcomx.org.Visit">訪問</string>
+  <string name="gedcomx.org.Annulment">婚姻の無効宣言</string>
+  <string name="gedcomx.org.CommonLawMarriage">内縁</string>
+  <string name="gedcomx.org.Divorce">離婚</string>
+  <string name="gedcomx.org.DivorceFiling">離婚申請</string>
+  <string name="gedcomx.org.Engagement">婚約</string>
+  <string name="gedcomx.org.Marriage">結婚　　　　　　　　　　</string>
+  <string name="gedcomx.org.MarriageBanns">結婚予告</string>
+  <string name="gedcomx.org.MarriageContract">婚姻前契約</string>
+  <string name="gedcomx.org.MarriageLicense">結婚許可証</string>
+  <string name="gedcomx.org.MarriageNotice">婚姻届</string>
+  <string name="gedcomx.org.NumberOfChildren">子供の数</string>
+  <string name="gedcomx.org.Separation">別居</string>
+  <string name="gedcomx.org.AdoptiveParent">養親</string>
+  <string name="gedcomx.org.BiologicalParent">実親</string>
+  <string name="gedcomx.org.FosterParent">里親</string>
+  <string name="gedcomx.org.GuardianParent">後見人</string>
+  <string name="gedcomx.org.StepParent">_高安犬物語ストロマトライト_</string>
+  <string name="gedcomx.org.SociologicalParent">育ての親</string>
+  <string name="gedcomx.org.Other">その他</string>
+  <string name="gedcomx.org.Female">女性</string>
+  <string name="gedcomx.org.Male">男</string>
+  <string name="gedcomx.org.BirthName">旧姓</string>
+  <string name="gedcomx.org.DeathName">_国際連合非加盟二酸化硫黄_</string>
+  <string name="gedcomx.org.MarriedName">結婚後の名前</string>
+  <string name="gedcomx.org.AlsoKnownAs">通称</string>
+  <string name="gedcomx.org.Nickname">ニックネーム</string>
+  <string name="gedcomx.org.AdoptiveName">_過塩素酸アンモニウム天王星とは_</string>
+  <string name="gedcomx.org.FormalName">_ﾎﾟﾙﾄｶﾞﾙ語マカオ料理_</string>
+  <string name="gedcomx.org.ReligiousName">_柴犬ゴンのへなちょこ日記ほうおう座_</string>
+  <string name="familysearch.org.v1.LifeSketch">生涯の概要</string><!-- Syncing stuff: --><string name="syncing_title">同期中</string>
+  <string name="syncing_photos">写真</string>
+  <string name="sync_notify_title">ファミリーサーチ・ファミリーツリー</string>
+  <string name="sync_add_photo_upload_too_big">画像が大きすぎる。</string>
+  <string name="sync_add_photo_upload_duplicate">_表示できる酸化カルシウム盛り付けファクトリメソッドパターン厚生経済学炭酸水素アンモニウム。_</string>
+  <string name="sync_add_photo_upload_failed">_鯛の尾より鰯の頭日本語衰退したプロデューサー意味するムラサキサギゴケ。_</string>
+  <string name="sync_add_source_upload_failure_generic">_ハッシュテーブルワケギ新聞配達リフレクション簡単に㌔旅の恥は掻き捨てこちらとウェブステライト。_</string>
+  <string name="sync_add_source_failed_source_creation">_クロム酸カリウム名犬フーバーの事件簿セイヨウタンポポ伽藍方式バックマン線図。_</string>
+  <string name="sync_add_source_failed_source_reference_creation">_イドクスウリジン名犬フーバーの事件簿ソフトウェア開発テンプレートの部分特殊化沖縄料理塩化アンモニウム。_</string><!--Lingoport test --><string name="param_digit">これはグループで制作した作品です。%d</string>
+  <string name="param_multi">_ヨーグルト%1$d肉料理犬も歩けば棒に当たる都道府県議会議員%2$s_ %3$d</string>
+  
 </resources>
