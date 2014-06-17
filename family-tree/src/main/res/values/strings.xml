@@ -410,6 +410,6 @@
 
   <!--Lingoport test -->
   <string name="param_digit">This is a digit param %d</string>
-  <string name="param_multi">This %1$d is multiple params %2$s %3$d cow \n jumped \t over </string>
+  <string name="param_multi">This %1$d is multiple params %2$s %3$d cow \n jumped \t over the moon </string>
   
 </resources>
