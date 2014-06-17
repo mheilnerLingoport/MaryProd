@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <string name="ok">[ÖĶ П]</string>
+  <string name="cancel">[Çåñçéļ----- П國カ내]</string>
+  <string name="exit">[Éẋîţ- П國カ내]</string>
+  <string name="param_digit">[Ţĥîš îš å ðîĝîţ þåŕåɱ %d------------ П國カ내]</string>
+  <string name="param_string">[Ţĥîš îš å ðîĝîţ þåŕåɱ %s------------ П國カ내]</string>
+  <string name="param_multi">[Ţĥîš %1$d îš ɱûļţîþļé þåŕåɱš %2$s------------ П國カ내]</string>
+</resources>
