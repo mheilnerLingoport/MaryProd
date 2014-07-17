@@ -13,5 +13,5 @@
   "get_started_reporting_subheader": "How do I access the administration portal?",
   "get_started_reporting_steps_1": "Go to <a href=\"https://indexing.familysearch.org/\" target=\"_blank\">indexing.familysearch.org</a> and sign in with your FamilySearch or LDS Account.",
   "get_started_reporting_steps_2": "Click the <strong>Administration</strong> link that will appear once you sign in.",
-  "get_started_reporting_steps_3": "Click the appropriate subtab for the task you’d like to complete."
+  "get_started_reporting_steps_3": "Click the appropriate subtab for the task you’d like to complete. New line \n Format %d and %s. Tab \t. Return \r"
 }
