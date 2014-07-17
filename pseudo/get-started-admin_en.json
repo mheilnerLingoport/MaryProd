@@ -2,7 +2,7 @@
   "get_started_title": "Get Started as a Group Administrator",
   "get_started_main_header": "Get Started as a Group Administrator",
   "get_started_main_subheader": "You provide valuable direction and guidance for your indexing group. Learn the basics to help your group succeed!",
-  "get_started_steps_1": "Review the %{0}interactive tutorial for group administrators.</a>",
+  "get_started_steps_1": "Review the %{tutorial}interactive tutorial for group administrators.</a>",
   "get_started_steps_2": "Invite group members to join.",
   "get_started_steps_3": "Train and support group members.",
   "get_started_steps_4": "<a href=\"#section-reporting\">Use reports</a> to track your group’s progress.",
