@@ -39,7 +39,7 @@
   "civilDivision": "[Çîţý, Ţöŵñšĥîþ öŕ Öţĥéŕ Çîṽîļ Ðîṽîšîöñ--------------- П國カ내]",
   "residenceIn1940": "[Ŕéšîðéñçé îñ 1940---------- П國カ내]",
   "blank": "[ƀļåñķ--- П國カ내]",
-  "ofText": "<span data-test=\"paginationStart\">{firstRecordIndex}</span>-<span data-test=\"paginationEnd\">{lastRecordIndex}</span> öƒ <span data-test=\"totalResults\">{totalRecordCount}</span>",
+  "ofText": "<span data-test='paginationStart'>{firstRecordIndex}</span>-<span data-test='paginationEnd'>{lastRecordIndex}</span> öƒ <span data-test='totalResults'>{totalRecordCount}</span>",
   "noRecords": "[Ñö ŕéçöŕðš ƒöûñð ƒöŕ --------- П國カ내]",
   "scoreNoneMsg": "[Ñöñé öƒ ţĥéšé ŕéšûļţš šţŕöñĝļý ɱåţçĥ ŵĥåţ ýöû šéåŕçĥéð ƒöŕ. Ţĥé ƒöļļöŵîñĝ ŕéšûļţš ɱåý šţîļļ ƀé öƒ îñţéŕéšţ.------------------------- П國カ내]",
   "scoreMsg": "Ţĥé ƒöļļöŵîñĝ ŕéšûļţš ðöñ’ţ šţŕöñĝļý ɱåţçĥ ŵĥåţ ýöû šéåŕçĥéð ƒöŕ, ƀûţ ɱåý ƀé öƒ îñţéŕéšţ.",
