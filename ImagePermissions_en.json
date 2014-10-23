@@ -17,6 +17,7 @@
   "signInSeeImage": "View the free image by signing in.",
   "supportedOrgs": "To signed-in members of supporting organizations.",
   "viewImage": "View document",
+  "redkey": "Red key!",
   "errorMessage": "Image information is not available. Please try again later.",
 
   "thirdPartyMessage": "The image is viewable at <a class=\"third-party-image-link\" target=\"_blank\" href=\"{thirdPartyURL}\">{thirdPartyProvider}</a>. By clicking here you will be leaving FamilySearch.org. (fees and other terms may apply)",
